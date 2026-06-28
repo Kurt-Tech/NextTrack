@@ -1,0 +1,6 @@
+track_id,title,artist,genre,popularity,energy,danceability,tempo 
+track_001,Midnight Drive,Aurora Lane,Synthwave,72,0.81,0.68,118 
+track_002,Ocean Lights,Blue Harbor,Chill,65,0.45,0.72,92 
+track_003,City Echoes,Neon Bloom,Electronic,78,0.88,0.74,124 
+track_004,Golden Hour,Luna Fields,Indie Pop,69,0.62,0.70,105 
+track_005,Quiet Roads,The Pines,Folk,55,0.35,0.51,86
