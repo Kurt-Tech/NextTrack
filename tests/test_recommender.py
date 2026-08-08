@@ -1,5 +1,9 @@
 from app.recommender import recommend_tracks
 
+from app.recommender import (
+    _get_primary_genre,
+    recommend_tracks,
+)
 
 RECENT_TRACKS = [
     "5SuOikwiRyPMVoIQDJUgSV",
@@ -165,3 +169,36 @@ def test_exploration_level_changes_recommendations():
     )
 
     assert low_exploration != high_exploration
+
+import pytest
+
+def test_negative_limit_is_rejected():
+    with pytest.raises(
+        ValueError,
+        match="limit must be at least 1"
+    ):
+        recommend_tracks(
+            RECENT_TRACKS,
+            exploration_level=0.3,
+            limit=-5,
+        )
+
+def test_primary_genre_uses_most_frequent_genre():
+    genres = [
+        "rock",
+        "acoustic",
+        "rock",
+        "jazz",
+    ]
+
+    assert _get_primary_genre(genres) == "rock"
+
+
+def test_primary_genre_tie_uses_first_encountered_genre():
+    genres = [
+        "acoustic",
+        "rock",
+        "jazz",
+    ]
+
+    assert _get_primary_genre(genres) == "acoustic"

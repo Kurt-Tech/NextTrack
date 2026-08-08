@@ -1,5 +1,5 @@
+from collections import Counter
 from app.metadata import load_tracks, get_track
-
 
 def _artist_names(artists: str) -> set[str]:
     return {
@@ -9,11 +9,17 @@ def _artist_names(artists: str) -> set[str]:
     }
 
 
+def _get_primary_genre(genres: list[str]) -> str:
+    return Counter(genres).most_common(1)[0][0]
+
 def recommend_tracks(
     recent_tracks: list[str],
     exploration_level: float = 0.3,
     limit: int = 10
 ) -> list[dict]:
+    if limit < 1:
+        raise ValueError("limit must be at least 1")
+    
     df = load_tracks()
     exploration_level = max(0.0, min(1.0, exploration_level))
 
@@ -31,7 +37,8 @@ def recommend_tracks(
     for track in recent_track_data:
         recent_artist_names.update(_artist_names(track["artists"]))
 
-    primary_genre = max(set(recent_genres), key=recent_genres.count)
+    #primary_genre = max(set(recent_genres), key=recent_genres.count)
+    primary_genre = _get_primary_genre(recent_genres)
     recent_genres_set = set(recent_genres)
 
     candidates = df[~df["track_id"].isin(recent_tracks)].copy()
@@ -116,4 +123,6 @@ def recommend_tracks(
         {column: track[column] for column in response_columns}
         for track in selected[:limit]
     ]
+
+
 
