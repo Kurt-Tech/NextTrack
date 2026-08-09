@@ -1,0 +1,43 @@
+﻿NextTrack Phase 2 Aggregate Evaluation
+========================================================================
+Contexts evaluated: 6
+Exploration levels: 3
+Total conditions: 18
+
+OVERALL RESULTS
+------------------------------------------------------------------------
+Audio similarity      Baseline:   0.6113  Enhanced:   0.9303  Difference:  +0.3190
+Genre diversity       Baseline:   0.6667  Enhanced:   0.6778  Difference:  +0.0111
+Artist diversity      Baseline:   0.7901  Enhanced:   0.9469  Difference:  +0.1568
+Mean popularity       Baseline:  86.4278  Enhanced:  72.0167  Difference: -14.4111
+Runtime (ms)          Baseline: 263.5592  Enhanced: 294.6185  Difference: +31.0593
+
+RESULT COUNTS
+------------------------------------------------------------------------
+Enhanced audio similarity higher: 18/18
+Enhanced genre diversity higher: 4/18
+Genre diversity equal: 12/18
+Enhanced genre diversity lower: 2/18
+Enhanced artist diversity higher: 6/18
+Enhanced mean popularity lower: 18/18
+
+BY EXPLORATION LEVEL
+------------------------------------------------------------------------
+
+Exploration: 0.0
+  Audio similarity: 0.6712 -> 0.8925
+  Genre diversity: 0.1000 -> 0.1000
+  Artist diversity: 0.3704 -> 0.8407
+  Mean popularity: 68.83 -> 62.58
+
+Exploration: 0.5
+  Audio similarity: 0.5859 -> 0.9485
+  Genre diversity: 0.9000 -> 0.9333
+  Artist diversity: 1.0000 -> 1.0000
+  Mean popularity: 95.70 -> 76.70
+
+Exploration: 1.0
+  Audio similarity: 0.5769 -> 0.9498
+  Genre diversity: 1.0000 -> 1.0000
+  Artist diversity: 1.0000 -> 1.0000
+  Mean popularity: 94.75 -> 76.77
