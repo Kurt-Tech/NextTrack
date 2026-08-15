@@ -1,0 +1,3074 @@
+{
+  "acoustic": {
+    "0.0": [
+      {
+        "track_id": "4eZP0Tyh1p06Nk1aHOzNrt",
+        "track_name": "Over You",
+        "artists": "Ingrid Michaelson;A Great Big World",
+        "album_name": "Lights Out",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.8892245787284356,
+        "score": 0.854
+      },
+      {
+        "track_id": "5MTsZG10E0hTvAkdioyPnw",
+        "track_name": "Feels Like Rain (feat. Bonnie Raitt)",
+        "artists": "Buddy Guy;Bonnie Raitt",
+        "album_name": "Feels Like Rain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9676394950960582,
+        "score": 0.8411
+      },
+      {
+        "track_id": "6Xbi3gOwMal0Ds3ETvBBwe",
+        "track_name": "The Winner Takes It All - Acoustic",
+        "artists": "Jae Hall",
+        "album_name": "The Winner Takes It All (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.952739114444801,
+        "score": 0.8321
+      },
+      {
+        "track_id": "2D4BSm5Z8Hq5zYbSgJwEOh",
+        "track_name": "She Used To Be Mine",
+        "artists": "Sara Bareilles",
+        "album_name": "What's Inside: Songs from Waitress",
+        "track_genre": "acoustic",
+        "popularity": 67,
+        "audio_similarity": 0.9220315518021793,
+        "score": 0.8287
+      },
+      {
+        "track_id": "1xYMyM7MxFi4OuzDA2op9Q",
+        "track_name": "Such A Simple Thing - Recorded at Sound Stage Studios Nashville",
+        "artists": "Ray LaMontagne",
+        "album_name": "Spotify Singles",
+        "track_genre": "acoustic",
+        "popularity": 56,
+        "audio_similarity": 0.9468227838496426,
+        "score": 0.8271
+      },
+      {
+        "track_id": "6wXpQl6LNBzDhalmed8Lm5",
+        "track_name": "Turn To Stone",
+        "artists": "Ingrid Michaelson",
+        "album_name": "Turn To Stone",
+        "track_genre": "acoustic",
+        "popularity": 45,
+        "audio_similarity": 0.847204687559256,
+        "score": 0.8258
+      },
+      {
+        "track_id": "4PuUa8e5s7P3Zv1IdCGIsa",
+        "track_name": "Such A Simple Thing",
+        "artists": "Ray LaMontagne",
+        "album_name": "Part Of The Light",
+        "track_genre": "acoustic",
+        "popularity": 65,
+        "audio_similarity": 0.9164380745378321,
+        "score": 0.8224
+      },
+      {
+        "track_id": "5wQci5VCUjdbKnRD61XYwu",
+        "track_name": "The Flood",
+        "artists": "Joshua Hyslop",
+        "album_name": "In Deepest Blue (Bonus Track Version)",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9273783582596602,
+        "score": 0.8214
+      },
+      {
+        "track_id": "3PG6V5yuFfo4APiovOQoRv",
+        "track_name": "I Was Born To Love You",
+        "artists": "Ray LaMontagne;Sierra Ferrell",
+        "album_name": "I Was Born To Love You",
+        "track_genre": "acoustic",
+        "popularity": 67,
+        "audio_similarity": 0.908559777790244,
+        "score": 0.8206
+      },
+      {
+        "track_id": "33JX2be3eKVhl5xk8YQhVc",
+        "track_name": "Empty",
+        "artists": "Ray LaMontagne",
+        "album_name": "Till The Sun Turns Black",
+        "track_genre": "acoustic",
+        "popularity": 48,
+        "audio_similarity": 0.9552699568718195,
+        "score": 0.8202
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "4eZP0Tyh1p06Nk1aHOzNrt",
+        "track_name": "Over You",
+        "artists": "Ingrid Michaelson;A Great Big World",
+        "album_name": "Lights Out",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.8892245787284356,
+        "score": 0.8796
+      },
+      {
+        "track_id": "5MTsZG10E0hTvAkdioyPnw",
+        "track_name": "Feels Like Rain (feat. Bonnie Raitt)",
+        "artists": "Buddy Guy;Bonnie Raitt",
+        "album_name": "Feels Like Rain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9676394950960582,
+        "score": 0.7413
+      },
+      {
+        "track_id": "6Xbi3gOwMal0Ds3ETvBBwe",
+        "track_name": "The Winner Takes It All - Acoustic",
+        "artists": "Jae Hall",
+        "album_name": "The Winner Takes It All (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.952739114444801,
+        "score": 0.7246
+      },
+      {
+        "track_id": "2D4BSm5Z8Hq5zYbSgJwEOh",
+        "track_name": "She Used To Be Mine",
+        "artists": "Sara Bareilles",
+        "album_name": "What's Inside: Songs from Waitress",
+        "track_genre": "acoustic",
+        "popularity": 67,
+        "audio_similarity": 0.9220315518021793,
+        "score": 0.7242
+      },
+      {
+        "track_id": "1xYMyM7MxFi4OuzDA2op9Q",
+        "track_name": "Such A Simple Thing - Recorded at Sound Stage Studios Nashville",
+        "artists": "Ray LaMontagne",
+        "album_name": "Spotify Singles",
+        "track_genre": "acoustic",
+        "popularity": 56,
+        "audio_similarity": 0.9468227838496426,
+        "score": 0.7206
+      },
+      {
+        "track_id": "5wQci5VCUjdbKnRD61XYwu",
+        "track_name": "The Flood",
+        "artists": "Joshua Hyslop",
+        "album_name": "In Deepest Blue (Bonus Track Version)",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9273783582596602,
+        "score": 0.7138
+      },
+      {
+        "track_id": "37bc0lXXN8Udi7IPwL58Hn",
+        "track_name": "Time After Time",
+        "artists": "Boyce Avenue;Megan Davies;Jaclyn Davies",
+        "album_name": "Cover Sessions, Vol. 4",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9219758135191056,
+        "score": 0.7135
+      },
+      {
+        "track_id": "6f9qzNP6elRi8i2NgqGoE5",
+        "track_name": "Bohemian Rhapsody - Acoustic",
+        "artists": "John Adams",
+        "album_name": "Bohemian Rhapsody (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 52,
+        "audio_similarity": 0.9415896552691227,
+        "score": 0.711
+      },
+      {
+        "track_id": "4T8FoNHY3UZSYgOV76ueVU",
+        "track_name": "Ancient Light",
+        "artists": "Allman Brown",
+        "album_name": "1000 Years",
+        "track_genre": "acoustic",
+        "popularity": 41,
+        "audio_similarity": 0.9651582393893859,
+        "score": 0.7091
+      },
+      {
+        "track_id": "4mzP5mHkRvGxdhdGdAH7EJ",
+        "track_name": "Give Me Your Forever",
+        "artists": "Zack Tabudlo",
+        "album_name": "Episode",
+        "track_genre": "acoustic",
+        "popularity": 74,
+        "audio_similarity": 0.8708967349723113,
+        "score": 0.7085
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "4eZP0Tyh1p06Nk1aHOzNrt",
+        "track_name": "Over You",
+        "artists": "Ingrid Michaelson;A Great Big World",
+        "album_name": "Lights Out",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.8892245787284356,
+        "score": 0.8902
+      },
+      {
+        "track_id": "5MTsZG10E0hTvAkdioyPnw",
+        "track_name": "Feels Like Rain (feat. Bonnie Raitt)",
+        "artists": "Buddy Guy;Bonnie Raitt",
+        "album_name": "Feels Like Rain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9676394950960582,
+        "score": 0.7
+      },
+      {
+        "track_id": "2D4BSm5Z8Hq5zYbSgJwEOh",
+        "track_name": "She Used To Be Mine",
+        "artists": "Sara Bareilles",
+        "album_name": "What's Inside: Songs from Waitress",
+        "track_genre": "acoustic",
+        "popularity": 67,
+        "audio_similarity": 0.9220315518021793,
+        "score": 0.6809
+      },
+      {
+        "track_id": "6Xbi3gOwMal0Ds3ETvBBwe",
+        "track_name": "The Winner Takes It All - Acoustic",
+        "artists": "Jae Hall",
+        "album_name": "The Winner Takes It All (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.952739114444801,
+        "score": 0.6801
+      },
+      {
+        "track_id": "1xYMyM7MxFi4OuzDA2op9Q",
+        "track_name": "Such A Simple Thing - Recorded at Sound Stage Studios Nashville",
+        "artists": "Ray LaMontagne",
+        "album_name": "Spotify Singles",
+        "track_genre": "acoustic",
+        "popularity": 56,
+        "audio_similarity": 0.9468227838496426,
+        "score": 0.6765
+      },
+      {
+        "track_id": "37bc0lXXN8Udi7IPwL58Hn",
+        "track_name": "Time After Time",
+        "artists": "Boyce Avenue;Megan Davies;Jaclyn Davies",
+        "album_name": "Cover Sessions, Vol. 4",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9219758135191056,
+        "score": 0.6702
+      },
+      {
+        "track_id": "5wQci5VCUjdbKnRD61XYwu",
+        "track_name": "The Flood",
+        "artists": "Joshua Hyslop",
+        "album_name": "In Deepest Blue (Bonus Track Version)",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9273783582596602,
+        "score": 0.6692
+      },
+      {
+        "track_id": "1CYBnHYYbOAsuDCGa0zrw0",
+        "track_name": "Without a Light",
+        "artists": "Drew Holcomb & The Neighbors",
+        "album_name": "Without a Light",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9138532171634708,
+        "score": 0.6679
+      },
+      {
+        "track_id": "4mzP5mHkRvGxdhdGdAH7EJ",
+        "track_name": "Give Me Your Forever",
+        "artists": "Zack Tabudlo",
+        "album_name": "Episode",
+        "track_genre": "acoustic",
+        "popularity": 74,
+        "audio_similarity": 0.8708967349723113,
+        "score": 0.667
+      },
+      {
+        "track_id": "6f9qzNP6elRi8i2NgqGoE5",
+        "track_name": "Bohemian Rhapsody - Acoustic",
+        "artists": "John Adams",
+        "album_name": "Bohemian Rhapsody (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 52,
+        "audio_similarity": 0.9415896552691227,
+        "score": 0.6667
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "4eZP0Tyh1p06Nk1aHOzNrt",
+        "track_name": "Over You",
+        "artists": "Ingrid Michaelson;A Great Big World",
+        "album_name": "Lights Out",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.8892245787284356,
+        "score": 0.8983
+      },
+      {
+        "track_id": "5MTsZG10E0hTvAkdioyPnw",
+        "track_name": "Feels Like Rain (feat. Bonnie Raitt)",
+        "artists": "Buddy Guy;Bonnie Raitt",
+        "album_name": "Feels Like Rain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9676394950960582,
+        "score": 0.6683
+      },
+      {
+        "track_id": "2D4BSm5Z8Hq5zYbSgJwEOh",
+        "track_name": "She Used To Be Mine",
+        "artists": "Sara Bareilles",
+        "album_name": "What's Inside: Songs from Waitress",
+        "track_genre": "acoustic",
+        "popularity": 67,
+        "audio_similarity": 0.9220315518021793,
+        "score": 0.6477
+      },
+      {
+        "track_id": "1k1Bqnv2R0uJXQN4u6LKYt",
+        "track_name": "Ain't No Sunshine",
+        "artists": "Bill Withers",
+        "album_name": "Just As I Am",
+        "track_genre": "funk",
+        "popularity": 79,
+        "audio_similarity": 0.9570261481517639,
+        "score": 0.6473
+      },
+      {
+        "track_id": "6Xbi3gOwMal0Ds3ETvBBwe",
+        "track_name": "The Winner Takes It All - Acoustic",
+        "artists": "Jae Hall",
+        "album_name": "The Winner Takes It All (Acoustic)",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.952739114444801,
+        "score": 0.6459
+      },
+      {
+        "track_id": "5XeFesFbtLpXzIVDNQP22n",
+        "track_name": "I Wanna Be Yours",
+        "artists": "Arctic Monkeys",
+        "album_name": "AM",
+        "track_genre": "garage",
+        "popularity": 92,
+        "audio_similarity": 0.9100575805877537,
+        "score": 0.6439
+      },
+      {
+        "track_id": "1xYMyM7MxFi4OuzDA2op9Q",
+        "track_name": "Such A Simple Thing - Recorded at Sound Stage Studios Nashville",
+        "artists": "Ray LaMontagne",
+        "album_name": "Spotify Singles",
+        "track_genre": "acoustic",
+        "popularity": 56,
+        "audio_similarity": 0.9468227838496426,
+        "score": 0.6427
+      },
+      {
+        "track_id": "6zeE5tKyr8Nu882DQhhSQI",
+        "track_name": "Dust in the Wind",
+        "artists": "Kansas",
+        "album_name": "Point Of Know Return (Expanded Edition)",
+        "track_genre": "hard-rock",
+        "popularity": 78,
+        "audio_similarity": 0.9540440546128447,
+        "score": 0.6401
+      },
+      {
+        "track_id": "4u7EnebtmKWzUH433cf5Qv",
+        "track_name": "Bohemian Rhapsody - Remastered 2011",
+        "artists": "Queen",
+        "album_name": "A Night At The Opera (2011 Remaster)",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.9366869020658614,
+        "score": 0.6391
+      },
+      {
+        "track_id": "37bc0lXXN8Udi7IPwL58Hn",
+        "track_name": "Time After Time",
+        "artists": "Boyce Avenue;Megan Davies;Jaclyn Davies",
+        "album_name": "Cover Sessions, Vol. 4",
+        "track_genre": "acoustic",
+        "popularity": 60,
+        "audio_similarity": 0.9219758135191056,
+        "score": 0.6369
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "4eZP0Tyh1p06Nk1aHOzNrt",
+        "track_name": "Over You",
+        "artists": "Ingrid Michaelson;A Great Big World",
+        "album_name": "Lights Out",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.8892245787284356,
+        "score": 0.9051
+      },
+      {
+        "track_id": "3d9DChrdc6BOeFsbrZ3Is0",
+        "track_name": "Under the Bridge",
+        "artists": "Red Hot Chili Peppers",
+        "album_name": "Blood Sugar Sex Magik (Deluxe Edition)",
+        "track_genre": "alt-rock",
+        "popularity": 82,
+        "audio_similarity": 0.9143271094974507,
+        "score": 0.6578
+      },
+      {
+        "track_id": "6hDBkm6B8HF9B4oATW28YN",
+        "track_name": "Pop Virus",
+        "artists": "Gen Hoshino",
+        "album_name": "POP VIRUS",
+        "track_genre": "acoustic",
+        "popularity": 47,
+        "audio_similarity": 0.7083163325478411,
+        "score": 0.6513
+      },
+      {
+        "track_id": "1k1Bqnv2R0uJXQN4u6LKYt",
+        "track_name": "Ain't No Sunshine",
+        "artists": "Bill Withers",
+        "album_name": "Just As I Am",
+        "track_genre": "funk",
+        "popularity": 79,
+        "audio_similarity": 0.9570261481517639,
+        "score": 0.6465
+      },
+      {
+        "track_id": "4u7EnebtmKWzUH433cf5Qv",
+        "track_name": "Bohemian Rhapsody - Remastered 2011",
+        "artists": "Queen",
+        "album_name": "A Night At The Opera (2011 Remaster)",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.9366869020658614,
+        "score": 0.6422
+      },
+      {
+        "track_id": "5MTsZG10E0hTvAkdioyPnw",
+        "track_name": "Feels Like Rain (feat. Bonnie Raitt)",
+        "artists": "Buddy Guy;Bonnie Raitt",
+        "album_name": "Feels Like Rain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9676394950960582,
+        "score": 0.6416
+      },
+      {
+        "track_id": "6zeE5tKyr8Nu882DQhhSQI",
+        "track_name": "Dust in the Wind",
+        "artists": "Kansas",
+        "album_name": "Point Of Know Return (Expanded Edition)",
+        "track_genre": "hard-rock",
+        "popularity": 78,
+        "audio_similarity": 0.9540440546128447,
+        "score": 0.6358
+      },
+      {
+        "track_id": "5XeFesFbtLpXzIVDNQP22n",
+        "track_name": "I Wanna Be Yours",
+        "artists": "Arctic Monkeys",
+        "album_name": "AM",
+        "track_genre": "garage",
+        "popularity": 92,
+        "audio_similarity": 0.9100575805877537,
+        "score": 0.6317
+      },
+      {
+        "track_id": "62AuGbAkt8Ox2IrFFb8GKV",
+        "track_name": "Sweet Caroline",
+        "artists": "Neil Diamond",
+        "album_name": "Sweet Caroline",
+        "track_genre": "folk",
+        "popularity": 78,
+        "audio_similarity": 0.9449644043765072,
+        "score": 0.6265
+      },
+      {
+        "track_id": "2TktkzfozZifbQhXjT6I33",
+        "track_name": "Evergreen (You Didn\u2019t Deserve Me At All)",
+        "artists": "Omar Apollo",
+        "album_name": "Ivory",
+        "track_genre": "soul",
+        "popularity": 88,
+        "audio_similarity": 0.9046253734783543,
+        "score": 0.6261
+      }
+    ]
+  },
+  "rock": {
+    "0.0": [
+      {
+        "track_id": "6Qn5zhYkTa37e91HC1D7lb",
+        "track_name": "Whatever It Takes",
+        "artists": "Imagine Dragons",
+        "album_name": "Evolve",
+        "track_genre": "rock",
+        "popularity": 81,
+        "audio_similarity": 0.8890372030025837,
+        "score": 0.9049
+      },
+      {
+        "track_id": "0HqZX76SFLDz2aW8aiqi7G",
+        "track_name": "Bones",
+        "artists": "Imagine Dragons",
+        "album_name": "Bones",
+        "track_genre": "rock",
+        "popularity": 89,
+        "audio_similarity": 0.8226153239165974,
+        "score": 0.8771
+      },
+      {
+        "track_id": "54ipXppHLA8U4yqpOFTUhr",
+        "track_name": "Bones",
+        "artists": "Imagine Dragons",
+        "album_name": "Mercury - Acts 1 & 2",
+        "track_genre": "rock",
+        "popularity": 84,
+        "audio_similarity": 0.8225856111871216,
+        "score": 0.8696
+      },
+      {
+        "track_id": "5yDL13y5giogKs2fSNf7sj",
+        "track_name": "Glad You Came",
+        "artists": "The Wanted",
+        "album_name": "Battleground (Deluxe Edition)",
+        "track_genre": "rock",
+        "popularity": 79,
+        "audio_similarity": 0.9160389852007438,
+        "score": 0.8431
+      },
+      {
+        "track_id": "7FdUvDkaE24o3FPIWTvzv2",
+        "track_name": "Follow You",
+        "artists": "Imagine Dragons",
+        "album_name": "Follow You / Cutthroat",
+        "track_genre": "rock",
+        "popularity": 73,
+        "audio_similarity": 0.8026126818671415,
+        "score": 0.8411
+      },
+      {
+        "track_id": "6fNhZRFEkBfgW39W3wKARJ",
+        "track_name": "Pompeii",
+        "artists": "Bastille",
+        "album_name": "Bad Blood",
+        "track_genre": "rock",
+        "popularity": 76,
+        "audio_similarity": 0.9146139528974033,
+        "score": 0.8378
+      },
+      {
+        "track_id": "2GiJYvgVaD2HtM8GqD9EgQ",
+        "track_name": "Electric Love",
+        "artists": "B\u00d8RNS",
+        "album_name": "Dopamine",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.886317899921063,
+        "score": 0.8298
+      },
+      {
+        "track_id": "5dvBeCMTzUNjyWIcuykzyh",
+        "track_name": "Everyday I Love You Less And Less",
+        "artists": "Kaiser Chiefs",
+        "album_name": "Employment",
+        "track_genre": "rock",
+        "popularity": 59,
+        "audio_similarity": 0.9237813968682081,
+        "score": 0.8178
+      },
+      {
+        "track_id": "37f4ITSlgPX81ad2EvmVQr",
+        "track_name": "Fight Song",
+        "artists": "Rachel Platten",
+        "album_name": "Wildfire",
+        "track_genre": "rock",
+        "popularity": 77,
+        "audio_similarity": 0.8773347054978851,
+        "score": 0.8169
+      },
+      {
+        "track_id": "37sINbJZcFdHFAsVNsPq1i",
+        "track_name": "Superheroes",
+        "artists": "The Script",
+        "album_name": "No Sound Without Silence",
+        "track_genre": "rock",
+        "popularity": 75,
+        "audio_similarity": 0.8809001708125896,
+        "score": 0.816
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "6Qn5zhYkTa37e91HC1D7lb",
+        "track_name": "Whatever It Takes",
+        "artists": "Imagine Dragons",
+        "album_name": "Evolve",
+        "track_genre": "rock",
+        "popularity": 81,
+        "audio_similarity": 0.8890372030025837,
+        "score": 0.9216
+      },
+      {
+        "track_id": "5yDL13y5giogKs2fSNf7sj",
+        "track_name": "Glad You Came",
+        "artists": "The Wanted",
+        "album_name": "Battleground (Deluxe Edition)",
+        "track_genre": "rock",
+        "popularity": 79,
+        "audio_similarity": 0.9160389852007438,
+        "score": 0.737
+      },
+      {
+        "track_id": "6fNhZRFEkBfgW39W3wKARJ",
+        "track_name": "Pompeii",
+        "artists": "Bastille",
+        "album_name": "Bad Blood",
+        "track_genre": "rock",
+        "popularity": 76,
+        "audio_similarity": 0.9146139528974033,
+        "score": 0.7336
+      },
+      {
+        "track_id": "0HqZX76SFLDz2aW8aiqi7G",
+        "track_name": "Bones",
+        "artists": "Imagine Dragons",
+        "album_name": "Bones",
+        "track_genre": "rock",
+        "popularity": 89,
+        "audio_similarity": 0.8226153239165974,
+        "score": 0.7289
+      },
+      {
+        "track_id": "37f4ITSlgPX81ad2EvmVQr",
+        "track_name": "Fight Song",
+        "artists": "Rachel Platten",
+        "album_name": "Wildfire",
+        "track_genre": "rock",
+        "popularity": 77,
+        "audio_similarity": 0.8773347054978851,
+        "score": 0.7288
+      },
+      {
+        "track_id": "7FdUvDkaE24o3FPIWTvzv2",
+        "track_name": "Follow You",
+        "artists": "Imagine Dragons",
+        "album_name": "Follow You / Cutthroat",
+        "track_genre": "rock",
+        "popularity": 73,
+        "audio_similarity": 0.8026126818671415,
+        "score": 0.7254
+      },
+      {
+        "track_id": "2GiJYvgVaD2HtM8GqD9EgQ",
+        "track_name": "Electric Love",
+        "artists": "B\u00d8RNS",
+        "album_name": "Dopamine",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.886317899921063,
+        "score": 0.7249
+      },
+      {
+        "track_id": "5dvBeCMTzUNjyWIcuykzyh",
+        "track_name": "Everyday I Love You Less And Less",
+        "artists": "Kaiser Chiefs",
+        "album_name": "Employment",
+        "track_genre": "rock",
+        "popularity": 59,
+        "audio_similarity": 0.9237813968682081,
+        "score": 0.7222
+      },
+      {
+        "track_id": "54ipXppHLA8U4yqpOFTUhr",
+        "track_name": "Bones",
+        "artists": "Imagine Dragons",
+        "album_name": "Mercury - Acts 1 & 2",
+        "track_genre": "rock",
+        "popularity": 84,
+        "audio_similarity": 0.8225856111871216,
+        "score": 0.7174
+      },
+      {
+        "track_id": "3CRDbSIZ4r5MsZ0YwxuEkn",
+        "track_name": "Stressed Out",
+        "artists": "Twenty One Pilots",
+        "album_name": "Blurryface",
+        "track_genre": "rock",
+        "popularity": 85,
+        "audio_similarity": 0.8448410938078579,
+        "score": 0.7134
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "6Qn5zhYkTa37e91HC1D7lb",
+        "track_name": "Whatever It Takes",
+        "artists": "Imagine Dragons",
+        "album_name": "Evolve",
+        "track_genre": "rock",
+        "popularity": 81,
+        "audio_similarity": 0.8890372030025837,
+        "score": 0.9285
+      },
+      {
+        "track_id": "2GiJYvgVaD2HtM8GqD9EgQ",
+        "track_name": "Electric Love",
+        "artists": "B\u00d8RNS",
+        "album_name": "Dopamine",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.886317899921063,
+        "score": 0.694
+      },
+      {
+        "track_id": "5yDL13y5giogKs2fSNf7sj",
+        "track_name": "Glad You Came",
+        "artists": "The Wanted",
+        "album_name": "Battleground (Deluxe Edition)",
+        "track_genre": "rock",
+        "popularity": 79,
+        "audio_similarity": 0.9160389852007438,
+        "score": 0.6931
+      },
+      {
+        "track_id": "37f4ITSlgPX81ad2EvmVQr",
+        "track_name": "Fight Song",
+        "artists": "Rachel Platten",
+        "album_name": "Wildfire",
+        "track_genre": "rock",
+        "popularity": 77,
+        "audio_similarity": 0.8773347054978851,
+        "score": 0.6923
+      },
+      {
+        "track_id": "6fNhZRFEkBfgW39W3wKARJ",
+        "track_name": "Pompeii",
+        "artists": "Bastille",
+        "album_name": "Bad Blood",
+        "track_genre": "rock",
+        "popularity": 76,
+        "audio_similarity": 0.9146139528974033,
+        "score": 0.6874
+      },
+      {
+        "track_id": "5dvBeCMTzUNjyWIcuykzyh",
+        "track_name": "Everyday I Love You Less And Less",
+        "artists": "Kaiser Chiefs",
+        "album_name": "Employment",
+        "track_genre": "rock",
+        "popularity": 59,
+        "audio_similarity": 0.9237813968682081,
+        "score": 0.6826
+      },
+      {
+        "track_id": "7FdUvDkaE24o3FPIWTvzv2",
+        "track_name": "Follow You",
+        "artists": "Imagine Dragons",
+        "album_name": "Follow You / Cutthroat",
+        "track_genre": "rock",
+        "popularity": 73,
+        "audio_similarity": 0.8026126818671415,
+        "score": 0.6775
+      },
+      {
+        "track_id": "3CRDbSIZ4r5MsZ0YwxuEkn",
+        "track_name": "Stressed Out",
+        "artists": "Twenty One Pilots",
+        "album_name": "Blurryface",
+        "track_genre": "rock",
+        "popularity": 85,
+        "audio_similarity": 0.8448410938078579,
+        "score": 0.6736
+      },
+      {
+        "track_id": "2tTmW7RDtMQtBk7m2rYeSw",
+        "track_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "artists": "Bizarrap;Quevedo",
+        "album_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "track_genre": "hip-hop",
+        "popularity": 99,
+        "audio_similarity": 0.9487522967578506,
+        "score": 0.6683
+      },
+      {
+        "track_id": "37sINbJZcFdHFAsVNsPq1i",
+        "track_name": "Superheroes",
+        "artists": "The Script",
+        "album_name": "No Sound Without Silence",
+        "track_genre": "rock",
+        "popularity": 75,
+        "audio_similarity": 0.8809001708125896,
+        "score": 0.6683
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "6Qn5zhYkTa37e91HC1D7lb",
+        "track_name": "Whatever It Takes",
+        "artists": "Imagine Dragons",
+        "album_name": "Evolve",
+        "track_genre": "rock",
+        "popularity": 81,
+        "audio_similarity": 0.8890372030025837,
+        "score": 0.9337
+      },
+      {
+        "track_id": "4uUG5RXrOk84mYEfFvj3cK",
+        "track_name": "I'm Good (Blue)",
+        "artists": "David Guetta;Bebe Rexha",
+        "album_name": "I'm Good (Blue)",
+        "track_genre": "dance",
+        "popularity": 98,
+        "audio_similarity": 0.8929599590063435,
+        "score": 0.6713
+      },
+      {
+        "track_id": "37f4ITSlgPX81ad2EvmVQr",
+        "track_name": "Fight Song",
+        "artists": "Rachel Platten",
+        "album_name": "Wildfire",
+        "track_genre": "rock",
+        "popularity": 77,
+        "audio_similarity": 0.8773347054978851,
+        "score": 0.6643
+      },
+      {
+        "track_id": "2GiJYvgVaD2HtM8GqD9EgQ",
+        "track_name": "Electric Love",
+        "artists": "B\u00d8RNS",
+        "album_name": "Dopamine",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.886317899921063,
+        "score": 0.6635
+      },
+      {
+        "track_id": "5yDL13y5giogKs2fSNf7sj",
+        "track_name": "Glad You Came",
+        "artists": "The Wanted",
+        "album_name": "Battleground (Deluxe Edition)",
+        "track_genre": "rock",
+        "popularity": 79,
+        "audio_similarity": 0.9160389852007438,
+        "score": 0.6594
+      },
+      {
+        "track_id": "2tTmW7RDtMQtBk7m2rYeSw",
+        "track_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "artists": "Bizarrap;Quevedo",
+        "album_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "track_genre": "hip-hop",
+        "popularity": 99,
+        "audio_similarity": 0.9487522967578506,
+        "score": 0.6572
+      },
+      {
+        "track_id": "6fNhZRFEkBfgW39W3wKARJ",
+        "track_name": "Pompeii",
+        "artists": "Bastille",
+        "album_name": "Bad Blood",
+        "track_genre": "rock",
+        "popularity": 76,
+        "audio_similarity": 0.9146139528974033,
+        "score": 0.6536
+      },
+      {
+        "track_id": "5dvBeCMTzUNjyWIcuykzyh",
+        "track_name": "Everyday I Love You Less And Less",
+        "artists": "Kaiser Chiefs",
+        "album_name": "Employment",
+        "track_genre": "rock",
+        "popularity": 59,
+        "audio_similarity": 0.9237813968682081,
+        "score": 0.6523
+      },
+      {
+        "track_id": "69BIczdH6QMnFx7dsSssN8",
+        "track_name": "DDU-DU DDU-DU",
+        "artists": "BLACKPINK",
+        "album_name": "SQUARE UP",
+        "track_genre": "k-pop",
+        "popularity": 71,
+        "audio_similarity": 0.9826623403871788,
+        "score": 0.6472
+      },
+      {
+        "track_id": "3CRDbSIZ4r5MsZ0YwxuEkn",
+        "track_name": "Stressed Out",
+        "artists": "Twenty One Pilots",
+        "album_name": "Blurryface",
+        "track_genre": "rock",
+        "popularity": 85,
+        "audio_similarity": 0.8448410938078579,
+        "score": 0.6431
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "6Qn5zhYkTa37e91HC1D7lb",
+        "track_name": "Whatever It Takes",
+        "artists": "Imagine Dragons",
+        "album_name": "Evolve",
+        "track_genre": "rock",
+        "popularity": 81,
+        "audio_similarity": 0.8890372030025837,
+        "score": 0.9382
+      },
+      {
+        "track_id": "4uUG5RXrOk84mYEfFvj3cK",
+        "track_name": "I'm Good (Blue)",
+        "artists": "David Guetta;Bebe Rexha",
+        "album_name": "I'm Good (Blue)",
+        "track_genre": "dance",
+        "popularity": 98,
+        "audio_similarity": 0.8929599590063435,
+        "score": 0.6695
+      },
+      {
+        "track_id": "2tTmW7RDtMQtBk7m2rYeSw",
+        "track_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "artists": "Bizarrap;Quevedo",
+        "album_name": "Quevedo: Bzrp Music Sessions, Vol. 52",
+        "track_genre": "hip-hop",
+        "popularity": 99,
+        "audio_similarity": 0.9487522967578506,
+        "score": 0.6549
+      },
+      {
+        "track_id": "5T8EDUDqKcs6OSOwEsfqG7",
+        "track_name": "Don't Stop Me Now - Remastered 2011",
+        "artists": "Queen",
+        "album_name": "Jazz (2011 Remaster)",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.7744086256608302,
+        "score": 0.6486
+      },
+      {
+        "track_id": "0o9zmvc5f3EFApU52PPIyW",
+        "track_name": "Shinunoga E-Wa",
+        "artists": "Fujii Kaze",
+        "album_name": "HELP EVER HURT NEVER",
+        "track_genre": "j-pop",
+        "popularity": 85,
+        "audio_similarity": 0.933809899884386,
+        "score": 0.6433
+      },
+      {
+        "track_id": "37f4ITSlgPX81ad2EvmVQr",
+        "track_name": "Fight Song",
+        "artists": "Rachel Platten",
+        "album_name": "Wildfire",
+        "track_genre": "rock",
+        "popularity": 77,
+        "audio_similarity": 0.8773347054978851,
+        "score": 0.6407
+      },
+      {
+        "track_id": "69BIczdH6QMnFx7dsSssN8",
+        "track_name": "DDU-DU DDU-DU",
+        "artists": "BLACKPINK",
+        "album_name": "SQUARE UP",
+        "track_genre": "k-pop",
+        "popularity": 71,
+        "audio_similarity": 0.9826623403871788,
+        "score": 0.6397
+      },
+      {
+        "track_id": "2GiJYvgVaD2HtM8GqD9EgQ",
+        "track_name": "Electric Love",
+        "artists": "B\u00d8RNS",
+        "album_name": "Dopamine",
+        "track_genre": "rock",
+        "popularity": 82,
+        "audio_similarity": 0.886317899921063,
+        "score": 0.6378
+      },
+      {
+        "track_id": "72yP0DUlWPyH8P7IoxskwN",
+        "track_name": "Hold Me Closer",
+        "artists": "Elton John;Britney Spears",
+        "album_name": "Hold Me Closer",
+        "track_genre": "piano",
+        "popularity": 89,
+        "audio_similarity": 0.9405961485412704,
+        "score": 0.6367
+      },
+      {
+        "track_id": "3Wrjm47oTz2sjIgck11l5e",
+        "track_name": "Beggin'",
+        "artists": "M\u00e5neskin",
+        "album_name": "Chosen",
+        "track_genre": "indie-pop",
+        "popularity": 86,
+        "audio_similarity": 0.925954578499476,
+        "score": 0.6332
+      }
+    ]
+  },
+  "hip-hop": {
+    "0.0": [
+      {
+        "track_id": "7AsG1F1eMWd17RYan8M3Wm",
+        "track_name": "Dil Nu",
+        "artists": "AP Dhillon;Shinda Kahlon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.9327009791480764,
+        "score": 0.9161
+      },
+      {
+        "track_id": "3iICKiDTyIK5qoVl2hXB2f",
+        "track_name": "Summer High",
+        "artists": "AP Dhillon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 63,
+        "audio_similarity": 0.9215505629715159,
+        "score": 0.8974
+      },
+      {
+        "track_id": "2PcGqmKToUz0s65q1Acg7d",
+        "track_name": "SPACESHIP",
+        "artists": "AP Dhillon;Shinda Kahlon;Gminxr",
+        "album_name": "HIDDEN GEMS",
+        "track_genre": "hip-hop",
+        "popularity": 73,
+        "audio_similarity": 0.894828486014132,
+        "score": 0.8964
+      },
+      {
+        "track_id": "27NovPIUIRrOZoCHxABJwK",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "track_genre": "hip-hop",
+        "popularity": 86,
+        "audio_similarity": 0.9652556332669372,
+        "score": 0.8832
+      },
+      {
+        "track_id": "4Mh04VNolWA9g97ychP72l",
+        "track_name": "Offshore",
+        "artists": "Shubh",
+        "album_name": "Offshore",
+        "track_genre": "hip-hop",
+        "popularity": 69,
+        "audio_similarity": 0.8790663279082924,
+        "score": 0.8809
+      },
+      {
+        "track_id": "5Z9KJZvQzH6PFmb8SNkxuk",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "MONTERO",
+        "track_genre": "hip-hop",
+        "popularity": 81,
+        "audio_similarity": 0.9698205116422955,
+        "score": 0.8784
+      },
+      {
+        "track_id": "2N0oWy78RT70bW10QfIVHT",
+        "track_name": "Top Boy",
+        "artists": "AP Dhillon",
+        "album_name": "Top Boy",
+        "track_genre": "hip-hop",
+        "popularity": 63,
+        "audio_similarity": 0.8685951012025008,
+        "score": 0.8657
+      },
+      {
+        "track_id": "2YpeDb67231RjR0MgVLzsG",
+        "track_name": "Old Town Road - Remix",
+        "artists": "Lil Nas X;Billy Ray Cyrus",
+        "album_name": "7 EP",
+        "track_genre": "hip-hop",
+        "popularity": 79,
+        "audio_similarity": 0.9451780338676858,
+        "score": 0.8606
+      },
+      {
+        "track_id": "7cVe3mYMIfhOlz1NXFWv70",
+        "track_name": "0 to 100",
+        "artists": "Sidhu Moose Wala",
+        "album_name": "No Name",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.963867290095135,
+        "score": 0.8598
+      },
+      {
+        "track_id": "2vkNA9I029dTwX0y6d59Sc",
+        "track_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "artists": "Anirudh Ravichander;Anthony Daasan",
+        "album_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "track_genre": "hip-hop",
+        "popularity": 74,
+        "audio_similarity": 0.9502992950640435,
+        "score": 0.8562
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "7AsG1F1eMWd17RYan8M3Wm",
+        "track_name": "Dil Nu",
+        "artists": "AP Dhillon;Shinda Kahlon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.9327009791480764,
+        "score": 0.9308
+      },
+      {
+        "track_id": "4Mh04VNolWA9g97ychP72l",
+        "track_name": "Offshore",
+        "artists": "Shubh",
+        "album_name": "Offshore",
+        "track_genre": "hip-hop",
+        "popularity": 69,
+        "audio_similarity": 0.8790663279082924,
+        "score": 0.7878
+      },
+      {
+        "track_id": "27NovPIUIRrOZoCHxABJwK",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "track_genre": "hip-hop",
+        "popularity": 86,
+        "audio_similarity": 0.9652556332669372,
+        "score": 0.7685
+      },
+      {
+        "track_id": "2PcGqmKToUz0s65q1Acg7d",
+        "track_name": "SPACESHIP",
+        "artists": "AP Dhillon;Shinda Kahlon;Gminxr",
+        "album_name": "HIDDEN GEMS",
+        "track_genre": "hip-hop",
+        "popularity": 73,
+        "audio_similarity": 0.894828486014132,
+        "score": 0.7597
+      },
+      {
+        "track_id": "7cVe3mYMIfhOlz1NXFWv70",
+        "track_name": "0 to 100",
+        "artists": "Sidhu Moose Wala",
+        "album_name": "No Name",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.963867290095135,
+        "score": 0.7477
+      },
+      {
+        "track_id": "2vkNA9I029dTwX0y6d59Sc",
+        "track_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "artists": "Anirudh Ravichander;Anthony Daasan",
+        "album_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "track_genre": "hip-hop",
+        "popularity": 74,
+        "audio_similarity": 0.9502992950640435,
+        "score": 0.7444
+      },
+      {
+        "track_id": "3iICKiDTyIK5qoVl2hXB2f",
+        "track_name": "Summer High",
+        "artists": "AP Dhillon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 63,
+        "audio_similarity": 0.9215505629715159,
+        "score": 0.7421
+      },
+      {
+        "track_id": "6HGoVbCUr63SgU3TjxEVj6",
+        "track_name": "Satisfya",
+        "artists": "Imran Khan",
+        "album_name": "Satisfya",
+        "track_genre": "hip-hop",
+        "popularity": 70,
+        "audio_similarity": 0.9454378289220517,
+        "score": 0.7369
+      },
+      {
+        "track_id": "5uEYRdEIh9Bo4fpjDd4Na9",
+        "track_name": "Goosebumps - Remix",
+        "artists": "Travis Scott;HVME",
+        "album_name": "Goosebumps (Remix)",
+        "track_genre": "hip-hop",
+        "popularity": 81,
+        "audio_similarity": 0.9140074340003338,
+        "score": 0.7361
+      },
+      {
+        "track_id": "2N0oWy78RT70bW10QfIVHT",
+        "track_name": "Top Boy",
+        "artists": "AP Dhillon",
+        "album_name": "Top Boy",
+        "track_genre": "hip-hop",
+        "popularity": 63,
+        "audio_similarity": 0.8685951012025008,
+        "score": 0.7264
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "7AsG1F1eMWd17RYan8M3Wm",
+        "track_name": "Dil Nu",
+        "artists": "AP Dhillon;Shinda Kahlon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.9327009791480764,
+        "score": 0.9369
+      },
+      {
+        "track_id": "4Mh04VNolWA9g97ychP72l",
+        "track_name": "Offshore",
+        "artists": "Shubh",
+        "album_name": "Offshore",
+        "track_genre": "hip-hop",
+        "popularity": 69,
+        "audio_similarity": 0.8790663279082924,
+        "score": 0.7493
+      },
+      {
+        "track_id": "27NovPIUIRrOZoCHxABJwK",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "track_genre": "hip-hop",
+        "popularity": 86,
+        "audio_similarity": 0.9652556332669372,
+        "score": 0.721
+      },
+      {
+        "track_id": "2PcGqmKToUz0s65q1Acg7d",
+        "track_name": "SPACESHIP",
+        "artists": "AP Dhillon;Shinda Kahlon;Gminxr",
+        "album_name": "HIDDEN GEMS",
+        "track_genre": "hip-hop",
+        "popularity": 73,
+        "audio_similarity": 0.894828486014132,
+        "score": 0.703
+      },
+      {
+        "track_id": "7cVe3mYMIfhOlz1NXFWv70",
+        "track_name": "0 to 100",
+        "artists": "Sidhu Moose Wala",
+        "album_name": "No Name",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.963867290095135,
+        "score": 0.7012
+      },
+      {
+        "track_id": "2vkNA9I029dTwX0y6d59Sc",
+        "track_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "artists": "Anirudh Ravichander;Anthony Daasan",
+        "album_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "track_genre": "hip-hop",
+        "popularity": 74,
+        "audio_similarity": 0.9502992950640435,
+        "score": 0.6981
+      },
+      {
+        "track_id": "5uEYRdEIh9Bo4fpjDd4Na9",
+        "track_name": "Goosebumps - Remix",
+        "artists": "Travis Scott;HVME",
+        "album_name": "Goosebumps (Remix)",
+        "track_genre": "hip-hop",
+        "popularity": 81,
+        "audio_similarity": 0.9140074340003338,
+        "score": 0.6919
+      },
+      {
+        "track_id": "6HGoVbCUr63SgU3TjxEVj6",
+        "track_name": "Satisfya",
+        "artists": "Imran Khan",
+        "album_name": "Satisfya",
+        "track_genre": "hip-hop",
+        "popularity": 70,
+        "audio_similarity": 0.9454378289220517,
+        "score": 0.6911
+      },
+      {
+        "track_id": "7KXjTSCq5nL1LoYtL7XAwS",
+        "track_name": "HUMBLE.",
+        "artists": "Kendrick Lamar",
+        "album_name": "DAMN.",
+        "track_genre": "hip-hop",
+        "popularity": 84,
+        "audio_similarity": 0.8770573852615036,
+        "score": 0.6821
+      },
+      {
+        "track_id": "3yfqSUWxFvZELEM4PmlwIR",
+        "track_name": "The Real Slim Shady",
+        "artists": "Eminem",
+        "album_name": "The Marshall Mathers LP",
+        "track_genre": "hip-hop",
+        "popularity": 87,
+        "audio_similarity": 0.8792945485954793,
+        "score": 0.6817
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "7AsG1F1eMWd17RYan8M3Wm",
+        "track_name": "Dil Nu",
+        "artists": "AP Dhillon;Shinda Kahlon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.9327009791480764,
+        "score": 0.9415
+      },
+      {
+        "track_id": "4Mh04VNolWA9g97ychP72l",
+        "track_name": "Offshore",
+        "artists": "Shubh",
+        "album_name": "Offshore",
+        "track_genre": "hip-hop",
+        "popularity": 69,
+        "audio_similarity": 0.8790663279082924,
+        "score": 0.7197
+      },
+      {
+        "track_id": "27NovPIUIRrOZoCHxABJwK",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "track_genre": "hip-hop",
+        "popularity": 86,
+        "audio_similarity": 0.9652556332669372,
+        "score": 0.6846
+      },
+      {
+        "track_id": "7cVe3mYMIfhOlz1NXFWv70",
+        "track_name": "0 to 100",
+        "artists": "Sidhu Moose Wala",
+        "album_name": "No Name",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.963867290095135,
+        "score": 0.6656
+      },
+      {
+        "track_id": "2vkNA9I029dTwX0y6d59Sc",
+        "track_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "artists": "Anirudh Ravichander;Anthony Daasan",
+        "album_name": "Dippam Dappam (From \"Kaathuvaakula Rendu Kaadhal\")",
+        "track_genre": "hip-hop",
+        "popularity": 74,
+        "audio_similarity": 0.9502992950640435,
+        "score": 0.6626
+      },
+      {
+        "track_id": "2PcGqmKToUz0s65q1Acg7d",
+        "track_name": "SPACESHIP",
+        "artists": "AP Dhillon;Shinda Kahlon;Gminxr",
+        "album_name": "HIDDEN GEMS",
+        "track_genre": "hip-hop",
+        "popularity": 73,
+        "audio_similarity": 0.894828486014132,
+        "score": 0.6596
+      },
+      {
+        "track_id": "5uEYRdEIh9Bo4fpjDd4Na9",
+        "track_name": "Goosebumps - Remix",
+        "artists": "Travis Scott;HVME",
+        "album_name": "Goosebumps (Remix)",
+        "track_genre": "hip-hop",
+        "popularity": 81,
+        "audio_similarity": 0.9140074340003338,
+        "score": 0.6576
+      },
+      {
+        "track_id": "6HGoVbCUr63SgU3TjxEVj6",
+        "track_name": "Satisfya",
+        "artists": "Imran Khan",
+        "album_name": "Satisfya",
+        "track_genre": "hip-hop",
+        "popularity": 70,
+        "audio_similarity": 0.9454378289220517,
+        "score": 0.656
+      },
+      {
+        "track_id": "7KXjTSCq5nL1LoYtL7XAwS",
+        "track_name": "HUMBLE.",
+        "artists": "Kendrick Lamar",
+        "album_name": "DAMN.",
+        "track_genre": "hip-hop",
+        "popularity": 84,
+        "audio_similarity": 0.8770573852615036,
+        "score": 0.6494
+      },
+      {
+        "track_id": "3yfqSUWxFvZELEM4PmlwIR",
+        "track_name": "The Real Slim Shady",
+        "artists": "Eminem",
+        "album_name": "The Marshall Mathers LP",
+        "track_genre": "hip-hop",
+        "popularity": 87,
+        "audio_similarity": 0.8792945485954793,
+        "score": 0.6476
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "7AsG1F1eMWd17RYan8M3Wm",
+        "track_name": "Dil Nu",
+        "artists": "AP Dhillon;Shinda Kahlon",
+        "album_name": "Two Hearts Never Break The Same",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.9327009791480764,
+        "score": 0.9455
+      },
+      {
+        "track_id": "4Mh04VNolWA9g97ychP72l",
+        "track_name": "Offshore",
+        "artists": "Shubh",
+        "album_name": "Offshore",
+        "track_genre": "hip-hop",
+        "popularity": 69,
+        "audio_similarity": 0.8790663279082924,
+        "score": 0.6947
+      },
+      {
+        "track_id": "44g0ftxbp0OAgAXK28ltHj",
+        "track_name": "Chauffeur JBEE Remix (feat. Tory Lanez)",
+        "artists": "Diljit Dosanjh;JBee;Ikky;Tory Lanez",
+        "album_name": "Chauffeur JBEE Remix (feat. Tory Lanez)",
+        "track_genre": "pop-film",
+        "popularity": 59,
+        "audio_similarity": 0.8645659186848342,
+        "score": 0.6586
+      },
+      {
+        "track_id": "27NovPIUIRrOZoCHxABJwK",
+        "track_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "artists": "Lil Nas X;Jack Harlow",
+        "album_name": "INDUSTRY BABY (feat. Jack Harlow)",
+        "track_genre": "hip-hop",
+        "popularity": 86,
+        "audio_similarity": 0.9652556332669372,
+        "score": 0.6539
+      },
+      {
+        "track_id": "5kVZxyMY1gfdCLiChsfjn1",
+        "track_name": "Yo No Soy Celoso",
+        "artists": "Bad Bunny",
+        "album_name": "Un Verano Sin Ti",
+        "track_genre": "latino",
+        "popularity": 85,
+        "audio_similarity": 0.9599661414486851,
+        "score": 0.6411
+      },
+      {
+        "track_id": "7KXjTSCq5nL1LoYtL7XAwS",
+        "track_name": "HUMBLE.",
+        "artists": "Kendrick Lamar",
+        "album_name": "DAMN.",
+        "track_genre": "hip-hop",
+        "popularity": 84,
+        "audio_similarity": 0.8770573852615036,
+        "score": 0.6381
+      },
+      {
+        "track_id": "7z5G2LOdV8okZn4yWg3q5g",
+        "track_name": "Night Away (Dance) (feat. Tion Wayne)",
+        "artists": "A1 x J1;Tion Wayne",
+        "album_name": "Night Away (Dance) (feat. Tion Wayne)",
+        "track_genre": "chill",
+        "popularity": 75,
+        "audio_similarity": 0.9737498720687229,
+        "score": 0.6357
+      },
+      {
+        "track_id": "079Ey5uxL04AKPQgVQwx5h",
+        "track_name": "Baila Conmigo (with Rauw Alejandro)",
+        "artists": "Selena Gomez;Rauw Alejandro",
+        "album_name": "Revelaci\u00f3n - EP",
+        "track_genre": "dance",
+        "popularity": 75,
+        "audio_similarity": 0.9703879685435155,
+        "score": 0.6355
+      },
+      {
+        "track_id": "7cVe3mYMIfhOlz1NXFWv70",
+        "track_name": "0 to 100",
+        "artists": "Sidhu Moose Wala",
+        "album_name": "No Name",
+        "track_genre": "hip-hop",
+        "popularity": 71,
+        "audio_similarity": 0.963867290095135,
+        "score": 0.6355
+      },
+      {
+        "track_id": "6KjkgYu4mjsMVYy4aCzyw6",
+        "track_name": "white tee",
+        "artists": "Lil Peep;Lil Tracy",
+        "album_name": "crybaby",
+        "track_genre": "emo",
+        "popularity": 77,
+        "audio_similarity": 0.9615693687358644,
+        "score": 0.6329
+      }
+    ]
+  },
+  "classical": {
+    "0.0": [
+      {
+        "track_id": "4Q7Q9bmbY5Lo7YamHngO4O",
+        "track_name": "Zara Zara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Rehnaa Hai Terre Dil Mein",
+        "track_genre": "classical",
+        "popularity": 62,
+        "audio_similarity": 0.8054941153831042,
+        "score": 0.8263
+      },
+      {
+        "track_id": "6APAPsBCutqTFJ9OFTbeCa",
+        "track_name": "Ondra Renda",
+        "artists": "Bombay Jayashri",
+        "album_name": "Kaakha Kaakha (Original Motion Picture Soundtrack)",
+        "track_genre": "classical",
+        "popularity": 59,
+        "audio_similarity": 0.7942703052192537,
+        "score": 0.8151
+      },
+      {
+        "track_id": "3ARjJ9tbdhlmgiG1vyiGNX",
+        "track_name": "Manohara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Cheli (Original Motion Picture Soundtrack)",
+        "track_genre": "classical",
+        "popularity": 41,
+        "audio_similarity": 0.814133920744085,
+        "score": 0.8
+      },
+      {
+        "track_id": "0qRgtkRi15K2osfLIvcHEs",
+        "track_name": "Ondra Renda (From \"Kaakha Kaakha\")",
+        "artists": "Bombay Jayashri",
+        "album_name": "Star Hits of Vijay & Surya",
+        "track_genre": "classical",
+        "popularity": 48,
+        "audio_similarity": 0.7942703052192537,
+        "score": 0.7986
+      },
+      {
+        "track_id": "5vBMUlQOjiL6d4j5WndjSd",
+        "track_name": "Zara Zara - LoFi",
+        "artists": "Bombay Jayashri;Danvendra Arya",
+        "album_name": "LoFi Songs",
+        "track_genre": "classical",
+        "popularity": 48,
+        "audio_similarity": 0.7843298312829075,
+        "score": 0.7926
+      },
+      {
+        "track_id": "3YRj4jmwois2ctPnhwSwFo",
+        "track_name": "Vaseegara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Minnalae",
+        "track_genre": "classical",
+        "popularity": 68,
+        "audio_similarity": 0.7167315418294289,
+        "score": 0.782
+      },
+      {
+        "track_id": "24MTNjIigzPJFJ3AAsYBNt",
+        "track_name": "Nama Ramayana - Ragamalika - Mssubbulakshmi",
+        "artists": "M. S. Subbulakshmi;Radha Viswanathan",
+        "album_name": "Balaji Pancharatnamala,Vol. 2",
+        "track_genre": "classical",
+        "popularity": 30,
+        "audio_similarity": 0.9167831512205784,
+        "score": 0.7701
+      },
+      {
+        "track_id": "0syWP6hExPrVVfq8yVL0oa",
+        "track_name": "Lalitha Sahasranama Sthothram",
+        "artists": "Priya Sisters",
+        "album_name": "Lalitha Pancharatnam",
+        "track_genre": "classical",
+        "popularity": 43,
+        "audio_similarity": 0.8840116002165327,
+        "score": 0.7699
+      },
+      {
+        "track_id": "5Aip1LXVUdwm0rozu2b5gx",
+        "track_name": "Kandha Sasti Kavasam",
+        "artists": "Soolamangalam Sisters",
+        "album_name": "Kandha Sasti Kavasam",
+        "track_genre": "classical",
+        "popularity": 38,
+        "audio_similarity": 0.896347187411459,
+        "score": 0.7698
+      },
+      {
+        "track_id": "7piKDEjJ5IodOee9jM5PJ5",
+        "track_name": "Kaasikku Pogum",
+        "artists": "Sirkazhi Govindarajan",
+        "album_name": "Chandrodhayam",
+        "track_genre": "classical",
+        "popularity": 31,
+        "audio_similarity": 0.9103409256653012,
+        "score": 0.7677
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "4Q7Q9bmbY5Lo7YamHngO4O",
+        "track_name": "Zara Zara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Rehnaa Hai Terre Dil Mein",
+        "track_genre": "classical",
+        "popularity": 62,
+        "audio_similarity": 0.8054941153831042,
+        "score": 0.8567
+      },
+      {
+        "track_id": "3Te9Xd6Xe9VlNYShcOthTV",
+        "track_name": "Govinda Govinda",
+        "artists": "Priya Sisters",
+        "album_name": "Annamayya Pushpanjali",
+        "track_genre": "classical",
+        "popularity": 35,
+        "audio_similarity": 0.8887791659648487,
+        "score": 0.6976
+      },
+      {
+        "track_id": "6APAPsBCutqTFJ9OFTbeCa",
+        "track_name": "Ondra Renda",
+        "artists": "Bombay Jayashri",
+        "album_name": "Kaakha Kaakha (Original Motion Picture Soundtrack)",
+        "track_genre": "classical",
+        "popularity": 59,
+        "audio_similarity": 0.7942703052192537,
+        "score": 0.6902
+      },
+      {
+        "track_id": "5Aip1LXVUdwm0rozu2b5gx",
+        "track_name": "Kandha Sasti Kavasam",
+        "artists": "Soolamangalam Sisters",
+        "album_name": "Kandha Sasti Kavasam",
+        "track_genre": "classical",
+        "popularity": 38,
+        "audio_similarity": 0.896347187411459,
+        "score": 0.6785
+      },
+      {
+        "track_id": "11w2cnCs2CxSKLwHbrF685",
+        "track_name": "Majhe Mahar Pandhari - Abhang 1977",
+        "artists": "Bhimsen Joshi",
+        "album_name": "Solid Gold - Pandit Bhimsen Joshi",
+        "track_genre": "classical",
+        "popularity": 37,
+        "audio_similarity": 0.8930831233982315,
+        "score": 0.6769
+      },
+      {
+        "track_id": "7t687wOi10mr9Ag5kupt7N",
+        "track_name": "Ganesha Pancharathnam",
+        "artists": "M. S. Subbulakshmi;Radha Viswanathan",
+        "album_name": "Samarpanam - M.S.Subbulakshmi",
+        "track_genre": "classical",
+        "popularity": 36,
+        "audio_similarity": 0.8977746390160526,
+        "score": 0.6765
+      },
+      {
+        "track_id": "7piKDEjJ5IodOee9jM5PJ5",
+        "track_name": "Kaasikku Pogum",
+        "artists": "Sirkazhi Govindarajan",
+        "album_name": "Chandrodhayam",
+        "track_genre": "classical",
+        "popularity": 31,
+        "audio_similarity": 0.9103409256653012,
+        "score": 0.6711
+      },
+      {
+        "track_id": "5iFqaCVUKhjPeMkzYVmz4i",
+        "track_name": "Mahisaasura Mardhini In Tamil - Language: Tamil; Genre: Amman-Durga",
+        "artists": "Bombay Sisters",
+        "album_name": "Mahisaasura Mardhini",
+        "track_genre": "classical",
+        "popularity": 31,
+        "audio_similarity": 0.8956539562179288,
+        "score": 0.6705
+      },
+      {
+        "track_id": "36czVmGMZTubHdfAJEsJIS",
+        "track_name": "Intimeeda Sukka Podise",
+        "artists": "Vedavathi Prabhakar;CHAYA DEVI",
+        "album_name": "Laali Thaali",
+        "track_genre": "classical",
+        "popularity": 31,
+        "audio_similarity": 0.8941524672910489,
+        "score": 0.6688
+      },
+      {
+        "track_id": "5vBMUlQOjiL6d4j5WndjSd",
+        "track_name": "Zara Zara - LoFi",
+        "artists": "Bombay Jayashri;Danvendra Arya",
+        "album_name": "LoFi Songs",
+        "track_genre": "classical",
+        "popularity": 48,
+        "audio_similarity": 0.7843298312829075,
+        "score": 0.6666
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "4Q7Q9bmbY5Lo7YamHngO4O",
+        "track_name": "Zara Zara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Rehnaa Hai Terre Dil Mein",
+        "track_genre": "classical",
+        "popularity": 62,
+        "audio_similarity": 0.8054941153831042,
+        "score": 0.8693
+      },
+      {
+        "track_id": "3Te9Xd6Xe9VlNYShcOthTV",
+        "track_name": "Govinda Govinda",
+        "artists": "Priya Sisters",
+        "album_name": "Annamayya Pushpanjali",
+        "track_genre": "classical",
+        "popularity": 35,
+        "audio_similarity": 0.8887791659648487,
+        "score": 0.6714
+      },
+      {
+        "track_id": "3xKsf9qdS1CyvXSMEid6g8",
+        "track_name": "Pink + White",
+        "artists": "Frank Ocean",
+        "album_name": "Blonde",
+        "track_genre": "soul",
+        "popularity": 85,
+        "audio_similarity": 0.8823975223096301,
+        "score": 0.6444
+      },
+      {
+        "track_id": "5iFqaCVUKhjPeMkzYVmz4i",
+        "track_name": "Mahisaasura Mardhini In Tamil - Language: Tamil; Genre: Amman-Durga",
+        "artists": "Bombay Sisters",
+        "album_name": "Mahisaasura Mardhini",
+        "track_genre": "classical",
+        "popularity": 31,
+        "audio_similarity": 0.8956539562179288,
+        "score": 0.6417
+      },
+      {
+        "track_id": "2Gnxng7ZoZIk3OdU6S0TTY",
+        "track_name": "Thirupparang Kundrathil",
+        "artists": "Soolamangalam Sisters",
+        "album_name": "Arul Isai Thendral - Sulamangalam Sisters",
+        "track_genre": "classical",
+        "popularity": 33,
+        "audio_similarity": 0.8829744586824131,
+        "score": 0.641
+      },
+      {
+        "track_id": "11w2cnCs2CxSKLwHbrF685",
+        "track_name": "Majhe Mahar Pandhari - Abhang 1977",
+        "artists": "Bhimsen Joshi",
+        "album_name": "Solid Gold - Pandit Bhimsen Joshi",
+        "track_genre": "classical",
+        "popularity": 37,
+        "audio_similarity": 0.8930831233982315,
+        "score": 0.6398
+      },
+      {
+        "track_id": "7t687wOi10mr9Ag5kupt7N",
+        "track_name": "Ganesha Pancharathnam",
+        "artists": "M. S. Subbulakshmi;Radha Viswanathan",
+        "album_name": "Samarpanam - M.S.Subbulakshmi",
+        "track_genre": "classical",
+        "popularity": 36,
+        "audio_similarity": 0.8977746390160526,
+        "score": 0.6387
+      },
+      {
+        "track_id": "6APAPsBCutqTFJ9OFTbeCa",
+        "track_name": "Ondra Renda",
+        "artists": "Bombay Jayashri",
+        "album_name": "Kaakha Kaakha (Original Motion Picture Soundtrack)",
+        "track_genre": "classical",
+        "popularity": 59,
+        "audio_similarity": 0.7942703052192537,
+        "score": 0.6384
+      },
+      {
+        "track_id": "6sxptembJVty4sNtcPMAVz",
+        "track_name": "Man! I Feel Like A Woman!",
+        "artists": "Shania Twain",
+        "album_name": "Come On Over",
+        "track_genre": "country",
+        "popularity": 78,
+        "audio_similarity": 0.9247439084909617,
+        "score": 0.6381
+      },
+      {
+        "track_id": "4FCU1TwsmITjvoVO26Lyae",
+        "track_name": "Ee Hasiru Siriyali",
+        "artists": "Sangeetha Katti",
+        "album_name": "Nagamandala (Original Motion Picture Soundtrack)",
+        "track_genre": "classical",
+        "popularity": 34,
+        "audio_similarity": 0.8782385262445547,
+        "score": 0.6322
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "4Q7Q9bmbY5Lo7YamHngO4O",
+        "track_name": "Zara Zara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Rehnaa Hai Terre Dil Mein",
+        "track_genre": "classical",
+        "popularity": 62,
+        "audio_similarity": 0.8054941153831042,
+        "score": 0.8789
+      },
+      {
+        "track_id": "3THVNKs3bdQekA02kK1hWD",
+        "track_name": "Kadhale Kadhale",
+        "artists": "Shankar Mahadevan;Padmalatha",
+        "album_name": "Indru Netru Naalai (Original Motion Picture Soundtrack)",
+        "track_genre": "pop-film",
+        "popularity": 65,
+        "audio_similarity": 0.7871723272530279,
+        "score": 0.6749
+      },
+      {
+        "track_id": "3Te9Xd6Xe9VlNYShcOthTV",
+        "track_name": "Govinda Govinda",
+        "artists": "Priya Sisters",
+        "album_name": "Annamayya Pushpanjali",
+        "track_genre": "classical",
+        "popularity": 35,
+        "audio_similarity": 0.8887791659648487,
+        "score": 0.6514
+      },
+      {
+        "track_id": "3xKsf9qdS1CyvXSMEid6g8",
+        "track_name": "Pink + White",
+        "artists": "Frank Ocean",
+        "album_name": "Blonde",
+        "track_genre": "soul",
+        "popularity": 85,
+        "audio_similarity": 0.8823975223096301,
+        "score": 0.6416
+      },
+      {
+        "track_id": "6sxptembJVty4sNtcPMAVz",
+        "track_name": "Man! I Feel Like A Woman!",
+        "artists": "Shania Twain",
+        "album_name": "Come On Over",
+        "track_genre": "country",
+        "popularity": 78,
+        "audio_similarity": 0.9247439084909617,
+        "score": 0.6305
+      },
+      {
+        "track_id": "5Oc0vLGWdEWeCqIU8zyELt",
+        "track_name": "Hound Dog",
+        "artists": "Big Mama Thornton",
+        "album_name": "Ball n' Chain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9548992113558599,
+        "score": 0.6278
+      },
+      {
+        "track_id": "75ls0gurX68lUmMjE7QcsE",
+        "track_name": "all the kids are depressed",
+        "artists": "Jeremy Zucker",
+        "album_name": "glisten",
+        "track_genre": "electro",
+        "popularity": 75,
+        "audio_similarity": 0.8971563841103486,
+        "score": 0.621
+      },
+      {
+        "track_id": "1Jmqubf9kGkWeYQXQKImL5",
+        "track_name": "People Are Strange",
+        "artists": "The Doors",
+        "album_name": "Strange Days",
+        "track_genre": "psych-rock",
+        "popularity": 73,
+        "audio_similarity": 0.9177903948388411,
+        "score": 0.6177
+      },
+      {
+        "track_id": "0L6cCPWguL1GYWNUlRFx55",
+        "track_name": "T\u00e1 Desculpada - Ao Vivo",
+        "artists": "Vitinho",
+        "album_name": "Retomada, Vol. 1 (Ao Vivo)",
+        "track_genre": "pagode",
+        "popularity": 53,
+        "audio_similarity": 0.9640575239878384,
+        "score": 0.6173
+      },
+      {
+        "track_id": "2Gnxng7ZoZIk3OdU6S0TTY",
+        "track_name": "Thirupparang Kundrathil",
+        "artists": "Soolamangalam Sisters",
+        "album_name": "Arul Isai Thendral - Sulamangalam Sisters",
+        "track_genre": "classical",
+        "popularity": 33,
+        "audio_similarity": 0.8829744586824131,
+        "score": 0.6164
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "4Q7Q9bmbY5Lo7YamHngO4O",
+        "track_name": "Zara Zara",
+        "artists": "Bombay Jayashri",
+        "album_name": "Rehnaa Hai Terre Dil Mein",
+        "track_genre": "classical",
+        "popularity": 62,
+        "audio_similarity": 0.8054941153831042,
+        "score": 0.8871
+      },
+      {
+        "track_id": "3THVNKs3bdQekA02kK1hWD",
+        "track_name": "Kadhale Kadhale",
+        "artists": "Shankar Mahadevan;Padmalatha",
+        "album_name": "Indru Netru Naalai (Original Motion Picture Soundtrack)",
+        "track_genre": "pop-film",
+        "popularity": 65,
+        "audio_similarity": 0.7871723272530279,
+        "score": 0.6796
+      },
+      {
+        "track_id": "6sxptembJVty4sNtcPMAVz",
+        "track_name": "Man! I Feel Like A Woman!",
+        "artists": "Shania Twain",
+        "album_name": "Come On Over",
+        "track_genre": "country",
+        "popularity": 78,
+        "audio_similarity": 0.9247439084909617,
+        "score": 0.641
+      },
+      {
+        "track_id": "3xKsf9qdS1CyvXSMEid6g8",
+        "track_name": "Pink + White",
+        "artists": "Frank Ocean",
+        "album_name": "Blonde",
+        "track_genre": "soul",
+        "popularity": 85,
+        "audio_similarity": 0.8823975223096301,
+        "score": 0.6392
+      },
+      {
+        "track_id": "3Te9Xd6Xe9VlNYShcOthTV",
+        "track_name": "Govinda Govinda",
+        "artists": "Priya Sisters",
+        "album_name": "Annamayya Pushpanjali",
+        "track_genre": "classical",
+        "popularity": 35,
+        "audio_similarity": 0.8887791659648487,
+        "score": 0.6344
+      },
+      {
+        "track_id": "5Oc0vLGWdEWeCqIU8zyELt",
+        "track_name": "Hound Dog",
+        "artists": "Big Mama Thornton",
+        "album_name": "Ball n' Chain",
+        "track_genre": "acoustic",
+        "popularity": 57,
+        "audio_similarity": 0.9548992113558599,
+        "score": 0.6231
+      },
+      {
+        "track_id": "75ls0gurX68lUmMjE7QcsE",
+        "track_name": "all the kids are depressed",
+        "artists": "Jeremy Zucker",
+        "album_name": "glisten",
+        "track_genre": "electro",
+        "popularity": 75,
+        "audio_similarity": 0.8971563841103486,
+        "score": 0.6163
+      },
+      {
+        "track_id": "3KzgdYUlqV6TOG7JCmx2Wg",
+        "track_name": "Beyond the Sea",
+        "artists": "Bobby Darin",
+        "album_name": "That's All",
+        "track_genre": "j-rock",
+        "popularity": 68,
+        "audio_similarity": 0.8971041331813602,
+        "score": 0.6114
+      },
+      {
+        "track_id": "1Jmqubf9kGkWeYQXQKImL5",
+        "track_name": "People Are Strange",
+        "artists": "The Doors",
+        "album_name": "Strange Days",
+        "track_genre": "psych-rock",
+        "popularity": 73,
+        "audio_similarity": 0.9177903948388411,
+        "score": 0.6111
+      },
+      {
+        "track_id": "0L6cCPWguL1GYWNUlRFx55",
+        "track_name": "T\u00e1 Desculpada - Ao Vivo",
+        "artists": "Vitinho",
+        "album_name": "Retomada, Vol. 1 (Ao Vivo)",
+        "track_genre": "pagode",
+        "popularity": 53,
+        "audio_similarity": 0.9640575239878384,
+        "score": 0.611
+      }
+    ]
+  },
+  "country": {
+    "0.0": [
+      {
+        "track_id": "2yBWKK84uebv35lGajIMhc",
+        "track_name": "Where We Started",
+        "artists": "Thomas Rhett;Katy Perry",
+        "album_name": "Where We Started",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.9279786502430152,
+        "score": 0.8998
+      },
+      {
+        "track_id": "2xPV95cfbyusygMTxpa3SW",
+        "track_name": "You",
+        "artists": "Dan + Shay",
+        "album_name": "Good Things",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8482945863158002,
+        "score": 0.867
+      },
+      {
+        "track_id": "69AIpwGNLxr4qS1X5ynx60",
+        "track_name": "Buy Dirt",
+        "artists": "Jordan Davis;Luke Bryan",
+        "album_name": "Buy Dirt",
+        "track_genre": "country",
+        "popularity": 80,
+        "audio_similarity": 0.8247108671645073,
+        "score": 0.8648
+      },
+      {
+        "track_id": "3GJ4hzg4lrGwU51Y3VARbF",
+        "track_name": "Speechless",
+        "artists": "Dan + Shay",
+        "album_name": "Dan + Shay",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8316337236679341,
+        "score": 0.857
+      },
+      {
+        "track_id": "6IBcOGPsniK3Pso1wHIhew",
+        "track_name": "Forever After All",
+        "artists": "Luke Combs",
+        "album_name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "track_genre": "country",
+        "popularity": 79,
+        "audio_similarity": 0.9378426459963485,
+        "score": 0.8562
+      },
+      {
+        "track_id": "10M2Ex445zw585Ducldzkw",
+        "track_name": "In Case You Didn't Know",
+        "artists": "Brett Young",
+        "album_name": "Brett Young",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.9460919169866834,
+        "score": 0.8552
+      },
+      {
+        "track_id": "03fT3OHB9KyMtGMt2zwqCT",
+        "track_name": "Play It Again",
+        "artists": "Luke Bryan",
+        "album_name": "Crash My Party",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.8154749489320335,
+        "score": 0.8518
+      },
+      {
+        "track_id": "6uTb5oNK9RkTjxmh73W7MG",
+        "track_name": "Die A Happy Man",
+        "artists": "Thomas Rhett",
+        "album_name": "Tangled Up",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.8453033388581737,
+        "score": 0.8502
+      },
+      {
+        "track_id": "6tbNaE7kvGNqS7FvJ0dzLB",
+        "track_name": "I Got the Boy",
+        "artists": "Jana Kramer",
+        "album_name": "thirty one",
+        "track_genre": "country",
+        "popularity": 58,
+        "audio_similarity": 0.9628000311501759,
+        "score": 0.8397
+      },
+      {
+        "track_id": "7FCthfxjvvXyukvP1dULIW",
+        "track_name": "You're Still The One - Remixed/Remastered 2004",
+        "artists": "Shania Twain",
+        "album_name": "Greatest Hits",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.949253635331271,
+        "score": 0.8376
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "2yBWKK84uebv35lGajIMhc",
+        "track_name": "Where We Started",
+        "artists": "Thomas Rhett;Katy Perry",
+        "album_name": "Where We Started",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.9279786502430152,
+        "score": 0.9173
+      },
+      {
+        "track_id": "69AIpwGNLxr4qS1X5ynx60",
+        "track_name": "Buy Dirt",
+        "artists": "Jordan Davis;Luke Bryan",
+        "album_name": "Buy Dirt",
+        "track_genre": "country",
+        "popularity": 80,
+        "audio_similarity": 0.8247108671645073,
+        "score": 0.7654
+      },
+      {
+        "track_id": "2xPV95cfbyusygMTxpa3SW",
+        "track_name": "You",
+        "artists": "Dan + Shay",
+        "album_name": "Good Things",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8482945863158002,
+        "score": 0.7642
+      },
+      {
+        "track_id": "6IBcOGPsniK3Pso1wHIhew",
+        "track_name": "Forever After All",
+        "artists": "Luke Combs",
+        "album_name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "track_genre": "country",
+        "popularity": 79,
+        "audio_similarity": 0.9378426459963485,
+        "score": 0.7492
+      },
+      {
+        "track_id": "10M2Ex445zw585Ducldzkw",
+        "track_name": "In Case You Didn't Know",
+        "artists": "Brett Young",
+        "album_name": "Brett Young",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.9460919169866834,
+        "score": 0.7457
+      },
+      {
+        "track_id": "03fT3OHB9KyMtGMt2zwqCT",
+        "track_name": "Play It Again",
+        "artists": "Luke Bryan",
+        "album_name": "Crash My Party",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.8154749489320335,
+        "score": 0.7326
+      },
+      {
+        "track_id": "6tbNaE7kvGNqS7FvJ0dzLB",
+        "track_name": "I Got the Boy",
+        "artists": "Jana Kramer",
+        "album_name": "thirty one",
+        "track_genre": "country",
+        "popularity": 58,
+        "audio_similarity": 0.9628000311501759,
+        "score": 0.731
+      },
+      {
+        "track_id": "7FCthfxjvvXyukvP1dULIW",
+        "track_name": "You're Still The One - Remixed/Remastered 2004",
+        "artists": "Shania Twain",
+        "album_name": "Greatest Hits",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.949253635331271,
+        "score": 0.7293
+      },
+      {
+        "track_id": "3GJ4hzg4lrGwU51Y3VARbF",
+        "track_name": "Speechless",
+        "artists": "Dan + Shay",
+        "album_name": "Dan + Shay",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8316337236679341,
+        "score": 0.7249
+      },
+      {
+        "track_id": "40riOy7x9W7GXjyGp4pjAv",
+        "track_name": "Hotel California - 2013 Remaster",
+        "artists": "Eagles",
+        "album_name": "Hotel California (2013 Remaster)",
+        "track_genre": "country",
+        "popularity": 84,
+        "audio_similarity": 0.8770257533641037,
+        "score": 0.7247
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "2yBWKK84uebv35lGajIMhc",
+        "track_name": "Where We Started",
+        "artists": "Thomas Rhett;Katy Perry",
+        "album_name": "Where We Started",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.9279786502430152,
+        "score": 0.9246
+      },
+      {
+        "track_id": "69AIpwGNLxr4qS1X5ynx60",
+        "track_name": "Buy Dirt",
+        "artists": "Jordan Davis;Luke Bryan",
+        "album_name": "Buy Dirt",
+        "track_genre": "country",
+        "popularity": 80,
+        "audio_similarity": 0.8247108671645073,
+        "score": 0.7243
+      },
+      {
+        "track_id": "2xPV95cfbyusygMTxpa3SW",
+        "track_name": "You",
+        "artists": "Dan + Shay",
+        "album_name": "Good Things",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8482945863158002,
+        "score": 0.7216
+      },
+      {
+        "track_id": "6IBcOGPsniK3Pso1wHIhew",
+        "track_name": "Forever After All",
+        "artists": "Luke Combs",
+        "album_name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "track_genre": "country",
+        "popularity": 79,
+        "audio_similarity": 0.9378426459963485,
+        "score": 0.7048
+      },
+      {
+        "track_id": "10M2Ex445zw585Ducldzkw",
+        "track_name": "In Case You Didn't Know",
+        "artists": "Brett Young",
+        "album_name": "Brett Young",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.9460919169866834,
+        "score": 0.7004
+      },
+      {
+        "track_id": "5HCyWlXZPP0y6Gqq8TgA20",
+        "track_name": "STAY (with Justin Bieber)",
+        "artists": "The Kid LAROI;Justin Bieber",
+        "album_name": "STAY (with Justin Bieber)",
+        "track_genre": "hip-hop",
+        "popularity": 89,
+        "audio_similarity": 0.8907786462280903,
+        "score": 0.6907
+      },
+      {
+        "track_id": "6tbNaE7kvGNqS7FvJ0dzLB",
+        "track_name": "I Got the Boy",
+        "artists": "Jana Kramer",
+        "album_name": "thirty one",
+        "track_genre": "country",
+        "popularity": 58,
+        "audio_similarity": 0.9628000311501759,
+        "score": 0.686
+      },
+      {
+        "track_id": "7FCthfxjvvXyukvP1dULIW",
+        "track_name": "You're Still The One - Remixed/Remastered 2004",
+        "artists": "Shania Twain",
+        "album_name": "Greatest Hits",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.949253635331271,
+        "score": 0.6845
+      },
+      {
+        "track_id": "03fT3OHB9KyMtGMt2zwqCT",
+        "track_name": "Play It Again",
+        "artists": "Luke Bryan",
+        "album_name": "Crash My Party",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.8154749489320335,
+        "score": 0.6833
+      },
+      {
+        "track_id": "40riOy7x9W7GXjyGp4pjAv",
+        "track_name": "Hotel California - 2013 Remaster",
+        "artists": "Eagles",
+        "album_name": "Hotel California (2013 Remaster)",
+        "track_genre": "country",
+        "popularity": 84,
+        "audio_similarity": 0.8770257533641037,
+        "score": 0.6823
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "2yBWKK84uebv35lGajIMhc",
+        "track_name": "Where We Started",
+        "artists": "Thomas Rhett;Katy Perry",
+        "album_name": "Where We Started",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.9279786502430152,
+        "score": 0.9302
+      },
+      {
+        "track_id": "5HCyWlXZPP0y6Gqq8TgA20",
+        "track_name": "STAY (with Justin Bieber)",
+        "artists": "The Kid LAROI;Justin Bieber",
+        "album_name": "STAY (with Justin Bieber)",
+        "track_genre": "hip-hop",
+        "popularity": 89,
+        "audio_similarity": 0.8907786462280903,
+        "score": 0.696
+      },
+      {
+        "track_id": "69AIpwGNLxr4qS1X5ynx60",
+        "track_name": "Buy Dirt",
+        "artists": "Jordan Davis;Luke Bryan",
+        "album_name": "Buy Dirt",
+        "track_genre": "country",
+        "popularity": 80,
+        "audio_similarity": 0.8247108671645073,
+        "score": 0.6927
+      },
+      {
+        "track_id": "3GJ4hzg4lrGwU51Y3VARbF",
+        "track_name": "Speechless",
+        "artists": "Dan + Shay",
+        "album_name": "Dan + Shay",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8316337236679341,
+        "score": 0.69
+      },
+      {
+        "track_id": "6IBcOGPsniK3Pso1wHIhew",
+        "track_name": "Forever After All",
+        "artists": "Luke Combs",
+        "album_name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "track_genre": "country",
+        "popularity": 79,
+        "audio_similarity": 0.9378426459963485,
+        "score": 0.6776
+      },
+      {
+        "track_id": "10M2Ex445zw585Ducldzkw",
+        "track_name": "In Case You Didn't Know",
+        "artists": "Brett Young",
+        "album_name": "Brett Young",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.9460919169866834,
+        "score": 0.6656
+      },
+      {
+        "track_id": "30VHURM5NOfoZmqp2iKawS",
+        "track_name": "Butterflies",
+        "artists": "Kacey Musgraves",
+        "album_name": "Golden Hour",
+        "track_genre": "country",
+        "popularity": 68,
+        "audio_similarity": 0.9177321906418643,
+        "score": 0.6517
+      },
+      {
+        "track_id": "6tbNaE7kvGNqS7FvJ0dzLB",
+        "track_name": "I Got the Boy",
+        "artists": "Jana Kramer",
+        "album_name": "thirty one",
+        "track_genre": "country",
+        "popularity": 58,
+        "audio_similarity": 0.9628000311501759,
+        "score": 0.6515
+      },
+      {
+        "track_id": "7FCthfxjvvXyukvP1dULIW",
+        "track_name": "You're Still The One - Remixed/Remastered 2004",
+        "artists": "Shania Twain",
+        "album_name": "Greatest Hits",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.949253635331271,
+        "score": 0.6501
+      },
+      {
+        "track_id": "40riOy7x9W7GXjyGp4pjAv",
+        "track_name": "Hotel California - 2013 Remaster",
+        "artists": "Eagles",
+        "album_name": "Hotel California (2013 Remaster)",
+        "track_genre": "country",
+        "popularity": 84,
+        "audio_similarity": 0.8770257533641037,
+        "score": 0.6497
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "2yBWKK84uebv35lGajIMhc",
+        "track_name": "Where We Started",
+        "artists": "Thomas Rhett;Katy Perry",
+        "album_name": "Where We Started",
+        "track_genre": "country",
+        "popularity": 62,
+        "audio_similarity": 0.9279786502430152,
+        "score": 0.9349
+      },
+      {
+        "track_id": "5HCyWlXZPP0y6Gqq8TgA20",
+        "track_name": "STAY (with Justin Bieber)",
+        "artists": "The Kid LAROI;Justin Bieber",
+        "album_name": "STAY (with Justin Bieber)",
+        "track_genre": "hip-hop",
+        "popularity": 89,
+        "audio_similarity": 0.8907786462280903,
+        "score": 0.6887
+      },
+      {
+        "track_id": "69AIpwGNLxr4qS1X5ynx60",
+        "track_name": "Buy Dirt",
+        "artists": "Jordan Davis;Luke Bryan",
+        "album_name": "Buy Dirt",
+        "track_genre": "country",
+        "popularity": 80,
+        "audio_similarity": 0.8247108671645073,
+        "score": 0.666
+      },
+      {
+        "track_id": "3GJ4hzg4lrGwU51Y3VARbF",
+        "track_name": "Speechless",
+        "artists": "Dan + Shay",
+        "album_name": "Dan + Shay",
+        "track_genre": "country",
+        "popularity": 72,
+        "audio_similarity": 0.8316337236679341,
+        "score": 0.6642
+      },
+      {
+        "track_id": "6IBcOGPsniK3Pso1wHIhew",
+        "track_name": "Forever After All",
+        "artists": "Luke Combs",
+        "album_name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "track_genre": "country",
+        "popularity": 79,
+        "audio_similarity": 0.9378426459963485,
+        "score": 0.65
+      },
+      {
+        "track_id": "1R0a2iXumgCiFb7HEZ7gUE",
+        "track_name": "Don\u2019t Blame Me",
+        "artists": "Taylor Swift",
+        "album_name": "reputation",
+        "track_genre": "pop",
+        "popularity": 88,
+        "audio_similarity": 0.9019940517548611,
+        "score": 0.6448
+      },
+      {
+        "track_id": "10M2Ex445zw585Ducldzkw",
+        "track_name": "In Case You Didn't Know",
+        "artists": "Brett Young",
+        "album_name": "Brett Young",
+        "track_genre": "country",
+        "popularity": 75,
+        "audio_similarity": 0.9460919169866834,
+        "score": 0.6363
+      },
+      {
+        "track_id": "3CYH422oy1cZNoo0GTG1TK",
+        "track_name": "Psycho",
+        "artists": "Red Velvet",
+        "album_name": "\u2018The ReVe Festival\u2019 Finale",
+        "track_genre": "k-pop",
+        "popularity": 75,
+        "audio_similarity": 0.933855310404106,
+        "score": 0.6335
+      },
+      {
+        "track_id": "6VoIBz0VhCyz7OdEoRYDiA",
+        "track_name": "Say It Ain't So",
+        "artists": "Weezer",
+        "album_name": "Weezer",
+        "track_genre": "power-pop",
+        "popularity": 77,
+        "audio_similarity": 0.946162374953822,
+        "score": 0.6321
+      },
+      {
+        "track_id": "6FoUUkUM4fVdh5pLZyxgjz",
+        "track_name": "Automatic (feat. Jake Miller)",
+        "artists": "Fly By Midnight;Jake Miller",
+        "album_name": "Automatic (feat. Jake Miller)",
+        "track_genre": "electro",
+        "popularity": 68,
+        "audio_similarity": 0.9770338667187994,
+        "score": 0.6307
+      }
+    ]
+  },
+  "electronic": {
+    "0.0": [
+      {
+        "track_id": "0hSdx0sbSmYRVJzZTuspu0",
+        "track_name": "Deep (with DJ Snake & Yung Felix)",
+        "artists": "Malaa;DJ Snake;Yung Felix",
+        "album_name": "Deep (with DJ Snake & Yung Felix)",
+        "track_genre": "electronic",
+        "popularity": 62,
+        "audio_similarity": 0.895810400117991,
+        "score": 0.8805
+      },
+      {
+        "track_id": "2UkEYLRP5ZyPBEC9pCW4QD",
+        "track_name": "Taqat",
+        "artists": "Prabh Deep",
+        "album_name": "Tabia",
+        "track_genre": "electronic",
+        "popularity": 26,
+        "audio_similarity": 0.964605871733189,
+        "score": 0.8678
+      },
+      {
+        "track_id": "4MmEOHYHdyb5hFOCkBfsF2",
+        "track_name": "JUMANJI (feat. CANCUN?)",
+        "artists": "HEDEGAARD;CANCUN?",
+        "album_name": "OBLIVION",
+        "track_genre": "electronic",
+        "popularity": 54,
+        "audio_similarity": 0.9583004668801922,
+        "score": 0.831
+      },
+      {
+        "track_id": "6re8Gb0JHD69k5B53tCAF6",
+        "track_name": "Overnight",
+        "artists": "HXE",
+        "album_name": "Overnight",
+        "track_genre": "electronic",
+        "popularity": 49,
+        "audio_similarity": 0.9583565454462109,
+        "score": 0.8235
+      },
+      {
+        "track_id": "5y5qNTyfvCQ6s230gLSjlv",
+        "track_name": "The Buzz",
+        "artists": "Hermitude;Mataya;Young Tapz",
+        "album_name": "Dark Night Sweet Light",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9284371162880068,
+        "score": 0.8176
+      },
+      {
+        "track_id": "7j6OJzMIJL5JcFHyeSJZGV",
+        "track_name": "Mase in '97",
+        "artists": "Carnage;Lil Yachty",
+        "album_name": "Mase in '97",
+        "track_genre": "electronic",
+        "popularity": 60,
+        "audio_similarity": 0.9186650116352064,
+        "score": 0.8162
+      },
+      {
+        "track_id": "660eekzsNZ7sdATvfIsAkR",
+        "track_name": "Fuego (with Sean Paul & Anitta, feat. Tainy)",
+        "artists": "DJ Snake;Sean Paul;Anitta;Tainy",
+        "album_name": "Carte Blanche",
+        "track_genre": "electronic",
+        "popularity": 61,
+        "audio_similarity": 0.784849575321539,
+        "score": 0.8124
+      },
+      {
+        "track_id": "4g2ptqGnnzVU9E743Q3r1H",
+        "track_name": "Nabz",
+        "artists": "Atour;Ashkan Kagan;Hiphopologist",
+        "album_name": "Nabz",
+        "track_genre": "electronic",
+        "popularity": 45,
+        "audio_similarity": 0.9438854593455989,
+        "score": 0.8088
+      },
+      {
+        "track_id": "2brgW2rPRbY5Zn0aU2USgc",
+        "track_name": "Pop Off",
+        "artists": "Fabian Mazur;Kazu",
+        "album_name": "RISE",
+        "track_genre": "electronic",
+        "popularity": 50,
+        "audio_similarity": 0.9302863564799558,
+        "score": 0.8082
+      },
+      {
+        "track_id": "69bDRy5MeWQl1lNeEJQIBE",
+        "track_name": "The Half",
+        "artists": "DJ Snake;Jeremih;Young Thug;Swizz Beatz",
+        "album_name": "Encore",
+        "track_genre": "electronic",
+        "popularity": 52,
+        "audio_similarity": 0.7979995429225837,
+        "score": 0.8068
+      }
+    ],
+    "0.25": [
+      {
+        "track_id": "0hSdx0sbSmYRVJzZTuspu0",
+        "track_name": "Deep (with DJ Snake & Yung Felix)",
+        "artists": "Malaa;DJ Snake;Yung Felix",
+        "album_name": "Deep (with DJ Snake & Yung Felix)",
+        "track_genre": "electronic",
+        "popularity": 62,
+        "audio_similarity": 0.895810400117991,
+        "score": 0.9014
+      },
+      {
+        "track_id": "2UkEYLRP5ZyPBEC9pCW4QD",
+        "track_name": "Taqat",
+        "artists": "Prabh Deep",
+        "album_name": "Tabia",
+        "track_genre": "electronic",
+        "popularity": 26,
+        "audio_similarity": 0.964605871733189,
+        "score": 0.7578
+      },
+      {
+        "track_id": "4MmEOHYHdyb5hFOCkBfsF2",
+        "track_name": "JUMANJI (feat. CANCUN?)",
+        "artists": "HEDEGAARD;CANCUN?",
+        "album_name": "OBLIVION",
+        "track_genre": "electronic",
+        "popularity": 54,
+        "audio_similarity": 0.9583004668801922,
+        "score": 0.7304
+      },
+      {
+        "track_id": "6re8Gb0JHD69k5B53tCAF6",
+        "track_name": "Overnight",
+        "artists": "HXE",
+        "album_name": "Overnight",
+        "track_genre": "electronic",
+        "popularity": 49,
+        "audio_similarity": 0.9583565454462109,
+        "score": 0.7174
+      },
+      {
+        "track_id": "5y5qNTyfvCQ6s230gLSjlv",
+        "track_name": "The Buzz",
+        "artists": "Hermitude;Mataya;Young Tapz",
+        "album_name": "Dark Night Sweet Light",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9284371162880068,
+        "score": 0.7148
+      },
+      {
+        "track_id": "7j6OJzMIJL5JcFHyeSJZGV",
+        "track_name": "Mase in '97",
+        "artists": "Carnage;Lil Yachty",
+        "album_name": "Mase in '97",
+        "track_genre": "electronic",
+        "popularity": 60,
+        "audio_similarity": 0.9186650116352064,
+        "score": 0.713
+      },
+      {
+        "track_id": "2brgW2rPRbY5Zn0aU2USgc",
+        "track_name": "Pop Off",
+        "artists": "Fabian Mazur;Kazu",
+        "album_name": "RISE",
+        "track_genre": "electronic",
+        "popularity": 50,
+        "audio_similarity": 0.9302863564799558,
+        "score": 0.7049
+      },
+      {
+        "track_id": "4g2ptqGnnzVU9E743Q3r1H",
+        "track_name": "Nabz",
+        "artists": "Atour;Ashkan Kagan;Hiphopologist",
+        "album_name": "Nabz",
+        "track_genre": "electronic",
+        "popularity": 45,
+        "audio_similarity": 0.9438854593455989,
+        "score": 0.7043
+      },
+      {
+        "track_id": "4kT18i0w2ZYeLTFPdpkihT",
+        "track_name": "Dum Dee Dum",
+        "artists": "Keys N Krates",
+        "album_name": "Dum Dee Dum",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9039406142046744,
+        "score": 0.7038
+      },
+      {
+        "track_id": "3sGJmCUfZKbbjtZ24eaepn",
+        "track_name": "DAMN - Bonus Track",
+        "artists": "JOYRYDE;Freddie Gibbs",
+        "album_name": "BRAVE",
+        "track_genre": "electronic",
+        "popularity": 55,
+        "audio_similarity": 0.9074376251894365,
+        "score": 0.7003
+      }
+    ],
+    "0.5": [
+      {
+        "track_id": "0hSdx0sbSmYRVJzZTuspu0",
+        "track_name": "Deep (with DJ Snake & Yung Felix)",
+        "artists": "Malaa;DJ Snake;Yung Felix",
+        "album_name": "Deep (with DJ Snake & Yung Felix)",
+        "track_genre": "electronic",
+        "popularity": 62,
+        "audio_similarity": 0.895810400117991,
+        "score": 0.9101
+      },
+      {
+        "track_id": "2UkEYLRP5ZyPBEC9pCW4QD",
+        "track_name": "Taqat",
+        "artists": "Prabh Deep",
+        "album_name": "Tabia",
+        "track_genre": "electronic",
+        "popularity": 26,
+        "audio_similarity": 0.964605871733189,
+        "score": 0.7123
+      },
+      {
+        "track_id": "4MmEOHYHdyb5hFOCkBfsF2",
+        "track_name": "JUMANJI (feat. CANCUN?)",
+        "artists": "HEDEGAARD;CANCUN?",
+        "album_name": "OBLIVION",
+        "track_genre": "electronic",
+        "popularity": 54,
+        "audio_similarity": 0.9583004668801922,
+        "score": 0.6888
+      },
+      {
+        "track_id": "6re8Gb0JHD69k5B53tCAF6",
+        "track_name": "Overnight",
+        "artists": "HXE",
+        "album_name": "Overnight",
+        "track_genre": "electronic",
+        "popularity": 49,
+        "audio_similarity": 0.9583565454462109,
+        "score": 0.6734
+      },
+      {
+        "track_id": "5y5qNTyfvCQ6s230gLSjlv",
+        "track_name": "The Buzz",
+        "artists": "Hermitude;Mataya;Young Tapz",
+        "album_name": "Dark Night Sweet Light",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9284371162880068,
+        "score": 0.6722
+      },
+      {
+        "track_id": "0hquQWY3xvYqN4qtiquniF",
+        "track_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "artists": "Doja Cat",
+        "album_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "track_genre": "dance",
+        "popularity": 90,
+        "audio_similarity": 0.9709340701954627,
+        "score": 0.6709
+      },
+      {
+        "track_id": "7j6OJzMIJL5JcFHyeSJZGV",
+        "track_name": "Mase in '97",
+        "artists": "Carnage;Lil Yachty",
+        "album_name": "Mase in '97",
+        "track_genre": "electronic",
+        "popularity": 60,
+        "audio_similarity": 0.9186650116352064,
+        "score": 0.6702
+      },
+      {
+        "track_id": "7MXVkk9YMctZqd1Srtv4MB",
+        "track_name": "Starboy",
+        "artists": "The Weeknd;Daft Punk",
+        "album_name": "Starboy",
+        "track_genre": "pop",
+        "popularity": 90,
+        "audio_similarity": 0.9644161742491444,
+        "score": 0.6641
+      },
+      {
+        "track_id": "4kT18i0w2ZYeLTFPdpkihT",
+        "track_name": "Dum Dee Dum",
+        "artists": "Keys N Krates",
+        "album_name": "Dum Dee Dum",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9039406142046744,
+        "score": 0.6627
+      },
+      {
+        "track_id": "2brgW2rPRbY5Zn0aU2USgc",
+        "track_name": "Pop Off",
+        "artists": "Fabian Mazur;Kazu",
+        "album_name": "RISE",
+        "track_genre": "electronic",
+        "popularity": 50,
+        "audio_similarity": 0.9302863564799558,
+        "score": 0.6621
+      }
+    ],
+    "0.75": [
+      {
+        "track_id": "0hSdx0sbSmYRVJzZTuspu0",
+        "track_name": "Deep (with DJ Snake & Yung Felix)",
+        "artists": "Malaa;DJ Snake;Yung Felix",
+        "album_name": "Deep (with DJ Snake & Yung Felix)",
+        "track_genre": "electronic",
+        "popularity": 62,
+        "audio_similarity": 0.895810400117991,
+        "score": 0.9167
+      },
+      {
+        "track_id": "7MXVkk9YMctZqd1Srtv4MB",
+        "track_name": "Starboy",
+        "artists": "The Weeknd;Daft Punk",
+        "album_name": "Starboy",
+        "track_genre": "pop",
+        "popularity": 90,
+        "audio_similarity": 0.9644161742491444,
+        "score": 0.6812
+      },
+      {
+        "track_id": "2UkEYLRP5ZyPBEC9pCW4QD",
+        "track_name": "Taqat",
+        "artists": "Prabh Deep",
+        "album_name": "Tabia",
+        "track_genre": "electronic",
+        "popularity": 26,
+        "audio_similarity": 0.964605871733189,
+        "score": 0.6773
+      },
+      {
+        "track_id": "0hquQWY3xvYqN4qtiquniF",
+        "track_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "artists": "Doja Cat",
+        "album_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "track_genre": "dance",
+        "popularity": 90,
+        "audio_similarity": 0.9709340701954627,
+        "score": 0.6613
+      },
+      {
+        "track_id": "4MmEOHYHdyb5hFOCkBfsF2",
+        "track_name": "JUMANJI (feat. CANCUN?)",
+        "artists": "HEDEGAARD;CANCUN?",
+        "album_name": "OBLIVION",
+        "track_genre": "electronic",
+        "popularity": 54,
+        "audio_similarity": 0.9583004668801922,
+        "score": 0.6568
+      },
+      {
+        "track_id": "0fea68AdmYNygeTGI4RC18",
+        "track_name": "LA CANCI\u00d3N",
+        "artists": "J Balvin;Bad Bunny",
+        "album_name": "OASIS",
+        "track_genre": "latino",
+        "popularity": 88,
+        "audio_similarity": 0.968085037418223,
+        "score": 0.6503
+      },
+      {
+        "track_id": "2rurDawMfoKP4uHyb2kJBt",
+        "track_name": "Te Felicito",
+        "artists": "Shakira;Rauw Alejandro",
+        "album_name": "Te Felicito",
+        "track_genre": "latin",
+        "popularity": 90,
+        "audio_similarity": 0.9589447457452753,
+        "score": 0.6488
+      },
+      {
+        "track_id": "7FIWs0pqAYbP91WWM0vlTQ",
+        "track_name": "Godzilla (feat. Juice WRLD)",
+        "artists": "Eminem;Juice WRLD",
+        "album_name": "Music To Be Murdered By",
+        "track_genre": "hip-hop",
+        "popularity": 83,
+        "audio_similarity": 0.9675136380827185,
+        "score": 0.645
+      },
+      {
+        "track_id": "5y5qNTyfvCQ6s230gLSjlv",
+        "track_name": "The Buzz",
+        "artists": "Hermitude;Mataya;Young Tapz",
+        "album_name": "Dark Night Sweet Light",
+        "track_genre": "electronic",
+        "popularity": 57,
+        "audio_similarity": 0.9284371162880068,
+        "score": 0.6402
+      },
+      {
+        "track_id": "5mdWIwsJAzR97ShGkt8gcR",
+        "track_name": "New thing (Prod. ZICO) (Feat. Homies)",
+        "artists": "ZICO;HOMIES",
+        "album_name": "Street Man Fighter Original Vol.3 (Mission by Rank)",
+        "track_genre": "k-pop",
+        "popularity": 78,
+        "audio_similarity": 0.9663003903723506,
+        "score": 0.6397
+      }
+    ],
+    "1.0": [
+      {
+        "track_id": "0hSdx0sbSmYRVJzZTuspu0",
+        "track_name": "Deep (with DJ Snake & Yung Felix)",
+        "artists": "Malaa;DJ Snake;Yung Felix",
+        "album_name": "Deep (with DJ Snake & Yung Felix)",
+        "track_genre": "electronic",
+        "popularity": 62,
+        "audio_similarity": 0.895810400117991,
+        "score": 0.9223
+      },
+      {
+        "track_id": "7MXVkk9YMctZqd1Srtv4MB",
+        "track_name": "Starboy",
+        "artists": "The Weeknd;Daft Punk",
+        "album_name": "Starboy",
+        "track_genre": "pop",
+        "popularity": 90,
+        "audio_similarity": 0.9644161742491444,
+        "score": 0.6762
+      },
+      {
+        "track_id": "0hquQWY3xvYqN4qtiquniF",
+        "track_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "artists": "Doja Cat",
+        "album_name": "Vegas (From the Original Motion Picture Soundtrack ELVIS)",
+        "track_genre": "dance",
+        "popularity": 90,
+        "audio_similarity": 0.9709340701954627,
+        "score": 0.6534
+      },
+      {
+        "track_id": "2UkEYLRP5ZyPBEC9pCW4QD",
+        "track_name": "Taqat",
+        "artists": "Prabh Deep",
+        "album_name": "Tabia",
+        "track_genre": "electronic",
+        "popularity": 26,
+        "audio_similarity": 0.964605871733189,
+        "score": 0.6479
+      },
+      {
+        "track_id": "0fea68AdmYNygeTGI4RC18",
+        "track_name": "LA CANCI\u00d3N",
+        "artists": "J Balvin;Bad Bunny",
+        "album_name": "OASIS",
+        "track_genre": "latino",
+        "popularity": 88,
+        "audio_similarity": 0.968085037418223,
+        "score": 0.6411
+      },
+      {
+        "track_id": "2rurDawMfoKP4uHyb2kJBt",
+        "track_name": "Te Felicito",
+        "artists": "Shakira;Rauw Alejandro",
+        "album_name": "Te Felicito",
+        "track_genre": "latin",
+        "popularity": 90,
+        "audio_similarity": 0.9589447457452753,
+        "score": 0.6393
+      },
+      {
+        "track_id": "7FIWs0pqAYbP91WWM0vlTQ",
+        "track_name": "Godzilla (feat. Juice WRLD)",
+        "artists": "Eminem;Juice WRLD",
+        "album_name": "Music To Be Murdered By",
+        "track_genre": "hip-hop",
+        "popularity": 83,
+        "audio_similarity": 0.9675136380827185,
+        "score": 0.6357
+      },
+      {
+        "track_id": "4v7riPZWyAclrOfUSwD0zp",
+        "track_name": "Aeropuerto",
+        "artists": "Camilo",
+        "album_name": "De Adentro Pa Afuera",
+        "track_genre": "reggaeton",
+        "popularity": 78,
+        "audio_similarity": 0.9483103580371984,
+        "score": 0.6325
+      },
+      {
+        "track_id": "4jVBIpuOiMj1crqd8LoCrJ",
+        "track_name": "FRANCHISE (feat. Young Thug & M.I.A.)",
+        "artists": "Travis Scott;Young Thug;M.I.A.",
+        "album_name": "FRANCHISE (feat. Young Thug & M.I.A.)",
+        "track_genre": "house",
+        "popularity": 70,
+        "audio_similarity": 0.9797660136422637,
+        "score": 0.6313
+      },
+      {
+        "track_id": "5mdWIwsJAzR97ShGkt8gcR",
+        "track_name": "New thing (Prod. ZICO) (Feat. Homies)",
+        "artists": "ZICO;HOMIES",
+        "album_name": "Street Man Fighter Original Vol.3 (Mission by Rank)",
+        "track_genre": "k-pop",
+        "popularity": 78,
+        "audio_similarity": 0.9663003903723506,
+        "score": 0.6308
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+﻿PASS acoustic     0.00
+PASS acoustic     0.25
+PASS acoustic     0.50
+PASS acoustic     0.75
+PASS acoustic     1.00
+PASS rock         0.00
+PASS rock         0.25
+PASS rock         0.50
+PASS rock         0.75
+PASS rock         1.00
+PASS hip-hop      0.00
+PASS hip-hop      0.25
+PASS hip-hop      0.50
+PASS hip-hop      0.75
+PASS hip-hop      1.00
+PASS classical    0.00
+PASS classical    0.25
+PASS classical    0.50
+PASS classical    0.75
+PASS classical    1.00
+PASS country      0.00
+PASS country      0.25
+PASS country      0.50
+PASS country      0.75
+PASS country      1.00
+PASS electronic   0.00
+PASS electronic   0.25
+PASS electronic   0.50
+PASS electronic   0.75
+PASS electronic   1.00
+
+======================================================================
+PASS: 30/30 recommendation rankings match the frozen reference.

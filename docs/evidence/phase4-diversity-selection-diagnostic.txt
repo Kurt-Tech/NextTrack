@@ -1,0 +1,1010 @@
+﻿NextTrack Phase 4 Diversity Selection Diagnostic
+====================================================================================================
+
+====================================================================================================
+Context: acoustic
+Primary genre: acoustic
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       acoustic
+    Track:       Over You
+    Relevance:   0.8540
+    Redundancy:  0.0000
+    Select score: 0.8540
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.0000
+    Select score: 0.6927
+    Score gap:   0.1613
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       acoustic
+    Track:       Feels Like Rain (feat. Bonnie Raitt)
+    Relevance:   0.8411
+    Redundancy:  0.7289
+    Select score: 0.6589
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4146
+    Select score: 0.5891
+    Score gap:   0.0698
+    Approx required weight: 0.4720
+
+Position 3
+  CHOSEN
+    Genre:       acoustic
+    Track:       The Winner Takes It All - Acoustic
+    Relevance:   0.8321
+    Redundancy:  0.7823
+    Select score: 0.6366
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0581
+    Approx required weight: 0.4286
+
+Position 4
+  CHOSEN
+    Genre:       acoustic
+    Track:       She Used To Be Mine
+    Relevance:   0.8287
+    Redundancy:  0.7687
+    Select score: 0.6366
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0581
+    Approx required weight: 0.4364
+
+Position 5
+  CHOSEN
+    Genre:       acoustic
+    Track:       Such A Simple Thing - Recorded at Sound Stage Studios Nashville
+    Relevance:   0.8271
+    Redundancy:  0.7814
+    Select score: 0.6318
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0533
+    Approx required weight: 0.4143
+
+Position 6
+  CHOSEN
+    Genre:       acoustic
+    Track:       Time After Time
+    Relevance:   0.8182
+    Redundancy:  0.7799
+    Select score: 0.6232
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0447
+    Approx required weight: 0.3885
+
+Position 7
+  CHOSEN
+    Genre:       acoustic
+    Track:       The Flood
+    Relevance:   0.8214
+    Redundancy:  0.7938
+    Select score: 0.6230
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0445
+    Approx required weight: 0.3821
+
+Position 8
+  CHOSEN
+    Genre:       acoustic
+    Track:       Without a Light
+    Relevance:   0.8133
+    Redundancy:  0.7743
+    Select score: 0.6197
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4570
+    Select score: 0.5785
+    Score gap:   0.0413
+    Approx required weight: 0.3800
+
+Position 9
+  CHOSEN
+    Genre:       acoustic
+    Track:       Bohemian Rhapsody - Acoustic
+    Relevance:   0.8180
+    Redundancy:  0.7932
+    Select score: 0.6197
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4688
+    Select score: 0.5755
+    Score gap:   0.0441
+    Approx required weight: 0.3861
+
+Position 10
+  CHOSEN
+    Genre:       acoustic
+    Track:       Give Me Your Forever
+    Relevance:   0.8085
+    Redundancy:  0.7632
+    Select score: 0.6177
+  BEST ALTERNATIVE
+    Genre:       funk
+    Track:       Ain't No Sunshine
+    Relevance:   0.6927
+    Redundancy:  0.4688
+    Select score: 0.5755
+    Score gap:   0.0422
+    Approx required weight: 0.3934
+
+====================================================================================================
+Context: rock
+Primary genre: rock
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       rock
+    Track:       Whatever It Takes
+    Relevance:   0.9049
+    Redundancy:  0.0000
+    Select score: 0.9049
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.0000
+    Select score: 0.7178
+    Score gap:   0.1872
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       rock
+    Track:       Glad You Came
+    Relevance:   0.8431
+    Redundancy:  0.7631
+    Select score: 0.6523
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4619
+    Select score: 0.6023
+    Score gap:   0.0501
+    Approx required weight: 0.4162
+
+Position 3
+  CHOSEN
+    Genre:       rock
+    Track:       Pompeii
+    Relevance:   0.8378
+    Redundancy:  0.7574
+    Select score: 0.6484
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4626
+    Select score: 0.6021
+    Score gap:   0.0463
+    Approx required weight: 0.4071
+
+Position 4
+  CHOSEN
+    Genre:       rock
+    Track:       Fight Song
+    Relevance:   0.8169
+    Redundancy:  0.6865
+    Select score: 0.6453
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4818
+    Select score: 0.5973
+    Score gap:   0.0480
+    Approx required weight: 0.4845
+
+Position 5
+  CHOSEN
+    Genre:       rock
+    Track:       Electric Love
+    Relevance:   0.8298
+    Redundancy:  0.7698
+    Select score: 0.6373
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4818
+    Select score: 0.5973
+    Score gap:   0.0401
+    Approx required weight: 0.3891
+
+Position 6
+  CHOSEN
+    Genre:       rock
+    Track:       Follow You
+    Relevance:   0.8411
+    Redundancy:  0.8200
+    Select score: 0.6361
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4821
+    Select score: 0.5972
+    Score gap:   0.0388
+    Approx required weight: 0.3650
+
+Position 7
+  CHOSEN
+    Genre:       rock
+    Track:       Everyday I Love You Less And Less
+    Relevance:   0.8178
+    Redundancy:  0.7282
+    Select score: 0.6357
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4821
+    Select score: 0.5972
+    Score gap:   0.0385
+    Approx required weight: 0.4064
+
+Position 8
+  CHOSEN
+    Genre:       rock
+    Track:       Bones
+    Relevance:   0.8771
+    Redundancy:  0.9698
+    Select score: 0.6346
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4821
+    Select score: 0.5972
+    Score gap:   0.0374
+    Approx required weight: 0.3267
+
+Position 9
+  CHOSEN
+    Genre:       rock
+    Track:       Stressed Out
+    Relevance:   0.8094
+    Redundancy:  0.7394
+    Select score: 0.6246
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4821
+    Select score: 0.5972
+    Score gap:   0.0273
+    Approx required weight: 0.3562
+
+Position 10
+  CHOSEN
+    Genre:       rock
+    Track:       Superheroes
+    Relevance:   0.8160
+    Redundancy:  0.7810
+    Select score: 0.6208
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       Quevedo: Bzrp Music Sessions, Vol. 52
+    Relevance:   0.7178
+    Redundancy:  0.4821
+    Select score: 0.5972
+    Score gap:   0.0236
+    Approx required weight: 0.3289
+
+====================================================================================================
+Context: hip-hop
+Primary genre: hip-hop
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Dil Nu
+    Relevance:   0.9161
+    Redundancy:  0.0000
+    Select score: 0.9161
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.0000
+    Select score: 0.7035
+    Score gap:   0.2126
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Offshore
+    Relevance:   0.8809
+    Redundancy:  0.6512
+    Select score: 0.7182
+  BEST ALTERNATIVE
+    Genre:       pop-film
+    Track:       Chauffeur JBEE Remix (feat. Tory Lanez)
+    Relevance:   0.6822
+    Redundancy:  0.3853
+    Select score: 0.5859
+    Score gap:   0.1322
+    Approx required weight: 0.7475
+
+Position 3
+  CHOSEN
+    Genre:       hip-hop
+    Track:       INDUSTRY BABY (feat. Jack Harlow)
+    Relevance:   0.8832
+    Redundancy:  0.7719
+    Select score: 0.6902
+  BEST ALTERNATIVE
+    Genre:       pop-film
+    Track:       Chauffeur JBEE Remix (feat. Tory Lanez)
+    Relevance:   0.6822
+    Redundancy:  0.3853
+    Select score: 0.5859
+    Score gap:   0.1043
+    Approx required weight: 0.5197
+
+Position 4
+  CHOSEN
+    Genre:       hip-hop
+    Track:       SPACESHIP
+    Relevance:   0.8964
+    Redundancy:  0.8850
+    Select score: 0.6751
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4747
+    Select score: 0.5848
+    Score gap:   0.0903
+    Approx required weight: 0.4702
+
+Position 5
+  CHOSEN
+    Genre:       hip-hop
+    Track:       0 to 100
+    Relevance:   0.8598
+    Redundancy:  0.7810
+    Select score: 0.6646
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4747
+    Select score: 0.5848
+    Score gap:   0.0798
+    Approx required weight: 0.5104
+
+Position 6
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Dippam Dappam (From "Kaathuvaakula Rendu Kaadhal")
+    Relevance:   0.8562
+    Redundancy:  0.7824
+    Select score: 0.6606
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4747
+    Select score: 0.5848
+    Score gap:   0.0758
+    Approx required weight: 0.4963
+
+Position 7
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Goosebumps - Remix
+    Relevance:   0.8449
+    Redundancy:  0.7732
+    Select score: 0.6516
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4747
+    Select score: 0.5848
+    Score gap:   0.0668
+    Approx required weight: 0.4738
+
+Position 8
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Satisfya
+    Relevance:   0.8473
+    Redundancy:  0.7836
+    Select score: 0.6514
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4858
+    Select score: 0.5820
+    Score gap:   0.0693
+    Approx required weight: 0.4827
+
+Position 9
+  CHOSEN
+    Genre:       hip-hop
+    Track:       Summer High
+    Relevance:   0.8974
+    Redundancy:  0.9899
+    Select score: 0.6499
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4858
+    Select score: 0.5820
+    Score gap:   0.0679
+    Approx required weight: 0.3847
+
+Position 10
+  CHOSEN
+    Genre:       hip-hop
+    Track:       The Real Slim Shady
+    Relevance:   0.8331
+    Redundancy:  0.7787
+    Select score: 0.6384
+  BEST ALTERNATIVE
+    Genre:       latino
+    Track:       Yo No Soy Celoso
+    Relevance:   0.7035
+    Redundancy:  0.4858
+    Select score: 0.5820
+    Score gap:   0.0564
+    Approx required weight: 0.4424
+
+====================================================================================================
+Context: classical
+Primary genre: classical
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       classical
+    Track:       Zara Zara
+    Relevance:   0.8263
+    Redundancy:  0.0000
+    Select score: 0.8263
+  BEST ALTERNATIVE
+    Genre:       country
+    Track:       Man! I Feel Like A Woman!
+    Relevance:   0.6718
+    Redundancy:  0.0000
+    Select score: 0.6718
+    Score gap:   0.1545
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       classical
+    Track:       Govinda Govinda
+    Relevance:   0.7608
+    Redundancy:  0.6002
+    Select score: 0.6107
+  BEST ALTERNATIVE
+    Genre:       country
+    Track:       Man! I Feel Like A Woman!
+    Relevance:   0.6718
+    Redundancy:  0.3599
+    Select score: 0.5819
+    Score gap:   0.0289
+    Approx required weight: 0.3701
+
+Position 3
+  CHOSEN
+    Genre:       classical
+    Track:       Ondra Renda
+    Relevance:   0.8151
+    Redundancy:  0.8987
+    Select score: 0.5904
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.3938
+    Select score: 0.5585
+    Score gap:   0.0319
+    Approx required weight: 0.3132
+
+Position 4
+  CHOSEN
+    Genre:       classical
+    Track:       Kandha Sasti Kavasam
+    Relevance:   0.7698
+    Redundancy:  0.7519
+    Select score: 0.5818
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.3938
+    Select score: 0.5585
+    Score gap:   0.0233
+    Approx required weight: 0.3151
+
+Position 5
+  CHOSEN
+    Genre:       classical
+    Track:       Majhe Mahar Pandhari - Abhang 1977
+    Relevance:   0.7663
+    Redundancy:  0.7450
+    Select score: 0.5801
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.3938
+    Select score: 0.5585
+    Score gap:   0.0216
+    Approx required weight: 0.3115
+
+Position 6
+  CHOSEN
+    Genre:       classical
+    Track:       Ganesha Pancharathnam
+    Relevance:   0.7677
+    Redundancy:  0.7533
+    Select score: 0.5793
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.4050
+    Select score: 0.5557
+    Score gap:   0.0237
+    Approx required weight: 0.3179
+
+Position 7
+  CHOSEN
+    Genre:       classical
+    Track:       Mahisaasura Mardhini In Tamil - Language: Tamil; Genre: Amman-Durga
+    Relevance:   0.7589
+    Redundancy:  0.7462
+    Select score: 0.5724
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.4050
+    Select score: 0.5557
+    Score gap:   0.0167
+    Approx required weight: 0.2989
+
+Position 8
+  CHOSEN
+    Genre:       classical
+    Track:       Kaasikku Pogum
+    Relevance:   0.7677
+    Redundancy:  0.7845
+    Select score: 0.5716
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.4050
+    Select score: 0.5557
+    Score gap:   0.0159
+    Approx required weight: 0.2919
+
+Position 9
+  CHOSEN
+    Genre:       classical
+    Track:       Intimeeda Sukka Podise
+    Relevance:   0.7580
+    Redundancy:  0.7517
+    Select score: 0.5701
+  BEST ALTERNATIVE
+    Genre:       soul
+    Track:       Pink + White
+    Relevance:   0.6569
+    Redundancy:  0.4050
+    Select score: 0.5557
+    Score gap:   0.0144
+    Approx required weight: 0.2915
+
+Position 10
+  CHOSEN
+    Genre:       classical
+    Track:       Ee Hasiru Siriyali
+    Relevance:   0.7529
+    Redundancy:  0.7432
+    Select score: 0.5671
+  BEST ALTERNATIVE
+    Genre:       country
+    Track:       Man! I Feel Like A Woman!
+    Relevance:   0.6718
+    Redundancy:  0.4685
+    Select score: 0.5547
+    Score gap:   0.0124
+    Approx required weight: 0.2952
+
+====================================================================================================
+Context: country
+Primary genre: country
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       country
+    Track:       Where We Started
+    Relevance:   0.8998
+    Redundancy:  0.0000
+    Select score: 0.8998
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.0000
+    Select score: 0.7430
+    Score gap:   0.1568
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       country
+    Track:       Buy Dirt
+    Relevance:   0.8648
+    Redundancy:  0.7031
+    Select score: 0.6890
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4121
+    Select score: 0.6400
+    Score gap:   0.0491
+    Approx required weight: 0.4187
+
+Position 3
+  CHOSEN
+    Genre:       country
+    Track:       You
+    Relevance:   0.8670
+    Redundancy:  0.7205
+    Select score: 0.6868
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4121
+    Select score: 0.6400
+    Score gap:   0.0469
+    Approx required weight: 0.4020
+
+Position 4
+  CHOSEN
+    Genre:       country
+    Track:       Forever After All
+    Relevance:   0.8562
+    Redundancy:  0.7555
+    Select score: 0.6673
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4652
+    Select score: 0.6267
+    Score gap:   0.0407
+    Approx required weight: 0.3902
+
+Position 5
+  CHOSEN
+    Genre:       country
+    Track:       In Case You Didn't Know
+    Relevance:   0.8552
+    Redundancy:  0.7703
+    Select score: 0.6626
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0366
+    Approx required weight: 0.3712
+
+Position 6
+  CHOSEN
+    Genre:       country
+    Track:       Play It Again
+    Relevance:   0.8518
+    Redundancy:  0.8291
+    Select score: 0.6445
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0186
+    Approx required weight: 0.3014
+
+Position 7
+  CHOSEN
+    Genre:       country
+    Track:       I Got the Boy
+    Relevance:   0.8397
+    Redundancy:  0.7811
+    Select score: 0.6444
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0184
+    Approx required weight: 0.3089
+
+Position 8
+  CHOSEN
+    Genre:       country
+    Track:       You're Still The One - Remixed/Remastered 2004
+    Relevance:   0.8376
+    Redundancy:  0.7809
+    Select score: 0.6423
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0164
+    Approx required weight: 0.3024
+
+Position 9
+  CHOSEN
+    Genre:       country
+    Track:       Hotel California - 2013 Remaster
+    Relevance:   0.8272
+    Redundancy:  0.7584
+    Select score: 0.6376
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0117
+    Approx required weight: 0.2902
+
+Position 10
+  CHOSEN
+    Genre:       country
+    Track:       Speechless
+    Relevance:   0.8570
+    Redundancy:  0.8980
+    Select score: 0.6325
+  BEST ALTERNATIVE
+    Genre:       hip-hop
+    Track:       STAY (with Justin Bieber)
+    Relevance:   0.7430
+    Redundancy:  0.4680
+    Select score: 0.6260
+    Score gap:   0.0065
+    Approx required weight: 0.2652
+
+====================================================================================================
+Context: electronic
+Primary genre: electronic
+Candidate pool: 500
+Exploration level: 1.00
+Current diversity weight: 0.25
+----------------------------------------------------------------------------------------------------
+
+Position 1
+  CHOSEN
+    Genre:       electronic
+    Track:       Deep (with DJ Snake & Yung Felix)
+    Relevance:   0.8805
+    Redundancy:  0.0000
+    Select score: 0.8805
+  BEST ALTERNATIVE
+    Genre:       edm
+    Track:       Loco Contigo (feat. J. Balvin & Tyga)
+    Relevance:   0.7328
+    Redundancy:  0.0000
+    Select score: 0.7328
+    Score gap:   0.1476
+    Required weight: not reachable through redundancy advantage
+
+Position 2
+  CHOSEN
+    Genre:       electronic
+    Track:       Taqat
+    Relevance:   0.8678
+    Redundancy:  0.7605
+    Select score: 0.6776
+  BEST ALTERNATIVE
+    Genre:       pop
+    Track:       Starboy
+    Relevance:   0.7136
+    Redundancy:  0.3935
+    Select score: 0.6153
+    Score gap:   0.0624
+    Approx required weight: 0.4199
+
+Position 3
+  CHOSEN
+    Genre:       electronic
+    Track:       JUMANJI (feat. CANCUN?)
+    Relevance:   0.8310
+    Redundancy:  0.7435
+    Select score: 0.6451
+  BEST ALTERNATIVE
+    Genre:       pop
+    Track:       Starboy
+    Relevance:   0.7136
+    Redundancy:  0.4498
+    Select score: 0.6012
+    Score gap:   0.0439
+    Approx required weight: 0.3994
+
+Position 4
+  CHOSEN
+    Genre:       electronic
+    Track:       Overnight
+    Relevance:   0.8235
+    Redundancy:  0.7830
+    Select score: 0.6278
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4680
+    Select score: 0.6006
+    Score gap:   0.0272
+    Approx required weight: 0.3363
+
+Position 5
+  CHOSEN
+    Genre:       electronic
+    Track:       The Buzz
+    Relevance:   0.8176
+    Redundancy:  0.7696
+    Select score: 0.6252
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4710
+    Select score: 0.5998
+    Score gap:   0.0254
+    Approx required weight: 0.3349
+
+Position 6
+  CHOSEN
+    Genre:       electronic
+    Track:       Mase in '97
+    Relevance:   0.8162
+    Redundancy:  0.7737
+    Select score: 0.6228
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4710
+    Select score: 0.5998
+    Score gap:   0.0230
+    Approx required weight: 0.3259
+
+Position 7
+  CHOSEN
+    Genre:       electronic
+    Track:       Pop Off
+    Relevance:   0.8082
+    Redundancy:  0.7820
+    Select score: 0.6127
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4710
+    Select score: 0.5998
+    Score gap:   0.0129
+    Approx required weight: 0.2914
+
+Position 8
+  CHOSEN
+    Genre:       electronic
+    Track:       Dum Dee Dum
+    Relevance:   0.8029
+    Redundancy:  0.7633
+    Select score: 0.6120
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4710
+    Select score: 0.5998
+    Score gap:   0.0122
+    Approx required weight: 0.2918
+
+Position 9
+  CHOSEN
+    Genre:       electronic
+    Track:       Nabz
+    Relevance:   0.8088
+    Redundancy:  0.7884
+    Select score: 0.6117
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4710
+    Select score: 0.5998
+    Score gap:   0.0119
+    Approx required weight: 0.2876
+
+Position 10
+  CHOSEN
+    Genre:       electronic
+    Track:       DAMN - Bonus Track
+    Relevance:   0.8020
+    Redundancy:  0.7790
+    Select score: 0.6072
+  BEST ALTERNATIVE
+    Genre:       dance
+    Track:       Vegas (From the Original Motion Picture Soundtrack ELVIS)
+    Relevance:   0.7176
+    Redundancy:  0.4781
+    Select score: 0.5980
+    Score gap:   0.0092
+    Approx required weight: 0.2805

@@ -1,0 +1,161 @@
+﻿NextTrack Exploration Response Diagnostic
+========================================================================
+
+========================================================================
+Context: acoustic
+Distinct ranked lists: 4/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 6/10
+  Jaccard similarity: 0.4286
+  Same recommendation set: False
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: True
+0.50 -> 0.75
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.75 -> 1.00
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+
+========================================================================
+Context: rock
+Distinct ranked lists: 5/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.50 -> 0.75
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.75 -> 1.00
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+
+========================================================================
+Context: hip-hop
+Distinct ranked lists: 5/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.50 -> 0.75
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.75 -> 1.00
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+
+========================================================================
+Context: classical
+Distinct ranked lists: 5/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.50 -> 0.75
+  Track overlap: 8/10
+  Jaccard similarity: 0.6667
+  Same recommendation set: False
+  Same ranking: False
+0.75 -> 1.00
+  Track overlap: 7/10
+  Jaccard similarity: 0.5385
+  Same recommendation set: False
+  Same ranking: False
+
+========================================================================
+Context: country
+Distinct ranked lists: 5/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.50 -> 0.75
+  Track overlap: 9/10
+  Jaccard similarity: 0.8182
+  Same recommendation set: False
+  Same ranking: False
+0.75 -> 1.00
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+
+========================================================================
+Context: electronic
+Distinct ranked lists: 4/5
+------------------------------------------------------------------------
+0.00 -> 0.25
+  Track overlap: 8/10
+  Jaccard similarity: 0.6667
+  Same recommendation set: False
+  Same ranking: False
+0.25 -> 0.50
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+0.50 -> 0.75
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: True
+0.75 -> 1.00
+  Track overlap: 10/10
+  Jaccard similarity: 1.0000
+  Same recommendation set: True
+  Same ranking: False
+
+========================================================================
+AGGREGATE RESPONSE
+------------------------------------------------------------------------
+Adjacent comparisons: 24
+Mean track overlap: 0.9167
+Mean Jaccard similarity: 0.8610
+Identical recommendation sets: 11/24
+Identical ranked lists: 2/24
