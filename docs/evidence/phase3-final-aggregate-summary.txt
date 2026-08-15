@@ -1,0 +1,43 @@
+﻿NextTrack Phase 3 Aggregate Preference Evaluation
+========================================================================================================
+EXPERIMENT COVERAGE
+--------------------------------------------------------------------------------------------------------
+Preference strengths evaluated: 5
+Genre-only scenarios: 3
+Artist-only scenarios: 3
+Combined scenarios: 3
+Total evaluated conditions: 45
+
+AGGREGATE RESULTS BY PREFERENCE STRENGTH
+--------------------------------------------------------------------------------------------------------
+Strength  Genre Hit   Artist Hit  Comb Genre  Comb Artist  Comb Exact  Genre Audio  Artist Audio  Comb Audio  
+--------------------------------------------------------------------------------------------------------
+0.00      0.0000      0.0000      0.0000      0.0000       0.0000      0.9240       0.9240        0.9240      
+0.25      0.0333      0.0000      0.0000      0.0000       0.0000      0.9259       0.9245        0.9245      
+0.50      0.3667      0.0667      0.1000      0.0333       0.0333      0.9319       0.9269        0.9290      
+0.75      0.8667      0.3333      0.3667      0.0667       0.0667      0.9040       0.9218        0.9371      
+1.00      1.0000      0.5667      0.8667      0.3000       0.3000      0.8947       0.9003        0.8955      
+
+KEY FINDINGS
+--------------------------------------------------------------------------------------------------------
+1. Genre-only preferences show a clear increase in influence as preference strength rises.
+   Mean genre hit rate: 0.0000 at strength 0.00 -> 1.0000 at strength 1.00.
+
+2. Artist-only preferences also become more influential, but the response is more dependent on contextual compatibility.
+   Mean artist hit rate: 0.0000 at strength 0.00 -> 0.5667 at strength 1.00.
+
+3. Combined preferences increasingly favour the requested genre while exact genre-and-artist matches remain more selective.
+   Combined genre hit rate at strength 1.00: 0.8667
+   Combined artist hit rate at strength 1.00: 0.3000
+   Exact combined hit rate at strength 1.00: 0.3000
+
+4. The refined 20% preference weighting provides separation between medium and high preference strengths.
+   Genre-only hit rate: 0.3667 at 0.50 -> 0.8667 at 0.75 -> 1.0000 at 1.00.
+
+5. Contextual audio similarity remains strong even at maximum preference strength.
+   Genre-only audio similarity at 1.00: 0.8947
+   Artist-only audio similarity at 1.00: 0.9003
+   Combined audio similarity at 1.00: 0.8955
+
+========================================================================================================
+Aggregate CSV saved to: docs\evidence\phase3-final-aggregate-results.csv

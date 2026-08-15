@@ -1,0 +1,35 @@
+﻿NextTrack Phase 3 Artist Preference Diagnostic
+================================================================================
+================================================================================
+Acoustic -> Bryan Adams
+Preferred artist: Bryan Adams
+--------------------------------------------------------------------------------
+Candidate tracks: 61
+Mean audio similarity: 0.6205
+Maximum audio similarity: 0.8981
+Mean contextual relevance: 0.3976
+Maximum contextual relevance: 0.6376
+Best contextual rank: 830
+Tracks in contextual top 100: 0
+================================================================================
+Rock -> Miranda!
+Preferred artist: Miranda!
+--------------------------------------------------------------------------------
+Candidate tracks: 43
+Mean audio similarity: 0.7293
+Maximum audio similarity: 0.9336
+Mean contextual relevance: 0.4949
+Maximum contextual relevance: 0.6201
+Best contextual rank: 1537
+Tracks in contextual top 100: 0
+================================================================================
+Hip-hop -> Kacey Musgraves
+Preferred artist: Kacey Musgraves
+--------------------------------------------------------------------------------
+Candidate tracks: 62
+Mean audio similarity: 0.5442
+Maximum audio similarity: 0.8041
+Mean contextual relevance: 0.3299
+Maximum contextual relevance: 0.5597
+Best contextual rank: 7103
+Tracks in contextual top 100: 0

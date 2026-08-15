@@ -1,0 +1,128 @@
+﻿NextTrack Phase 3 Artist Preference Sensitivity Evaluation
+================================================================================
+================================================================================
+Acoustic context -> Rock artist preference
+Target genre used for artist selection: rock
+Selected preferred artist: Bryan Adams
+Artist tracks in target genre: 47
+Recent tracks: ['5SuOikwiRyPMVoIQDJUgSV', '4qPNDBW1i3p13qLCt0Ki3A', '1iJBSr7s7jYXzM8EGcbK5b']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.9366
+  Genre diversity: 0.10
+  Artist diversity: 1.00
+  Mean popularity: 57.40
+
+Preference strength: 0.25
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.9366
+  Genre diversity: 0.10
+  Artist diversity: 1.00
+  Mean popularity: 57.40
+
+Preference strength: 0.50
+  Artist preference hit rate: 0.10
+  Audio similarity: 0.9363
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 57.50
+
+Preference strength: 0.75
+  Artist preference hit rate: 0.30
+  Audio similarity: 0.9259
+  Genre diversity: 0.30
+  Artist diversity: 0.93
+  Mean popularity: 59.80
+
+Preference strength: 1.00
+  Artist preference hit rate: 0.70
+  Audio similarity: 0.8701
+  Genre diversity: 0.60
+  Artist diversity: 0.53
+  Mean popularity: 55.80
+================================================================================
+Rock context -> Electronic artist preference
+Target genre used for artist selection: electronic
+Selected preferred artist: Miranda!
+Artist tracks in target genre: 43
+Recent tracks: ['7DbdUf8aHSYoliSjO6LZv6', '1zB4vmk8tFRmM9UULNzbLB', '0pqnGHJpmpxLKifKRmU6WP']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.8940
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 79.10
+
+Preference strength: 0.25
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.8940
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 79.10
+
+Preference strength: 0.50
+  Artist preference hit rate: 0.10
+  Audio similarity: 0.9015
+  Genre diversity: 0.30
+  Artist diversity: 1.00
+  Mean popularity: 75.30
+
+Preference strength: 0.75
+  Artist preference hit rate: 0.60
+  Audio similarity: 0.9098
+  Genre diversity: 0.20
+  Artist diversity: 0.67
+  Mean popularity: 56.90
+
+Preference strength: 1.00
+  Artist preference hit rate: 0.90
+  Audio similarity: 0.9010
+  Genre diversity: 0.20
+  Artist diversity: 0.20
+  Mean popularity: 45.10
+================================================================================
+Hip-hop context -> Country artist preference
+Target genre used for artist selection: country
+Selected preferred artist: Kacey Musgraves
+Artist tracks in target genre: 62
+Recent tracks: ['1aL9518P5G72N92b48tuKw', '08Isz2ETWSBhvIl8UpKYsp', '42TMa2hgBNjte4uV7jNCnQ']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.9414
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 72.40
+
+Preference strength: 0.25
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.9430
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 73.60
+
+Preference strength: 0.50
+  Artist preference hit rate: 0.00
+  Audio similarity: 0.9430
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 73.60
+
+Preference strength: 0.75
+  Artist preference hit rate: 0.10
+  Audio similarity: 0.9298
+  Genre diversity: 0.20
+  Artist diversity: 0.98
+  Mean popularity: 72.30
+
+Preference strength: 1.00
+  Artist preference hit rate: 0.10
+  Audio similarity: 0.9298
+  Genre diversity: 0.20
+  Artist diversity: 0.98
+  Mean popularity: 72.30

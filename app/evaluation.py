@@ -136,3 +136,74 @@ def calculate_mean_popularity(
             for track in recommendations
         ])
     )
+
+def calculate_genre_preference_hit_rate(
+    recommendations: list[dict],
+    preferred_genres: list[str],
+) -> float:
+    """
+    Return the proportion of recommendations whose genre
+    matches one of the supplied preferred genres.
+    """
+    if not recommendations or not preferred_genres:
+        return 0.0
+
+    normalized_preferences = {
+        str(genre).strip().lower()
+        for genre in preferred_genres
+        if str(genre).strip()
+    }
+
+    if not normalized_preferences:
+        return 0.0
+
+    matches = sum(
+        1
+        for track in recommendations
+        if str(
+            track["track_genre"]
+        ).strip().lower()
+        in normalized_preferences
+    )
+
+    return matches / len(recommendations)
+
+
+def calculate_artist_preference_hit_rate(
+    recommendations: list[dict],
+    preferred_artists: list[str],
+) -> float:
+    """
+    Return the proportion of recommendations containing
+    at least one preferred artist.
+    """
+    if not recommendations or not preferred_artists:
+        return 0.0
+
+    normalized_preferences = {
+        str(artist).strip().lower()
+        for artist in preferred_artists
+        if str(artist).strip()
+    }
+
+    if not normalized_preferences:
+        return 0.0
+
+    matches = 0
+
+    for track in recommendations:
+        candidate_artists = {
+            artist.strip().lower()
+            for artist in str(
+                track["artists"]
+            ).split(";")
+            if artist.strip()
+        }
+
+        if (
+            candidate_artists
+            & normalized_preferences
+        ):
+            matches += 1
+
+    return matches / len(recommendations)

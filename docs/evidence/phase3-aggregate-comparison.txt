@@ -1,0 +1,59 @@
+﻿NextTrack Phase 3 Aggregate Preference Evaluation
+========================================================================
+Scenarios evaluated: 3
+Preference strengths: 5
+Conditions per configuration: 15
+
+INITIAL CONFIGURATION (35% MAXIMUM PREFERENCE WEIGHT)
+------------------------------------------------------------------------
+Strength 0.00
+  Mean preference hit rate: 0.0000
+  Mean audio similarity:    0.9240
+Strength 0.25
+  Mean preference hit rate: 0.3000
+  Mean audio similarity:    0.9365
+Strength 0.50
+  Mean preference hit rate: 0.9667
+  Mean audio similarity:    0.8958
+Strength 0.75
+  Mean preference hit rate: 1.0000
+  Mean audio similarity:    0.8947
+Strength 1.00
+  Mean preference hit rate: 1.0000
+  Mean audio similarity:    0.8986
+
+REFINED CONFIGURATION (20% MAXIMUM PREFERENCE WEIGHT)
+------------------------------------------------------------------------
+Strength 0.00
+  Mean preference hit rate: 0.0000
+  Mean audio similarity:    0.9240
+Strength 0.25
+  Mean preference hit rate: 0.0333
+  Mean audio similarity:    0.9259
+Strength 0.50
+  Mean preference hit rate: 0.3667
+  Mean audio similarity:    0.9319
+Strength 0.75
+  Mean preference hit rate: 0.8667
+  Mean audio similarity:    0.9040
+Strength 1.00
+  Mean preference hit rate: 1.0000
+  Mean audio similarity:    0.8947
+
+INITIAL VS REFINED COMPARISON
+------------------------------------------------------------------------
+Strength    35% Hit     20% Hit     35% Audio     20% Audio     
+0.00        0.0000      0.0000      0.9240        0.9240        
+0.25        0.3000      0.0333      0.9365        0.9259        
+0.50        0.9667      0.3667      0.8958        0.9319        
+0.75        1.0000      0.8667      0.8947        0.9040        
+1.00        1.0000      1.0000      0.8986        0.8947        
+
+KEY FINDINGS
+------------------------------------------------------------------------
+Initial 35% weighting reached a mean preference hit rate of 0.9667 at strength 0.50.
+Refined 20% weighting reached a mean preference hit rate of 0.3667 at strength 0.50.
+At strength 0.75, the refined configuration reached a mean hit rate of 0.8667.
+At strength 1.00, the refined configuration reached a mean hit rate of 1.0000.
+The refined configuration therefore provides greater separation between medium and high preference strengths.
+Mean audio similarity remained high throughout the refined configuration.

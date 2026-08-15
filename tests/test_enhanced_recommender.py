@@ -133,3 +133,57 @@ def test_enhanced_exploration_changes_results():
     )
 
     assert low != high
+
+def test_no_preferences_preserve_phase2_results():
+    phase2_results = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+    )
+
+    no_preference_results = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+        preferred_genres=[],
+        preferred_artists=[],
+        preference_strength=1.0,
+    )
+
+    assert no_preference_results == phase2_results
+
+
+def test_zero_preference_strength_preserves_phase2_results():
+    phase2_results = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+    )
+
+    zero_strength_results = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+        preferred_genres=["rock", "pop"],
+        preferred_artists=["Adele"],
+        preference_strength=0.0,
+    )
+
+    assert zero_strength_results == phase2_results
+
+def test_active_preferences_change_recommendations():
+    without_preferences = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+    )
+
+    with_preferences = recommend_tracks_enhanced(
+        RECENT_TRACKS,
+        exploration_level=0.3,
+        limit=10,
+        preferred_genres=["rock"],
+        preference_strength=1.0,
+    )
+
+    assert with_preferences != without_preferences

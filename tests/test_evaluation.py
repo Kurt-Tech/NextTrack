@@ -1,6 +1,8 @@
 from app.evaluation import (
     calculate_artist_diversity,
+    calculate_artist_preference_hit_rate,
     calculate_genre_diversity,
+    calculate_genre_preference_hit_rate,
     calculate_mean_audio_similarity,
     calculate_mean_popularity,
 )
@@ -12,6 +14,100 @@ RECENT_TRACKS = [
     "4qPNDBW1i3p13qLCt0Ki3A",
     "1iJBSr7s7jYXzM8EGcbK5b",
 ]
+
+def test_genre_preference_hit_rate():
+    recommendations = [
+        {
+            "track_genre": "rock",
+            "artists": "Artist A",
+        },
+        {
+            "track_genre": "pop",
+            "artists": "Artist B",
+        },
+        {
+            "track_genre": "rock",
+            "artists": "Artist C",
+        },
+        {
+            "track_genre": "jazz",
+            "artists": "Artist D",
+        },
+    ]
+
+    hit_rate = (
+        calculate_genre_preference_hit_rate(
+            recommendations,
+            ["rock"],
+        )
+    )
+
+    assert hit_rate == 0.5
+
+
+def test_genre_preference_hit_rate_is_case_insensitive():
+    recommendations = [
+        {
+            "track_genre": "Rock",
+            "artists": "Artist A",
+        },
+    ]
+
+    hit_rate = (
+        calculate_genre_preference_hit_rate(
+            recommendations,
+            ["ROCK"],
+        )
+    )
+
+    assert hit_rate == 1.0
+
+
+def test_artist_preference_hit_rate():
+    recommendations = [
+        {
+            "track_genre": "rock",
+            "artists": "Artist A;Artist B",
+        },
+        {
+            "track_genre": "pop",
+            "artists": "Artist C",
+        },
+    ]
+
+    hit_rate = (
+        calculate_artist_preference_hit_rate(
+            recommendations,
+            ["Artist B"],
+        )
+    )
+
+    assert hit_rate == 0.5
+
+
+def test_empty_preferences_return_zero_hit_rate():
+    recommendations = [
+        {
+            "track_genre": "rock",
+            "artists": "Artist A",
+        },
+    ]
+
+    assert (
+        calculate_genre_preference_hit_rate(
+            recommendations,
+            [],
+        )
+        == 0.0
+    )
+
+    assert (
+        calculate_artist_preference_hit_rate(
+            recommendations,
+            [],
+        )
+        == 0.0
+    )
 
 
 def test_mean_audio_similarity_is_valid():
