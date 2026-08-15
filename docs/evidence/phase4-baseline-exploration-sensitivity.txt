@@ -1,0 +1,236 @@
+﻿NextTrack Multi-Context Evaluation
+================================================================================
+
+================================================================================
+Context genre: acoustic
+Seed tracks: ['5SuOikwiRyPMVoIQDJUgSV', '4qPNDBW1i3p13qLCt0Ki3A', '1iJBSr7s7jYXzM8EGcbK5b']
+
+Exploration: 0.0
+  Audio similarity: 0.5746 -> 0.9233
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.67 -> 0.84
+  Mean popularity: 60.80 -> 56.90
+  Runtime: 274.18 ms -> 359.31 ms
+
+Exploration: 0.25
+  Audio similarity: 0.4987 -> 0.9359
+  Genre diversity: 0.40 -> 0.10
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 81.70 -> 55.40
+  Runtime: 256.75 ms -> 286.04 ms
+
+Exploration: 0.5
+  Audio similarity: 0.4389 -> 0.9507
+  Genre diversity: 0.90 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 74.40
+  Runtime: 252.82 ms -> 267.29 ms
+
+Exploration: 0.75
+  Audio similarity: 0.4561 -> 0.9485
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 75.90
+  Runtime: 249.07 ms -> 300.22 ms
+
+Exploration: 1.0
+  Audio similarity: 0.4358 -> 0.9485
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 75.90
+  Runtime: 233.96 ms -> 272.79 ms
+
+================================================================================
+Context genre: rock
+Seed tracks: ['7DbdUf8aHSYoliSjO6LZv6', '1zB4vmk8tFRmM9UULNzbLB', '0pqnGHJpmpxLKifKRmU6WP']
+
+Exploration: 0.0
+  Audio similarity: 0.6877 -> 0.8736
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.00 -> 0.87
+  Mean popularity: 82.90 -> 77.50
+  Runtime: 226.83 ms -> 312.09 ms
+
+Exploration: 0.25
+  Audio similarity: 0.6597 -> 0.8814
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.67 -> 0.98
+  Mean popularity: 84.80 -> 78.10
+  Runtime: 237.14 ms -> 275.09 ms
+
+Exploration: 0.5
+  Audio similarity: 0.6743 -> 0.9413
+  Genre diversity: 0.90 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 82.70
+  Runtime: 238.35 ms -> 266.47 ms
+
+Exploration: 0.75
+  Audio similarity: 0.6502 -> 0.9457
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 81.80
+  Runtime: 252.24 ms -> 319.19 ms
+
+Exploration: 1.0
+  Audio similarity: 0.6502 -> 0.9457
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 81.80
+  Runtime: 254.86 ms -> 283.22 ms
+
+================================================================================
+Context genre: hip-hop
+Seed tracks: ['1aL9518P5G72N92b48tuKw', '08Isz2ETWSBhvIl8UpKYsp', '42TMa2hgBNjte4uV7jNCnQ']
+
+Exploration: 0.0
+  Audio similarity: 0.7180 -> 0.9291
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.51 -> 0.80
+  Mean popularity: 78.50 -> 73.00
+  Runtime: 246.42 ms -> 299.32 ms
+
+Exploration: 0.25
+  Audio similarity: 0.7249 -> 0.9414
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 1.00 -> 0.98
+  Mean popularity: 88.40 -> 72.40
+  Runtime: 236.82 ms -> 283.89 ms
+
+Exploration: 0.5
+  Audio similarity: 0.6171 -> 0.9610
+  Genre diversity: 0.90 -> 0.80
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 79.50
+  Runtime: 261.38 ms -> 278.94 ms
+
+Exploration: 0.75
+  Audio similarity: 0.6010 -> 0.9608
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.00 -> 79.50
+  Runtime: 243.33 ms -> 286.31 ms
+
+Exploration: 1.0
+  Audio similarity: 0.6010 -> 0.9608
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.00 -> 79.50
+  Runtime: 239.91 ms -> 267.59 ms
+
+================================================================================
+Context genre: classical
+Seed tracks: ['7wrYBASu0OoxoDErd4Edxd', '72HdutlIHBZJ7WT1xVAAZT', '7JGgKHHDgJCJkQCQxyHHdl']
+
+Exploration: 0.0
+  Audio similarity: 0.6253 -> 0.8317
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.53 -> 0.67
+  Mean popularity: 60.60 -> 46.80
+  Runtime: 244.45 ms -> 252.55 ms
+
+Exploration: 0.25
+  Audio similarity: 0.5359 -> 0.8876
+  Genre diversity: 0.60 -> 0.10
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 83.70 -> 36.60
+  Runtime: 251.96 ms -> 296.10 ms
+
+Exploration: 0.5
+  Audio similarity: 0.5272 -> 0.9240
+  Genre diversity: 0.90 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 67.90
+  Runtime: 246.63 ms -> 300.04 ms
+
+Exploration: 0.75
+  Audio similarity: 0.5225 -> 0.9240
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 67.90
+  Runtime: 248.35 ms -> 282.70 ms
+
+Exploration: 1.0
+  Audio similarity: 0.5225 -> 0.9240
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 67.90
+  Runtime: 291.32 ms -> 276.59 ms
+
+================================================================================
+Context genre: country
+Seed tracks: ['2wrJq5XKLnmhRXHIAf9xBa', '6AHJTA1BN7ePfChCwqph3z', '5eUtyONoPyfZYGrFHmZzlc']
+
+Exploration: 0.0
+  Audio similarity: 0.7437 -> 0.8889
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.51 -> 0.93
+  Mean popularity: 71.40 -> 69.70
+  Runtime: 249.80 ms -> 294.64 ms
+
+Exploration: 0.25
+  Audio similarity: 0.6764 -> 0.9102
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 82.40 -> 70.70
+  Runtime: 238.32 ms -> 290.80 ms
+
+Exploration: 0.5
+  Audio similarity: 0.6790 -> 0.9506
+  Genre diversity: 0.90 -> 0.80
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 75.70
+  Runtime: 247.24 ms -> 273.27 ms
+
+Exploration: 0.75
+  Audio similarity: 0.6728 -> 0.9579
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 73.10
+  Runtime: 266.70 ms -> 277.27 ms
+
+Exploration: 1.0
+  Audio similarity: 0.6728 -> 0.9579
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 73.10
+  Runtime: 267.78 ms -> 269.36 ms
+
+================================================================================
+Context genre: electronic
+Seed tracks: ['57kR5SniQIbsbVoIjjOUDa', '5SpGYwR8nzi9eMaHL5Ucyq', '7GlCU1ImbOyED4BW6H1TSH']
+
+Exploration: 0.0
+  Audio similarity: 0.6777 -> 0.9081
+  Genre diversity: 0.10 -> 0.10
+  Artist diversity: 0.00 -> 0.93
+  Mean popularity: 58.80 -> 51.60
+  Runtime: 262.59 ms -> 265.47 ms
+
+Exploration: 0.25
+  Audio similarity: 0.5525 -> 0.9310
+  Genre diversity: 0.60 -> 0.10
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 84.10 -> 51.50
+  Runtime: 231.16 ms -> 265.01 ms
+
+Exploration: 0.5
+  Audio similarity: 0.5789 -> 0.9635
+  Genre diversity: 0.90 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 95.70 -> 80.00
+  Runtime: 244.53 ms -> 275.64 ms
+
+Exploration: 0.75
+  Audio similarity: 0.5788 -> 0.9622
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 82.40
+  Runtime: 247.85 ms -> 282.06 ms
+
+Exploration: 1.0
+  Audio similarity: 0.5788 -> 0.9622
+  Genre diversity: 1.00 -> 1.00
+  Artist diversity: 1.00 -> 1.00
+  Mean popularity: 94.90 -> 82.40
+  Runtime: 217.22 ms -> 275.59 ms

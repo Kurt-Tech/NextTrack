@@ -1,0 +1,342 @@
+﻿NextTrack Phase 4 Candidate Pool Diagnostic
+========================================================================================
+
+========================================================================================
+Context: acoustic
+Primary genre: acoustic
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 1
+  Primary genre tracks: 100/100 (100.0%)
+  Most common genres:
+    acoustic             100
+  No alternative genres in this pool.
+
+Pool size: 250
+  Unique genres: 1
+  Primary genre tracks: 250/250 (100.0%)
+  Most common genres:
+    acoustic             250
+  No alternative genres in this pool.
+
+Pool size: 500
+  Unique genres: 18
+  Primary genre tracks: 471/500 (94.2%)
+  Most common genres:
+    acoustic             471
+    garage               3
+    hard-rock            3
+    indie-pop            3
+    pop                  2
+    singer-songwriter    2
+
+Pool size: 1000
+  Unique genres: 66
+  Primary genre tracks: 575/1000 (57.5%)
+  Most common genres:
+    acoustic             575
+    chill                27
+    singer-songwriter    23
+    pop-film             21
+    british              19
+    folk                 16
+
+Pool size: 2000
+  Unique genres: 85
+  Primary genre tracks: 624/2000 (31.2%)
+  Most common genres:
+    acoustic             624
+    chill                76
+    mandopop             67
+    indian               60
+    folk                 59
+    singer-songwriter    59
+
+========================================================================================
+Context: rock
+Primary genre: rock
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 8
+  Primary genre tracks: 91/100 (91.0%)
+  Most common genres:
+    rock                 91
+    k-pop                2
+    j-pop                2
+    hip-hop              1
+    piano                1
+    pop-film             1
+
+Pool size: 250
+  Unique genres: 43
+  Primary genre tracks: 111/250 (44.4%)
+  Most common genres:
+    rock                 111
+    k-pop                23
+    edm                  17
+    dance                9
+    alt-rock             8
+    spanish              7
+
+Pool size: 500
+  Unique genres: 59
+  Primary genre tracks: 123/500 (24.6%)
+  Most common genres:
+    rock                 123
+    k-pop                53
+    edm                  32
+    dance                22
+    hip-hop              21
+    alt-rock             19
+
+Pool size: 1000
+  Unique genres: 78
+  Primary genre tracks: 135/1000 (13.5%)
+  Most common genres:
+    rock                 135
+    k-pop                90
+    edm                  55
+    dance                39
+    alt-rock             37
+    progressive-house    37
+
+Pool size: 2000
+  Unique genres: 92
+  Primary genre tracks: 145/2000 (7.2%)
+  Most common genres:
+    rock                 145
+    k-pop                138
+    progressive-house    92
+    edm                  86
+    alt-rock             74
+    anime                68
+
+========================================================================================
+Context: hip-hop
+Primary genre: hip-hop
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 1
+  Primary genre tracks: 100/100 (100.0%)
+  Most common genres:
+    hip-hop              100
+  No alternative genres in this pool.
+
+Pool size: 250
+  Unique genres: 1
+  Primary genre tracks: 250/250 (100.0%)
+  Most common genres:
+    hip-hop              250
+  No alternative genres in this pool.
+
+Pool size: 500
+  Unique genres: 36
+  Primary genre tracks: 390/500 (78.0%)
+  Most common genres:
+    hip-hop              390
+    dance                17
+    chill                9
+    disco                9
+    latino               7
+    pop-film             6
+
+Pool size: 1000
+  Unique genres: 73
+  Primary genre tracks: 478/1000 (47.8%)
+  Most common genres:
+    hip-hop              478
+    dance                44
+    k-pop                31
+    disco                29
+    latino               23
+    chill                20
+
+Pool size: 2000
+  Unique genres: 89
+  Primary genre tracks: 567/2000 (28.3%)
+  Most common genres:
+    hip-hop              567
+    k-pop                75
+    disco                70
+    children             65
+    dance                59
+    pop-film             45
+
+========================================================================================
+Context: classical
+Primary genre: classical
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 7
+  Primary genre tracks: 94/100 (94.0%)
+  Most common genres:
+    classical            94
+    country              1
+    psych-rock           1
+    acoustic             1
+    pagode               1
+    pop-film             1
+
+Pool size: 250
+  Unique genres: 45
+  Primary genre tracks: 129/250 (51.6%)
+  Most common genres:
+    classical            129
+    pagode               18
+    pop-film             15
+    rock-n-roll          6
+    blues                6
+    k-pop                6
+
+Pool size: 500
+  Unique genres: 63
+  Primary genre tracks: 149/500 (29.8%)
+  Most common genres:
+    classical            149
+    pagode               56
+    pop-film             29
+    rock-n-roll          25
+    sertanejo            18
+    rockabilly           13
+
+Pool size: 1000
+  Unique genres: 75
+  Primary genre tracks: 166/1000 (16.6%)
+  Most common genres:
+    classical            166
+    pagode               119
+    rock-n-roll          58
+    sertanejo            44
+    pop-film             42
+    samba                30
+
+Pool size: 2000
+  Unique genres: 87
+  Primary genre tracks: 193/2000 (9.7%)
+  Most common genres:
+    pagode               251
+    classical            193
+    rock-n-roll          117
+    sertanejo            98
+    tango                88
+    samba                87
+
+========================================================================================
+Context: country
+Primary genre: country
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 2
+  Primary genre tracks: 98/100 (98.0%)
+  Most common genres:
+    country              98
+    hip-hop              2
+
+Pool size: 250
+  Unique genres: 12
+  Primary genre tracks: 230/250 (92.0%)
+  Most common genres:
+    country              230
+    dance                4
+    edm                  4
+    hip-hop              3
+    pop                  2
+    k-pop                1
+
+Pool size: 500
+  Unique genres: 50
+  Primary genre tracks: 333/500 (66.6%)
+  Most common genres:
+    country              333
+    k-pop                15
+    edm                  14
+    dance                13
+    pop                  9
+    alt-rock             8
+
+Pool size: 1000
+  Unique genres: 76
+  Primary genre tracks: 419/1000 (41.9%)
+  Most common genres:
+    country              419
+    dance                41
+    k-pop                37
+    edm                  31
+    alt-rock             28
+    mandopop             27
+
+Pool size: 2000
+  Unique genres: 92
+  Primary genre tracks: 515/2000 (25.8%)
+  Most common genres:
+    country              515
+    mandopop             73
+    k-pop                72
+    edm                  65
+    alt-rock             61
+    dance                59
+
+========================================================================================
+Context: electronic
+Primary genre: electronic
+----------------------------------------------------------------------------------------
+
+Pool size: 100
+  Unique genres: 6
+  Primary genre tracks: 95/100 (95.0%)
+  Most common genres:
+    electronic           95
+    edm                  1
+    dance                1
+    pop                  1
+    latino               1
+    latin                1
+
+Pool size: 250
+  Unique genres: 26
+  Primary genre tracks: 174/250 (69.6%)
+  Most common genres:
+    electronic           174
+    hip-hop              16
+    latino               15
+    dance                6
+    electro              5
+    emo                  5
+
+Pool size: 500
+  Unique genres: 42
+  Primary genre tracks: 231/500 (46.2%)
+  Most common genres:
+    electronic           231
+    hip-hop              46
+    emo                  24
+    latino               22
+    k-pop                19
+    dancehall            13
+
+Pool size: 1000
+  Unique genres: 69
+  Primary genre tracks: 305/1000 (30.5%)
+  Most common genres:
+    electronic           305
+    hip-hop              77
+    emo                  57
+    k-pop                44
+    latino               43
+    dancehall            28
+
+Pool size: 2000
+  Unique genres: 88
+  Primary genre tracks: 384/2000 (19.2%)
+  Most common genres:
+    electronic           384
+    hip-hop              114
+    emo                  101
+    k-pop                87
+    dancehall            80
+    funk                 75
