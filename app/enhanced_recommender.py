@@ -8,6 +8,11 @@ from app.audio_similarity import (
 )
 from app.metadata import get_track, load_tracks
 
+from app.preference_scoring import (
+    apply_preference_weight,
+    calculate_preference_score,
+)
+
 
 def _artist_names(artists: str) -> set[str]:
     return {
@@ -25,6 +30,9 @@ def recommend_tracks_enhanced(
     recent_tracks: list[str],
     exploration_level: float = 0.3,
     limit: int = 10,
+    preferred_genres: list[str] | None = None,
+    preferred_artists: list[str] | None = None,
+    preference_strength: float = 0.0,
 ) -> list[dict]:
     if limit < 1:
         raise ValueError("limit must be at least 1")
@@ -33,6 +41,31 @@ def recommend_tracks_enhanced(
         0.0,
         min(1.0, exploration_level),
     )
+
+    preference_strength = max(
+        0.0,
+        min(1.0, preference_strength),
+    )
+
+    has_genre_preferences = any(
+        str(genre).strip()
+        for genre in (preferred_genres or [])
+    )
+
+    has_artist_preferences = any(
+        str(artist).strip()
+        for artist in (preferred_artists or [])
+    )
+
+    has_preferences = (
+        has_genre_preferences
+        or has_artist_preferences
+    )
+
+    preference_active = (
+        has_preferences
+        and preference_strength > 0.0
+    )   
 
     df = load_tracks()
 
@@ -141,11 +174,49 @@ def recommend_tracks_enhanced(
         + 0.4 * (1 - candidates["artist_match"])
     )
 
-    candidates["relevance_score"] = (
+    candidates["contextual_relevance_score"] = (
         0.60 * candidates["audio_similarity"]
         + 0.25 * candidates["familiarity_score"]
         + 0.15 * candidates["popularity_score"]
     )
+
+    if preference_active:
+        candidates["preference_score"] = [
+            calculate_preference_score(
+                track_genre=genre,
+                artists=artists,
+                preferred_genres=preferred_genres,
+                preferred_artists=preferred_artists,
+            )
+            for genre, artists in zip(
+                candidates["track_genre"],
+                candidates["artists"],
+            )
+        ]
+
+        candidates["relevance_score"] = (
+            apply_preference_weight(
+                contextual_relevance=(
+                    candidates[
+                        "contextual_relevance_score"
+                    ]
+                ),
+                preference_score=(
+                    candidates["preference_score"]
+                ),
+                preference_strength=preference_strength,
+                has_preferences=True,
+            )
+        )
+
+    else:
+        candidates["preference_score"] = 0.0
+
+        candidates["relevance_score"] = (
+            candidates[
+                "contextual_relevance_score"
+            ]
+        )
 
     candidates["score"] = (
         (1 - exploration_level)

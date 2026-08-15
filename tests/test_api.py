@@ -114,3 +114,97 @@ def test_missing_recent_tracks_is_rejected():
     )
 
     assert response.status_code == 422
+
+def test_recommend_endpoint_accepts_preferences():
+    response = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+            "preferred_genres": [
+                "rock"
+            ],
+            "preferred_artists": [
+                "Bryan Adams"
+            ],
+            "preference_strength": 0.75,
+        },
+    )
+
+    assert response.status_code == 200
+
+def test_recommend_endpoint_preferences_are_optional():
+    response = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+        },
+    )
+
+    assert response.status_code == 200
+
+def test_zero_preference_strength_preserves_api_results():
+    without_preferences = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+        },
+    )
+
+    zero_strength = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+            "preferred_genres": [
+                "rock"
+            ],
+            "preference_strength": 0.0,
+        },
+    )
+
+    assert (
+        zero_strength.json()
+        == without_preferences.json()
+    )
+
+def test_active_preference_changes_api_results():
+    without_preferences = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+        },
+    )
+
+    with_preferences = client.post(
+        "/recommend",
+        json={
+            "recent_tracks": [
+                "5SuOikwiRyPMVoIQDJUgSV"
+            ],
+            "exploration_level": 0.3,
+            "preferred_genres": [
+                "rock"
+            ],
+            "preference_strength": 1.0,
+        },
+    )
+
+    assert (
+        with_preferences.json()
+        != without_preferences.json()
+    )
+

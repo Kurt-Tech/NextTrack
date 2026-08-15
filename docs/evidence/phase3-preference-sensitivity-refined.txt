@@ -1,0 +1,122 @@
+﻿NextTrack Phase 3 Preference Sensitivity Evaluation
+================================================================================
+================================================================================
+Acoustic context -> Rock preference
+Preferred genres: ['rock']
+Recent tracks: ['5SuOikwiRyPMVoIQDJUgSV', '4qPNDBW1i3p13qLCt0Ki3A', '1iJBSr7s7jYXzM8EGcbK5b']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Preference hit rate: 0.00
+  Audio similarity: 0.9366
+  Genre diversity: 0.10
+  Artist diversity: 1.00
+  Mean popularity: 57.40
+
+Preference strength: 0.25
+  Preference hit rate: 0.10
+  Audio similarity: 0.9407
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 58.90
+
+Preference strength: 0.50
+  Preference hit rate: 0.30
+  Audio similarity: 0.9264
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 64.40
+
+Preference strength: 0.75
+  Preference hit rate: 0.70
+  Audio similarity: 0.8772
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 73.30
+
+Preference strength: 1.00
+  Preference hit rate: 1.00
+  Audio similarity: 0.8618
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 63.10
+================================================================================
+Rock context -> Electronic preference
+Preferred genres: ['electronic']
+Recent tracks: ['7DbdUf8aHSYoliSjO6LZv6', '1zB4vmk8tFRmM9UULNzbLB', '0pqnGHJpmpxLKifKRmU6WP']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Preference hit rate: 0.00
+  Audio similarity: 0.8940
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 79.10
+
+Preference strength: 0.25
+  Preference hit rate: 0.00
+  Audio similarity: 0.8940
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 79.10
+
+Preference strength: 0.50
+  Preference hit rate: 0.60
+  Audio similarity: 0.9272
+  Genre diversity: 0.20
+  Artist diversity: 1.00
+  Mean popularity: 66.00
+
+Preference strength: 0.75
+  Preference hit rate: 1.00
+  Audio similarity: 0.9304
+  Genre diversity: 0.10
+  Artist diversity: 1.00
+  Mean popularity: 58.50
+
+Preference strength: 1.00
+  Preference hit rate: 1.00
+  Audio similarity: 0.9304
+  Genre diversity: 0.10
+  Artist diversity: 1.00
+  Mean popularity: 58.50
+================================================================================
+Hip-hop context -> Country preference
+Preferred genres: ['country']
+Recent tracks: ['1aL9518P5G72N92b48tuKw', '08Isz2ETWSBhvIl8UpKYsp', '42TMa2hgBNjte4uV7jNCnQ']
+--------------------------------------------------------------------------------
+
+Preference strength: 0.00
+  Preference hit rate: 0.00
+  Audio similarity: 0.9414
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 72.40
+
+Preference strength: 0.25
+  Preference hit rate: 0.00
+  Audio similarity: 0.9430
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 73.60
+
+Preference strength: 0.50
+  Preference hit rate: 0.20
+  Audio similarity: 0.9421
+  Genre diversity: 0.20
+  Artist diversity: 0.98
+  Mean popularity: 74.80
+
+Preference strength: 0.75
+  Preference hit rate: 0.90
+  Audio similarity: 0.9043
+  Genre diversity: 0.20
+  Artist diversity: 0.98
+  Mean popularity: 72.00
+
+Preference strength: 1.00
+  Preference hit rate: 1.00
+  Audio similarity: 0.8919
+  Genre diversity: 0.10
+  Artist diversity: 0.98
+  Mean popularity: 70.60
