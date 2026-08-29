@@ -178,3 +178,43 @@ footer {
 .error-text {
     color: #b91c1c;
 }
+
+.slider-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+    color: #4b5563;
+    font-size: 0.9rem;
+}
+
+.slider-header strong {
+    color: #111827;
+    font-size: 1rem;
+}
+
+#exploration-level {
+    width: 100%;
+    margin: 8px 0 4px;
+    cursor: pointer;
+}
+
+.slider-ticks {
+    display: flex;
+    justify-content: space-between;
+    color: #6b7280;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .slider-header {
+        font-size: 0.8rem;
+        gap: 8px;
+    }
+
+    .slider-ticks {
+        font-size: 0.75rem;
+    }
+}

@@ -275,3 +275,12 @@ def test_evaluation_javascript_loads():
         "javascript"
         in response.headers["content-type"]
     )
+
+def test_evaluation_page_loads():
+    response = client.get("/evaluation")
+
+    assert response.status_code == 200
+    assert "NextTrack" in response.text
+    assert "Music Recommendation Evaluation" in response.text
+    assert 'id="exploration-level"' in response.text
+    assert 'step="0.25"' in response.text
