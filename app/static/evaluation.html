@@ -91,7 +91,7 @@
                 </p>
             </div>
 
-            <button type="button" class="primary-button" disabled>
+            <button id="generate-button" type="button" class="primary-button" disabled>
                 Generate Recommendations
             </button>
         </section>
@@ -99,9 +99,11 @@
         <section class="recommendations">
             <h2>Recommendations</h2>
 
-            <p class="helper-text">
-                Generated recommendations will appear here.
+            <p id="recommendation-status" class="helper-text" aria-live="polite">
+                Select a listening context and generate recommendations.
             </p>
+
+            <div id="recommendation-results" class="recommendation-results"></div>
         </section>
     </main>
 

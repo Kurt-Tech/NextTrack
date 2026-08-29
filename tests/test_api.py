@@ -284,3 +284,23 @@ def test_evaluation_page_loads():
     assert "Music Recommendation Evaluation" in response.text
     assert 'id="exploration-level"' in response.text
     assert 'step="0.25"' in response.text
+
+def test_evaluation_page_has_generate_controls():
+    response = client.get("/evaluation")
+
+    assert response.status_code == 200
+
+    assert (
+        'id="generate-button"'
+        in response.text
+    )
+
+    assert (
+        'id="recommendation-results"'
+        in response.text
+    )
+
+    assert (
+        'id="recommendation-status"'
+        in response.text
+    )

@@ -218,3 +218,49 @@ footer {
         font-size: 0.75rem;
     }
 }
+
+.recommendation-results {
+    margin-top: 20px;
+}
+
+.recommendation-list {
+    display: grid;
+    gap: 12px;
+}
+
+.recommendation-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f9fafb;
+}
+
+.recommendation-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #111827;
+    color: white;
+    font-weight: 700;
+}
+
+.recommendation-content {
+    min-width: 0;
+}
+
+.recommendation-content strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.recommendation-content p {
+    margin: 0 0 8px;
+    color: #4b5563;
+}
