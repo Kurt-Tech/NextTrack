@@ -208,3 +208,43 @@ def test_active_preference_changes_api_results():
         != without_preferences.json()
     )
 
+def test_evaluation_contexts_returns_six_contexts():
+    response = client.get("/evaluation/contexts")
+
+    assert response.status_code == 200
+
+    data = response.json()
+
+    assert "contexts" in data
+    assert len(data["contexts"]) == 6
+
+    context_ids = {
+        context["id"]
+        for context in data["contexts"]
+    }
+
+    assert context_ids == {
+        "acoustic",
+        "rock",
+        "hip-hop",
+        "classical",
+        "country",
+        "electronic",
+    }
+
+
+def test_evaluation_contexts_have_three_valid_tracks():
+    response = client.get("/evaluation/contexts")
+
+    assert response.status_code == 200
+
+    contexts = response.json()["contexts"]
+
+    for context in contexts:
+        assert len(context["recent_tracks"]) == 3
+
+        for track in context["recent_tracks"]:
+            assert track["track_id"]
+            assert track["track_name"]
+            assert track["artists"]
+            assert track["track_genre"]

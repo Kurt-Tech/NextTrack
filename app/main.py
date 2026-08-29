@@ -1,10 +1,12 @@
-from fastapi import FastAPI 
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel 
 from typing import List
 from app.recommender import recommend_tracks
 from app.enhanced_recommender import (
     recommend_tracks_enhanced,
 )
+from app.evaluation_contexts import EVALUATION_CONTEXTS
+from app.metadata import get_track
 
 app = FastAPI( 
     title="NextTrack API", 
@@ -23,6 +25,46 @@ class RecommendationRequest(BaseModel):
 @app.get("/") 
 def read_root():
      return {"message": "NextTrack API is running"}
+
+@app.get("/evaluation/contexts")
+def get_evaluation_contexts():
+    """Return predefined listening contexts for the evaluation interface."""
+
+    contexts = []
+
+    for context_id, context in EVALUATION_CONTEXTS.items():
+        recent_tracks = []
+
+        for track_id in context["recent_tracks"]:
+            track = get_track(track_id)
+
+            if track is None:
+                raise HTTPException(
+                    status_code=500,
+                    detail=(
+                        "Configured evaluation track "
+                        f"not found: {track_id}"
+                    ),
+                )
+
+            recent_tracks.append(
+                {
+                    "track_id": str(track["track_id"]),
+                    "track_name": str(track["track_name"]),
+                    "artists": str(track["artists"]),
+                    "track_genre": str(track["track_genre"]),
+                }
+            )
+
+        contexts.append(
+            {
+                "id": context_id,
+                "name": context["name"],
+                "recent_tracks": recent_tracks,
+            }
+        )
+
+    return {"contexts": contexts}
 
 @app.post("/recommend")
 def recommend(request: RecommendationRequest):
