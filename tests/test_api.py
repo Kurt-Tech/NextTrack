@@ -304,3 +304,46 @@ def test_evaluation_page_has_generate_controls():
         'id="recommendation-status"'
         in response.text
     )
+
+def test_evaluation_javascript_contains_spotify_links():
+    response = client.get(
+        "/static/evaluation.js"
+    )
+
+    assert response.status_code == 200
+
+    assert (
+        "https://open.spotify.com/track/"
+        in response.text
+    )
+
+def test_evaluation_genres_returns_genres():
+    response = client.get(
+        "/evaluation/genres"
+    )
+
+    assert response.status_code == 200
+
+    data = response.json()
+
+    assert "genres" in data
+    assert len(data["genres"]) > 0
+
+    assert "rock" in data["genres"]
+    assert "acoustic" in data["genres"]
+    assert "electronic" in data["genres"]
+
+def test_evaluation_page_has_preference_controls():
+    response = client.get("/evaluation")
+
+    assert response.status_code == 200
+
+    assert (
+        'id="preferred-genre"'
+        in response.text
+    )
+
+    assert (
+        'id="preference-strength"'
+        in response.text
+    )

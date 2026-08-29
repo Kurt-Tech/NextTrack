@@ -17,6 +17,15 @@ const recommendationStatus =
 const recommendationResults =
     document.getElementById("recommendation-results");
 
+const preferredGenreSelect =
+    document.getElementById("preferred-genre");
+
+const preferenceStrengthInput =
+    document.getElementById("preference-strength");
+
+const preferenceStrengthValue =
+    document.getElementById("preference-strength-value");
+
 let evaluationContexts = [];
 
 
@@ -150,9 +159,34 @@ function displayRecentTracks(contextId) {
         genre.textContent =
             track.track_genre;
 
+        const spotifyLink =
+            document.createElement("a");
+
+        spotifyLink.className =
+            "spotify-link";
+
+        spotifyLink.href =
+            `https://open.spotify.com/track/${encodeURIComponent(track.track_id)}`;
+
+        spotifyLink.target = "_blank";
+
+        spotifyLink.rel =
+            "noopener noreferrer";
+
+        spotifyLink.textContent =
+            "Listen on Spotify";
+
+        const details =
+            document.createElement("div");
+
+        details.className = "recommendation-details";
+
+        details.appendChild(genre);
+        details.appendChild(spotifyLink);
+
         trackCard.appendChild(trackName);
         trackCard.appendChild(artist);
-        trackCard.appendChild(genre);
+        trackCard.appendChild(details);
 
         trackList.appendChild(trackCard);
     }
@@ -180,14 +214,28 @@ async function generateRecommendations() {
     const explorationLevel =
         Number(explorationInput.value);
 
+    const selectedGenre =
+        preferredGenreSelect.value;
+
+    const preferenceStrength =
+        selectedGenre
+            ? Number(
+                preferenceStrengthInput.value
+            )
+            : 0.0;
+
     const requestBody = {
         recent_tracks: context.recent_tracks.map(
             track => track.track_id
         ),
         exploration_level: explorationLevel,
-        preferred_genres: [],
+        preferred_genres:
+            selectedGenre
+                ? [selectedGenre]
+                : [],
         preferred_artists: [],
-        preference_strength: 0.0,
+        preference_strength:
+            preferenceStrength,
     };
 
     try {
@@ -308,6 +356,12 @@ function displayRecommendations(data) {
             artist.textContent =
                 track.artists;
 
+            const details =
+                document.createElement("div");
+
+            details.className =
+                "recommendation-details";
+
             const genre =
                 document.createElement("span");
 
@@ -317,9 +371,29 @@ function displayRecommendations(data) {
             genre.textContent =
                 track.track_genre;
 
+            const spotifyLink =
+                document.createElement("a");
+
+            spotifyLink.className =
+                "spotify-link";
+
+            spotifyLink.href =
+                `https://open.spotify.com/track/${encodeURIComponent(track.track_id)}`;
+
+            spotifyLink.target = "_blank";
+
+            spotifyLink.rel =
+                "noopener noreferrer";
+
+            spotifyLink.textContent =
+                "Listen on Spotify";
+
+            details.appendChild(genre);
+            details.appendChild(spotifyLink);
+
             content.appendChild(trackName);
             content.appendChild(artist);
-            content.appendChild(genre);
+            content.appendChild(details);
 
             card.appendChild(number);
             card.appendChild(content);
@@ -330,6 +404,104 @@ function displayRecommendations(data) {
 
     recommendationResults.appendChild(list);
 }
+
+async function loadGenres() {
+    try {
+        const response =
+            await fetch("/evaluation/genres");
+
+        if (!response.ok) {
+            throw new Error(
+                `Failed to load genres: ${response.status}`
+            );
+        }
+
+        const data =
+            await response.json();
+
+        populateGenreSelect(data.genres);
+    } catch (error) {
+        console.error(error);
+
+        preferredGenreSelect.innerHTML = `
+            <option value="">
+                Unable to load genres
+            </option>
+        `;
+    }
+}
+
+function populateGenreSelect(genres) {
+    preferredGenreSelect.innerHTML = "";
+
+    const noPreferenceOption =
+        document.createElement("option");
+
+    noPreferenceOption.value = "";
+    noPreferenceOption.textContent =
+        "No genre preference";
+
+    preferredGenreSelect.appendChild(
+        noPreferenceOption
+    );
+
+    for (const genre of genres) {
+        const option =
+            document.createElement("option");
+
+        option.value = genre;
+        option.textContent =
+            formatGenreName(genre);
+
+        preferredGenreSelect.appendChild(
+            option
+        );
+    }
+
+    preferredGenreSelect.disabled = false;
+}
+
+function formatGenreName(genre) {
+    return genre
+        .split("-")
+        .map(
+            word =>
+                word.charAt(0).toUpperCase()
+                + word.slice(1)
+        )
+        .join("-");
+}
+
+function updatePreferenceControls() {
+    const hasPreference =
+        Boolean(preferredGenreSelect.value);
+
+    preferenceStrengthInput.disabled =
+        !hasPreference;
+
+    if (!hasPreference) {
+        preferenceStrengthValue.textContent =
+            "Inactive";
+
+        return;
+    }
+
+    const value =
+        Number(preferenceStrengthInput.value);
+
+    preferenceStrengthValue.textContent =
+        value.toFixed(2);
+}
+
+preferredGenreSelect.addEventListener(
+    "change",
+    updatePreferenceControls
+);
+
+preferenceStrengthInput.addEventListener(
+    "input",
+    updatePreferenceControls
+);
 
 contextSelect.addEventListener(
     "change",
@@ -358,7 +530,10 @@ explorationInput.addEventListener(
 
 
 loadEvaluationContexts();
+loadGenres();
+
 updateExplorationDisplay();
+updatePreferenceControls();
 
 generateButton.addEventListener(
     "click",

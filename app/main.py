@@ -6,8 +6,7 @@ from app.enhanced_recommender import (
     recommend_tracks_enhanced,
 )
 from app.evaluation_contexts import EVALUATION_CONTEXTS
-from app.metadata import get_track
-
+from app.metadata import get_all_genres, get_track
 from pathlib import Path
 
 from fastapi.responses import FileResponse
@@ -88,6 +87,14 @@ def get_evaluation_contexts():
         )
 
     return {"contexts": contexts}
+
+@app.get("/evaluation/genres")
+def get_evaluation_genres():
+    """Return available genres for evaluation preferences."""
+
+    return {
+        "genres": get_all_genres()
+    }
 
 @app.post("/recommend")
 def recommend(request: RecommendationRequest):

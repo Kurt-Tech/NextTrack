@@ -55,7 +55,8 @@
 
             <div id="recent-tracks" class="recent-tracks">
                 <p class="helper-text">
-                    Select a context to view the recent tracks.
+                    Select a context to view the recent tracks. These tracks represent the recent listening context
+                    used to generate recommendations.
                 </p>
             </div>
 
@@ -91,6 +92,59 @@
                 </p>
             </div>
 
+            <div class="preference-section">
+                <h2>Optional Preference</h2>
+
+                <p class="helper-text">
+                    You can optionally give a genre preference additional
+                    influence over the recommendation results.
+                </p>
+
+                <div class="form-group">
+                    <label for="preferred-genre">
+                        Preferred Genre
+                    </label>
+
+                    <select id="preferred-genre" disabled>
+                        <option value="">
+                            Loading genres...
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preference-strength">
+                        Preference Strength
+                    </label>
+
+                    <div class="slider-header">
+                        <span>Lower Influence</span>
+
+                        <strong id="preference-strength-value">
+                            Inactive
+                        </strong>
+
+                        <span>Higher Influence</span>
+                    </div>
+
+                    <input id="preference-strength" type="range" min="0" max="1" step="0.25" value="0.50" disabled
+                        aria-describedby="preference-help">
+
+                    <div class="slider-ticks" aria-hidden="true">
+                        <span>0.00</span>
+                        <span>0.25</span>
+                        <span>0.50</span>
+                        <span>0.75</span>
+                        <span>1.00</span>
+                    </div>
+
+                    <p id="preference-help" class="helper-text">
+                        Preference strength controls how strongly the
+                        selected genre influences the ranking.
+                    </p>
+                </div>
+            </div>
+
             <button id="generate-button" type="button" class="primary-button" disabled>
                 Generate Recommendations
             </button>
@@ -98,7 +152,10 @@
 
         <section class="recommendations">
             <h2>Recommendations</h2>
-
+            <p class="helper-text">
+                You can open a recommendation in Spotify to listen
+                before evaluating the recommendation set.
+            </p>
             <p id="recommendation-status" class="helper-text" aria-live="polite">
                 Select a listening context and generate recommendations.
             </p>
