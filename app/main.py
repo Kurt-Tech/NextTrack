@@ -8,12 +8,35 @@ from app.enhanced_recommender import (
 from app.evaluation_contexts import EVALUATION_CONTEXTS
 from app.metadata import get_track
 
+from pathlib import Path
+
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+
+STATIC_DIR = Path(__file__).resolve().parent / "static"
+
 app = FastAPI( 
     title="NextTrack API", 
     description="A diversity-aware music recommendation API.", 
     version="0.1.0" 
 ) 
 
+app.mount(
+    "/static",
+    StaticFiles(directory=STATIC_DIR),
+    name="static",
+)
+
+@app.get(
+    "/evaluation",
+    include_in_schema=False,
+)
+def evaluation_page():
+    """Serve the participant evaluation interface."""
+
+    return FileResponse(
+        STATIC_DIR / "evaluation.html"
+    )
 class RecommendationRequest(BaseModel):
     recent_tracks: list[str]
     exploration_level: float = 0.3

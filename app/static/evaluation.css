@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.container {
+    width: min(100% - 32px, 960px);
+    margin: 0 auto;
+}
+
+.site-header {
+    background: #111827;
+    color: white;
+    padding: 24px 0;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.site-header p {
+    margin: 4px 0 0;
+    color: #d1d5db;
+}
+
+main {
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+.intro {
+    margin-bottom: 24px;
+}
+
+.intro h2 {
+    margin-bottom: 8px;
+}
+
+.evaluation-panel,
+.recommendations {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.evaluation-panel h2,
+.recommendations h2 {
+    margin-top: 0;
+}
+
+.helper-text {
+    color: #6b7280;
+}
+
+.placeholder {
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 20px 0;
+    text-align: center;
+    color: #6b7280;
+}
+
+.primary-button {
+    border: 0;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.primary-button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 24px 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        padding: 18px 0;
+    }
+
+    .site-header h1 {
+        font-size: 1.6rem;
+    }
+
+    .evaluation-panel,
+    .recommendations {
+        padding: 18px;
+    }
+}

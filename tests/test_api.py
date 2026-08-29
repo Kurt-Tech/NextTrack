@@ -248,3 +248,19 @@ def test_evaluation_contexts_have_three_valid_tracks():
             assert track["track_name"]
             assert track["artists"]
             assert track["track_genre"]
+
+def test_evaluation_page_loads():
+    response = client.get("/evaluation")
+
+    assert response.status_code == 200
+    assert "NextTrack" in response.text
+    assert "Music Recommendation Evaluation" in response.text
+
+
+def test_evaluation_stylesheet_loads():
+    response = client.get(
+        "/static/evaluation.css"
+    )
+
+    assert response.status_code == 200
+    assert "text/css" in response.headers["content-type"]
