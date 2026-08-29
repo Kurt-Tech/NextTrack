@@ -264,3 +264,14 @@ def test_evaluation_stylesheet_loads():
 
     assert response.status_code == 200
     assert "text/css" in response.headers["content-type"]
+
+def test_evaluation_javascript_loads():
+    response = client.get(
+        "/static/evaluation.js"
+    )
+
+    assert response.status_code == 200
+    assert (
+        "javascript"
+        in response.headers["content-type"]
+    )

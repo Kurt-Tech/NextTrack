@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>NextTrack Evaluation</title>
 
-    <link
-        rel="stylesheet"
-        href="/static/evaluation.css"
-    >
+    <link rel="stylesheet" href="/static/evaluation.css">
 </head>
 
 <body>
@@ -42,15 +37,29 @@
                 Select a listening context to begin the evaluation.
             </p>
 
-            <div class="placeholder">
-                Evaluation controls will appear here.
+            <div class="form-group">
+                <label for="context-select">
+                    Listening Context
+                </label>
+
+                <select id="context-select" disabled>
+                    <option value="">
+                        Loading contexts...
+                    </option>
+                </select>
+
+                <p id="context-status" class="helper-text" aria-live="polite">
+                    Loading listening contexts...
+                </p>
             </div>
 
-            <button
-                type="button"
-                class="primary-button"
-                disabled
-            >
+            <div id="recent-tracks" class="recent-tracks">
+                <p class="helper-text">
+                    Select a context to view the recent tracks.
+                </p>
+            </div>
+
+            <button type="button" class="primary-button" disabled>
                 Generate Recommendations
             </button>
         </section>
@@ -71,5 +80,7 @@
             </p>
         </div>
     </footer>
+    <script src="/static/evaluation.js"></script>
 </body>
+
 </html>
