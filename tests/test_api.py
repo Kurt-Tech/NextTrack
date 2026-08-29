@@ -382,3 +382,47 @@ def test_evaluation_page_has_study_mode():
         'id="study-set-b"'
         in response.text
     )
+
+def test_evaluation_search_returns_tracks():
+    response = client.get(
+        "/evaluation/search",
+        params={"query": "rock"},
+    )
+
+    assert response.status_code == 200
+
+    data = response.json()
+
+    assert data["query"] == "rock"
+    assert "results" in data
+    assert len(data["results"]) <= 10
+
+    if data["results"]:
+        track = data["results"][0]
+
+        assert "track_id" in track
+        assert "track_name" in track
+        assert "artists" in track
+        assert "album_name" in track
+        assert "track_genre" in track
+
+
+def test_evaluation_search_requires_two_characters():
+    response = client.get(
+        "/evaluation/search",
+        params={"query": "r"},
+    )
+
+    assert response.status_code == 422
+
+
+def test_evaluation_search_handles_no_results():
+    response = client.get(
+        "/evaluation/search",
+        params={
+            "query": "thisdoesnotexist123456789"
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.json()["results"] == []

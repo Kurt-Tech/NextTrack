@@ -1,6 +1,4 @@
-const contextSelect = document.getElementById("context-select");
 const recentTracksContainer = document.getElementById("recent-tracks");
-const statusMessage = document.getElementById("context-status");
 
 const explorationInput =
     document.getElementById("exploration-level");
@@ -62,19 +60,38 @@ const studySetA =
 const studySetB =
     document.getElementById("study-set-b");
 
+const trackSearchInput =
+    document.getElementById("track-search");
+
+const trackSearchButton =
+    document.getElementById("track-search-button");
+
+const trackSearchStatus =
+    document.getElementById("track-search-status");
+
+const trackSearchResults =
+    document.getElementById("track-search-results");
+
+const selectedTrackCount =
+    document.getElementById("selected-track-count");
+
 let evaluationContexts = [];
 
+const MAX_RECENT_TRACKS = 3;
+
+let selectedRecentTracks = [];
+let lastSearchResults = [];
+
 const STUDY_CONTEXT_IDS = [
-    "rock",    
+    "rock",
     "hip-hop",
     "country",
 ];
 
 async function loadEvaluationContexts() {
     try {
-        statusMessage.textContent = "Loading listening contexts...";
-
-        const response = await fetch("/evaluation/contexts");
+        const response =
+            await fetch("/evaluation/contexts");
 
         if (!response.ok) {
             throw new Error(
@@ -82,20 +99,18 @@ async function loadEvaluationContexts() {
             );
         }
 
-        const data = await response.json();
+        const data =
+            await response.json();
 
-        evaluationContexts = data.contexts;
+        evaluationContexts =
+            data.contexts;
 
-        populateContextSelect(evaluationContexts);
         populateStudyContextSelect();
-
-        statusMessage.textContent =
-            "Select a listening context to continue.";
     } catch (error) {
         console.error(error);
 
-        statusMessage.textContent =
-            "Unable to load listening contexts.";
+        studyStatus.textContent =
+            "Unable to load study contexts.";
     }
 }
 
@@ -107,76 +122,29 @@ function updateExplorationDisplay() {
         value.toFixed(2);
 }
 
-
-function populateContextSelect(contexts) {
-    contextSelect.innerHTML = "";
-
-    const placeholderOption =
-        document.createElement("option");
-
-    placeholderOption.value = "";
-    placeholderOption.textContent =
-        "Select a listening context";
-
-    contextSelect.appendChild(
-        placeholderOption
-    );
-
-    for (const context of contexts) {
-        const option =
-            document.createElement("option");
-
-        option.value = context.id;
-        option.textContent = context.name;
-
-        contextSelect.appendChild(option);
-    }
-
-    contextSelect.disabled = false;
-}
-
-
-function displayRecentTracks(contextId) {
+function renderSelectedRecentTracks() {
     recentTracksContainer.innerHTML = "";
 
-    if (!contextId) {
+    selectedTrackCount.textContent =
+        `${selectedRecentTracks.length} of ${MAX_RECENT_TRACKS} selected`;
+
+    if (selectedRecentTracks.length === 0) {
         recentTracksContainer.innerHTML = `
             <p class="helper-text">
-                Select a context to view the recent tracks.
+                Choose a preset or search for three tracks.
             </p>
         `;
 
+        updateExploreControls();
         return;
     }
-
-    const context = evaluationContexts.find(
-        item => item.id === contextId
-    );
-
-    if (!context) {
-        recentTracksContainer.innerHTML = `
-            <p class="error-text">
-                Unable to find the selected context.
-            </p>
-        `;
-
-        return;
-    }
-
-    const heading =
-        document.createElement("h3");
-
-    heading.textContent =
-        `${context.name} Recent Tracks`;
-
-    recentTracksContainer.appendChild(heading);
 
     const trackList =
         document.createElement("div");
 
     trackList.className = "track-list";
 
-    for (const track of context.recent_tracks) {
+    for (const track of selectedRecentTracks) {
         const trackCard =
             document.createElement("article");
 
@@ -193,6 +161,12 @@ function displayRecentTracks(contextId) {
 
         artist.textContent =
             track.artists;
+
+        const details =
+            document.createElement("div");
+
+        details.className =
+            "recommendation-details";
 
         const genre =
             document.createElement("span");
@@ -218,13 +192,29 @@ function displayRecentTracks(contextId) {
         spotifyLink.textContent =
             "Listen on Spotify";
 
-        const details =
-            document.createElement("div");
+        const removeButton =
+            document.createElement("button");
 
-        details.className = "recommendation-details";
+        removeButton.type = "button";
+
+        removeButton.className =
+            "remove-track-button";
+
+        removeButton.textContent =
+            "Remove";
+
+        removeButton.addEventListener(
+            "click",
+            () => {
+                removeRecentTrack(
+                    track.track_id
+                );
+            }
+        );
 
         details.appendChild(genre);
         details.appendChild(spotifyLink);
+        details.appendChild(removeButton);
 
         trackCard.appendChild(trackName);
         trackCard.appendChild(artist);
@@ -233,22 +223,21 @@ function displayRecentTracks(contextId) {
         trackList.appendChild(trackCard);
     }
 
-    recentTracksContainer.appendChild(trackList);
+    recentTracksContainer.appendChild(
+        trackList
+    );
+
+    updateExploreControls();
 }
 
-function getSelectedContext() {
-    return evaluationContexts.find(
-        context =>
-            context.id === contextSelect.value
-    );
-}
 
 async function generateRecommendations() {
-    const context = getSelectedContext();
-
-    if (!context) {
+    if (
+        selectedRecentTracks.length !==
+        MAX_RECENT_TRACKS
+    ) {
         recommendationStatus.textContent =
-            "Please select a listening context.";
+            "Select exactly three recent tracks.";
 
         return;
     }
@@ -267,9 +256,10 @@ async function generateRecommendations() {
             : 0.0;
 
     const requestBody = {
-        recent_tracks: context.recent_tracks.map(
-            track => track.track_id
-        ),
+        recent_tracks:
+            selectedRecentTracks.map(
+                track => track.track_id
+            ),
         exploration_level: explorationLevel,
         preferred_genres:
             selectedGenre
@@ -330,7 +320,8 @@ async function generateRecommendations() {
         `;
     } finally {
         generateButton.disabled =
-            !contextSelect.value;
+            selectedRecentTracks.length !==
+            MAX_RECENT_TRACKS;
 
         generateButton.textContent =
             "Generate Recommendations";
@@ -969,25 +960,257 @@ async function generateStudyComparison() {
     }
 }
 
-contextSelect.addEventListener(
-    "change",
-    event => {
-        const contextId =
-            event.target.value;
+function updateExploreControls() {
+    const hasThreeTracks =
+        selectedRecentTracks.length ===
+        MAX_RECENT_TRACKS;
 
-        displayRecentTracks(contextId);
+    generateButton.disabled =
+        !hasThreeTracks;
 
-        generateButton.disabled =
-            !contextId;
-
-        recommendationResults.innerHTML = "";
+    if (!hasThreeTracks) {
+        const remaining =
+            MAX_RECENT_TRACKS -
+            selectedRecentTracks.length;
 
         recommendationStatus.textContent =
-            contextId
-                ? "Ready to generate recommendations."
-                : "Select a listening context and generate recommendations.";
+            `Select ${remaining} more recent ${remaining === 1
+                ? "track"
+                : "tracks"
+            } to generate recommendations.`;
     }
-);
+}
+
+function addRecentTrack(track) {
+    const alreadySelected =
+        selectedRecentTracks.some(
+            item =>
+                item.track_id ===
+                track.track_id
+        );
+
+    if (
+        alreadySelected
+        || selectedRecentTracks.length >=
+        MAX_RECENT_TRACKS
+    ) {
+        return;
+    }
+
+    selectedRecentTracks.push(track);
+
+    renderSelectedRecentTracks();
+    renderSearchResults(lastSearchResults);
+}
+
+function removeRecentTrack(trackId) {
+    selectedRecentTracks =
+        selectedRecentTracks.filter(
+            track =>
+                track.track_id !== trackId
+        );
+
+    recommendationResults.innerHTML = "";
+
+    renderSelectedRecentTracks();
+    renderSearchResults(lastSearchResults);
+}
+
+async function searchExploreTracks() {
+    const query =
+        trackSearchInput.value.trim();
+
+    if (query.length < 2) {
+        trackSearchStatus.textContent =
+            "Enter at least two characters to search.";
+
+        trackSearchResults.innerHTML = "";
+        return;
+    }
+
+    try {
+        trackSearchButton.disabled = true;
+
+        trackSearchButton.textContent =
+            "Searching...";
+
+        trackSearchStatus.textContent =
+            "Searching the catalogue...";
+
+        const response = await fetch(
+            `/evaluation/search?query=${encodeURIComponent(query)}`
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                `Track search failed: ${response.status}`
+            );
+        }
+
+        const data =
+            await response.json();
+
+        lastSearchResults =
+            data.results;
+
+        renderSearchResults(
+            lastSearchResults
+        );
+
+        trackSearchStatus.textContent =
+            data.results.length > 0
+                ? `${data.results.length} results found.`
+                : "No matching tracks found.";
+    } catch (error) {
+        console.error(error);
+
+        lastSearchResults = [];
+
+        trackSearchResults.innerHTML = "";
+
+        trackSearchStatus.textContent =
+            "Unable to search tracks.";
+    } finally {
+        trackSearchButton.disabled = false;
+
+        trackSearchButton.textContent =
+            "Search";
+    }
+}
+
+function renderSearchResults(results) {
+    trackSearchResults.innerHTML = "";
+
+    if (results.length === 0) {
+        return;
+    }
+
+    const resultList =
+        document.createElement("div");
+
+    resultList.className =
+        "search-result-list";
+
+    for (const track of results) {
+        const card =
+            document.createElement("article");
+
+        card.className =
+            "search-result-card";
+
+        const content =
+            document.createElement("div");
+
+        content.className =
+            "search-result-content";
+
+        const name =
+            document.createElement("strong");
+
+        name.textContent =
+            track.track_name;
+
+        const artist =
+            document.createElement("p");
+
+        artist.textContent =
+            track.artists;
+
+        const genre =
+            document.createElement("span");
+
+        genre.className =
+            "genre-label";
+
+        genre.textContent =
+            track.track_genre;
+
+        const actions =
+            document.createElement("div");
+
+        actions.className =
+            "search-result-actions";
+
+        const spotifyLink =
+            document.createElement("a");
+
+        spotifyLink.className =
+            "spotify-link";
+
+        spotifyLink.href =
+            `https://open.spotify.com/track/${encodeURIComponent(track.track_id)}`;
+
+        spotifyLink.target =
+            "_blank";
+
+        spotifyLink.rel =
+            "noopener noreferrer";
+
+        spotifyLink.textContent =
+            "Listen";
+
+        const addButton =
+            document.createElement("button");
+
+        addButton.type =
+            "button";
+
+        addButton.className =
+            "add-track-button";
+
+        const alreadySelected =
+            selectedRecentTracks.some(
+                item =>
+                    item.track_id ===
+                    track.track_id
+            );
+
+        const selectionFull =
+            selectedRecentTracks.length >=
+            MAX_RECENT_TRACKS;
+
+        if (alreadySelected) {
+            addButton.textContent =
+                "Selected";
+
+            addButton.disabled = true;
+        } else if (selectionFull) {
+            addButton.textContent =
+                "3 tracks selected";
+
+            addButton.disabled = true;
+        } else {
+            addButton.textContent =
+                "Add";
+
+            addButton.addEventListener(
+                "click",
+                () => addRecentTrack(track)
+            );
+        }
+
+        content.appendChild(name);
+        content.appendChild(artist);
+        content.appendChild(genre);
+
+        actions.appendChild(
+            spotifyLink
+        );
+
+        actions.appendChild(
+            addButton
+        );
+
+        card.appendChild(content);
+        card.appendChild(actions);
+
+        resultList.appendChild(card);
+    }
+
+    trackSearchResults.appendChild(
+        resultList
+    );
+}
 
 setInterfaceMode("explore");
 updateStudyControls();
@@ -1003,6 +1226,7 @@ loadGenres();
 
 updateExplorationDisplay();
 updatePreferenceControls();
+renderSelectedRecentTracks();
 
 generateButton.addEventListener(
     "click",
@@ -1044,4 +1268,19 @@ studyContextSelect.addEventListener(
 generateStudyButton.addEventListener(
     "click",
     generateStudyComparison
+);
+
+trackSearchButton.addEventListener(
+    "click",
+    searchExploreTracks
+);
+
+trackSearchInput.addEventListener(
+    "keydown",
+    event => {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            searchExploreTracks();
+        }
+    }
 );

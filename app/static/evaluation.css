@@ -446,3 +446,127 @@ footer {
         flex-direction: column;
     }
 }
+
+.track-search-section {
+    margin: 24px 0;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f9fafb;
+}
+
+.search-row {
+    display: flex;
+    gap: 10px;
+}
+
+.search-row input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.search-row input:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+.secondary-button,
+.add-track-button,
+.remove-track-button {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 8px 12px;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.secondary-button:disabled,
+.add-track-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.remove-track-button {
+    color: #991b1b;
+}
+
+.selected-tracks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+.selected-tracks-header h3 {
+    margin: 0;
+}
+
+#selected-track-count {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.search-result-list {
+    display: grid;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.search-result-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: white;
+}
+
+.search-result-content {
+    min-width: 0;
+}
+
+.search-result-content strong {
+    display: block;
+}
+
+.search-result-content p {
+    margin: 4px 0 8px;
+    color: #4b5563;
+}
+
+.search-result-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    .search-row {
+        flex-direction: column;
+    }
+
+    .search-result-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-result-actions {
+        justify-content: flex-start;
+    }
+
+    .selected-tracks-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+    }
+}

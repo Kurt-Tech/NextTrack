@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel 
 from typing import List
 from app.recommender import recommend_tracks
@@ -6,9 +6,12 @@ from app.enhanced_recommender import (
     recommend_tracks_enhanced,
 )
 from app.evaluation_contexts import EVALUATION_CONTEXTS
-from app.metadata import get_all_genres, get_track
+from app.metadata import (
+    get_all_genres,
+    get_track,
+    search_tracks,
+)
 from pathlib import Path
-
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -94,6 +97,39 @@ def get_evaluation_genres():
 
     return {
         "genres": get_all_genres()
+    }
+
+@app.get("/evaluation/search")
+def search_evaluation_tracks(
+    query: str = Query(
+        ...,
+        min_length=2,
+        max_length=100,
+    ),
+):
+    """Search available tracks for the Explore Mode interface."""
+
+    tracks = search_tracks(
+        query=query,
+        limit=10,
+    )
+
+    results = []
+
+    for track in tracks:
+        results.append(
+            {
+                "track_id": str(track["track_id"]),
+                "track_name": str(track["track_name"]),
+                "artists": str(track["artists"]),
+                "album_name": str(track["album_name"]),
+                "track_genre": str(track["track_genre"]),
+            }
+        )
+
+    return {
+        "query": query,
+        "results": results,
     }
 
 @app.post("/recommend")

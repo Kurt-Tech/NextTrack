@@ -50,115 +50,139 @@
                 </p>
 
                 <div class="form-group">
-                    <label for="context-select">
-                        Listening Context
-                    </label>
-
-                    <select id="context-select" disabled>
-                        <option value="">
-                            Loading contexts...
-                        </option>
-                    </select>
-
-                    <p id="context-status" class="helper-text" aria-live="polite">
-                        Loading listening contexts...
-                    </p>
-                </div>
-
-                <div id="recent-tracks" class="recent-tracks">
-                    <p class="helper-text">
-                        Select a context to view the recent tracks. These tracks represent the recent listening context
-                        used to generate recommendations.
-                    </p>
-                </div>
-
-                <div class="form-group">
-                    <label for="exploration-level">
-                        Exploration Level
-                    </label>
-
-                    <div class="slider-header">
-                        <span>More Familiar</span>
-
-                        <strong id="exploration-value">
-                            0.50
-                        </strong>
-
-                        <span>More Exploratory</span>
-                    </div>
-
-                    <input id="exploration-level" type="range" min="0" max="1" step="0.25" value="0.50">
-
-                    <div class="slider-ticks" aria-hidden="true">
-                        <span>0.00</span>
-                        <span>0.25</span>
-                        <span>0.50</span>
-                        <span>0.75</span>
-                        <span>1.00</span>
-                    </div>
-
-                    <p id="exploration-help" class="helper-text">
-                        Lower values favour recommendations closer to the
-                        current listening context. Higher values give
-                        diversity greater influence during ranking.
-                    </p>
-                </div>
-
-                <div class="preference-section">
-                    <h2>Optional Preference</h2>
+                    <h2>Recent Listening Context</h2>
 
                     <p class="helper-text">
-                        You can optionally give a genre preference additional
-                        influence over the recommendation results.
+                        Search the catalogue and select exactly three recent
+                        tracks to use as the listening context.
                     </p>
 
                     <div class="form-group">
-                        <label for="preferred-genre">
-                            Preferred Genre
-                        </label>
 
-                        <select id="preferred-genre" disabled>
-                            <option value="">
-                                Loading genres...
-                            </option>
-                        </select>
-                    </div>
+                        <div class="track-search-section">
+                            <div class="form-group">
+                                <label for="track-search">
+                                    Search Tracks or Artists
+                                </label>
 
-                    <div class="form-group">
-                        <label for="preference-strength">
-                            Preference Strength
-                        </label>
+                                <div class="search-row">
+                                    <input id="track-search" type="search" placeholder="Enter a track, artist or genre"
+                                        autocomplete="off">
 
-                        <div class="slider-header">
-                            <span>Lower Influence</span>
+                                    <button id="track-search-button" type="button" class="secondary-button">
+                                        Search
+                                    </button>
+                                </div>
 
-                            <strong id="preference-strength-value">
-                                Inactive
-                            </strong>
+                                <p id="track-search-status" class="helper-text" aria-live="polite">
+                                    Enter at least two characters to search.
+                                </p>
+                            </div>
 
-                            <span>Higher Influence</span>
-                        </div>
-                        <input id="preference-strength" type="range" min="0" max="1" step="0.25" value="0.50" disabled
-                            aria-describedby="preference-help">
-
-                        <div class="slider-ticks" aria-hidden="true">
-                            <span>0.00</span>
-                            <span>0.25</span>
-                            <span>0.50</span>
-                            <span>0.75</span>
-                            <span>1.00</span>
+                            <div id="track-search-results" class="track-search-results"></div>
                         </div>
 
-                        <p id="preference-help" class="helper-text">
-                            Preference strength controls how strongly the
-                            selected genre influences the ranking.
-                        </p>
-                    </div>
-                </div>
+                        <div class="selected-tracks-header">
+                            <h3>Selected Recent Tracks</h3>
 
-                <button id="generate-button" type="button" class="primary-button" disabled>
-                    Generate Recommendations
-                </button>
+                            <span id="selected-track-count">
+                                0 of 3 selected
+                            </span>
+                        </div>
+
+                        <div id="recent-tracks" class="recent-tracks">
+                            <p class="helper-text">
+                                Choose a preset or search for three tracks.
+                            </p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exploration-level">
+                                Exploration Level
+                            </label>
+
+                            <div class="slider-header">
+                                <span>More Familiar</span>
+
+                                <strong id="exploration-value">
+                                    0.50
+                                </strong>
+
+                                <span>More Exploratory</span>
+                            </div>
+
+                            <input id="exploration-level" type="range" min="0" max="1" step="0.25" value="0.50">
+
+                            <div class="slider-ticks" aria-hidden="true">
+                                <span>0.00</span>
+                                <span>0.25</span>
+                                <span>0.50</span>
+                                <span>0.75</span>
+                                <span>1.00</span>
+                            </div>
+
+                            <p id="exploration-help" class="helper-text">
+                                Lower values favour recommendations closer to the
+                                current listening context. Higher values give
+                                diversity greater influence during ranking.
+                            </p>
+                        </div>
+
+                        <div class="preference-section">
+                            <h2>Optional Preference</h2>
+
+                            <p class="helper-text">
+                                You can optionally give a genre preference additional
+                                influence over the recommendation results.
+                            </p>
+
+                            <div class="form-group">
+                                <label for="preferred-genre">
+                                    Preferred Genre
+                                </label>
+
+                                <select id="preferred-genre" disabled>
+                                    <option value="">
+                                        Loading genres...
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preference-strength">
+                                    Preference Strength
+                                </label>
+
+                                <div class="slider-header">
+                                    <span>Lower Influence</span>
+
+                                    <strong id="preference-strength-value">
+                                        Inactive
+                                    </strong>
+
+                                    <span>Higher Influence</span>
+                                </div>
+                                <input id="preference-strength" type="range" min="0" max="1" step="0.25" value="0.50"
+                                    disabled aria-describedby="preference-help">
+
+                                <div class="slider-ticks" aria-hidden="true">
+                                    <span>0.00</span>
+                                    <span>0.25</span>
+                                    <span>0.50</span>
+                                    <span>0.75</span>
+                                    <span>1.00</span>
+                                </div>
+
+                                <p id="preference-help" class="helper-text">
+                                    Preference strength controls how strongly the
+                                    selected genre influences the ranking.
+                                </p>
+                            </div>
+                        </div>
+
+                        <button id="generate-button" type="button" class="primary-button" disabled>
+                            Generate Recommendations
+                        </button>
             </section>
 
             <section class="recommendations">

@@ -68,7 +68,13 @@ def search_tracks(query: str, limit: int = 20) -> list[dict]:
     df = load_tracks()
     query = query.strip().lower()
 
-    results = df[df["search_text"].str.contains(query, na=False)]
+    results = df[
+    df["search_text"].str.contains(
+        query,
+        na=False,
+        regex=False,
+    )
+]
 
     return results.head(limit).to_dict(orient="records")
 
