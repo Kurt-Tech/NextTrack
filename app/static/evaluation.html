@@ -19,6 +19,18 @@
         </div>
     </header>
 
+    <nav class="mode-switcher" aria-label="Evaluation mode">
+        <button id="explore-mode-button" type="button" class="mode-button active" aria-pressed="true">
+            <span class="mode-button-icon" aria-hidden="true">&#9835;</span>
+            <span>Explore Mode</span>
+        </button>
+
+        <button id="study-mode-button" type="button" class="mode-button" aria-pressed="false">
+            <span class="mode-button-icon" aria-hidden="true">&#8644;</span>
+            <span>Study Mode</span>
+        </button>
+    </nav>
+
     <main class="container">
         <section class="intro">
             <h2>Evaluate Music Recommendations</h2>
@@ -29,106 +41,53 @@
                 contexts, preferences and exploration settings.
             </p>
         </section>
-
-        <section class="evaluation-panel">
-            <h2>Listening Context</h2>
-
-            <p class="helper-text">
-                Select a listening context to begin the evaluation.
-            </p>
-
-            <div class="form-group">
-                <label for="context-select">
-                    Listening Context
-                </label>
-
-                <select id="context-select" disabled>
-                    <option value="">
-                        Loading contexts...
-                    </option>
-                </select>
-
-                <p id="context-status" class="helper-text" aria-live="polite">
-                    Loading listening contexts...
-                </p>
-            </div>
-
-            <div id="recent-tracks" class="recent-tracks">
-                <p class="helper-text">
-                    Select a context to view the recent tracks. These tracks represent the recent listening context
-                    used to generate recommendations.
-                </p>
-            </div>
-
-            <div class="form-group">
-                <label for="exploration-level">
-                    Exploration Level
-                </label>
-
-                <div class="slider-header">
-                    <span>More Familiar</span>
-
-                    <strong id="exploration-value">
-                        0.50
-                    </strong>
-
-                    <span>More Exploratory</span>
-                </div>
-
-                <input id="exploration-level" type="range" min="0" max="1" step="0.25" value="0.50">
-
-                <div class="slider-ticks" aria-hidden="true">
-                    <span>0.00</span>
-                    <span>0.25</span>
-                    <span>0.50</span>
-                    <span>0.75</span>
-                    <span>1.00</span>
-                </div>
-
-                <p id="exploration-help" class="helper-text">
-                    Lower values favour recommendations closer to the
-                    current listening context. Higher values give
-                    diversity greater influence during ranking.
-                </p>
-            </div>
-
-            <div class="preference-section">
-                <h2>Optional Preference</h2>
+        <div id="explore-mode">
+            <section class="evaluation-panel">
+                <h2>Listening Context</h2>
 
                 <p class="helper-text">
-                    You can optionally give a genre preference additional
-                    influence over the recommendation results.
+                    Select a listening context to begin the evaluation.
                 </p>
 
                 <div class="form-group">
-                    <label for="preferred-genre">
-                        Preferred Genre
+                    <label for="context-select">
+                        Listening Context
                     </label>
 
-                    <select id="preferred-genre" disabled>
+                    <select id="context-select" disabled>
                         <option value="">
-                            Loading genres...
+                            Loading contexts...
                         </option>
                     </select>
+
+                    <p id="context-status" class="helper-text" aria-live="polite">
+                        Loading listening contexts...
+                    </p>
+                </div>
+
+                <div id="recent-tracks" class="recent-tracks">
+                    <p class="helper-text">
+                        Select a context to view the recent tracks. These tracks represent the recent listening context
+                        used to generate recommendations.
+                    </p>
                 </div>
 
                 <div class="form-group">
-                    <label for="preference-strength">
-                        Preference Strength
+                    <label for="exploration-level">
+                        Exploration Level
                     </label>
 
                     <div class="slider-header">
-                        <span>Lower Influence</span>
+                        <span>More Familiar</span>
 
-                        <strong id="preference-strength-value">
-                            Inactive
+                        <strong id="exploration-value">
+                            0.50
                         </strong>
 
-                        <span>Higher Influence</span>
+                        <span>More Exploratory</span>
                     </div>
 
-                    <input id="preference-strength" type="range" min="0" max="1" step="0.25" value="0.50" disabled
-                        aria-describedby="preference-help">
+                    <input id="exploration-level" type="range" min="0" max="1" step="0.25" value="0.50">
 
                     <div class="slider-ticks" aria-hidden="true">
                         <span>0.00</span>
@@ -138,30 +97,155 @@
                         <span>1.00</span>
                     </div>
 
-                    <p id="preference-help" class="helper-text">
-                        Preference strength controls how strongly the
-                        selected genre influences the ranking.
+                    <p id="exploration-help" class="helper-text">
+                        Lower values favour recommendations closer to the
+                        current listening context. Higher values give
+                        diversity greater influence during ranking.
                     </p>
                 </div>
-            </div>
 
-            <button id="generate-button" type="button" class="primary-button" disabled>
-                Generate Recommendations
-            </button>
-        </section>
+                <div class="preference-section">
+                    <h2>Optional Preference</h2>
 
-        <section class="recommendations">
-            <h2>Recommendations</h2>
-            <p class="helper-text">
-                You can open a recommendation in Spotify to listen
-                before evaluating the recommendation set.
-            </p>
-            <p id="recommendation-status" class="helper-text" aria-live="polite">
-                Select a listening context and generate recommendations.
-            </p>
+                    <p class="helper-text">
+                        You can optionally give a genre preference additional
+                        influence over the recommendation results.
+                    </p>
 
-            <div id="recommendation-results" class="recommendation-results"></div>
-        </section>
+                    <div class="form-group">
+                        <label for="preferred-genre">
+                            Preferred Genre
+                        </label>
+
+                        <select id="preferred-genre" disabled>
+                            <option value="">
+                                Loading genres...
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="preference-strength">
+                            Preference Strength
+                        </label>
+
+                        <div class="slider-header">
+                            <span>Lower Influence</span>
+
+                            <strong id="preference-strength-value">
+                                Inactive
+                            </strong>
+
+                            <span>Higher Influence</span>
+                        </div>
+                        <input id="preference-strength" type="range" min="0" max="1" step="0.25" value="0.50" disabled
+                            aria-describedby="preference-help">
+
+                        <div class="slider-ticks" aria-hidden="true">
+                            <span>0.00</span>
+                            <span>0.25</span>
+                            <span>0.50</span>
+                            <span>0.75</span>
+                            <span>1.00</span>
+                        </div>
+
+                        <p id="preference-help" class="helper-text">
+                            Preference strength controls how strongly the
+                            selected genre influences the ranking.
+                        </p>
+                    </div>
+                </div>
+
+                <button id="generate-button" type="button" class="primary-button" disabled>
+                    Generate Recommendations
+                </button>
+            </section>
+
+            <section class="recommendations">
+                <h2>Recommendations</h2>
+                <p class="helper-text">
+                    You can open a recommendation in Spotify to listen
+                    before evaluating the recommendation set.
+                </p>
+                <p id="recommendation-status" class="helper-text" aria-live="polite">
+                    Select a listening context and generate recommendations.
+                </p>
+
+                <div id="recommendation-results" class="recommendation-results"></div>
+            </section>
+        </div>
+        <div id="study-mode" hidden>
+            <section class="evaluation-panel">
+                <h2>Recommendation Comparison Study</h2>
+
+                <p class="helper-text">
+                    You will compare two recommendation sets generated
+                    from the same recent listening context. The settings
+                    used to generate each set are intentionally hidden.
+                </p>
+
+                <div class="form-group">
+                    <label for="participant-code">
+                        Participant Code
+                    </label>
+
+                    <input id="participant-code" type="text" placeholder="e.g. P01" maxlength="10" autocomplete="off">
+
+                    <p class="helper-text">
+                        Enter the participant code provided for this study.
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label for="study-context-select">
+                        Listening Context
+                    </label>
+
+                    <select id="study-context-select" disabled>
+                        <option value="">
+                            Loading study contexts...
+                        </option>
+                    </select>
+                </div>
+
+                <div id="study-recent-tracks" class="recent-tracks">
+                    <p class="helper-text">
+                        Select a listening context to view the recent tracks.
+                    </p>
+                </div>
+
+                <button id="generate-study-button" type="button" class="primary-button" disabled>
+                    Generate Comparison
+                </button>
+
+                <p id="study-status" class="helper-text" aria-live="polite">
+                    Enter your participant code and select a context.
+                </p>
+            </section>
+
+            <section id="study-results-section" class="recommendations" hidden>
+                <h2>Compare the Recommendation Sets</h2>
+
+                <p class="helper-text">
+                    Listen to tracks from both sets before providing
+                    your evaluation. There are no correct answers.
+                </p>
+
+                <div class="study-comparison">
+                    <section class="study-set">
+                        <h3>Recommendation Set A</h3>
+
+                        <div id="study-set-a"></div>
+                    </section>
+
+                    <section class="study-set">
+                        <h3>Recommendation Set B</h3>
+
+                        <div id="study-set-b"></div>
+                    </section>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>

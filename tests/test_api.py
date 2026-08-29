@@ -347,3 +347,38 @@ def test_evaluation_page_has_preference_controls():
         'id="preference-strength"'
         in response.text
     )
+
+def test_evaluation_page_has_study_mode():
+    response = client.get("/evaluation")
+
+    assert response.status_code == 200
+
+    assert (
+        'id="study-mode-button"'
+        in response.text
+    )
+
+    assert (
+        'id="participant-code"'
+        in response.text
+    )
+
+    assert (
+        'id="study-context-select"'
+        in response.text
+    )
+
+    assert (
+        'id="generate-study-button"'
+        in response.text
+    )
+
+    assert (
+        'id="study-set-a"'
+        in response.text
+    )
+
+    assert (
+        'id="study-set-b"'
+        in response.text
+    )

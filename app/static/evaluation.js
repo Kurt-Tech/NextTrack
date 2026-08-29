@@ -26,8 +26,49 @@ const preferenceStrengthInput =
 const preferenceStrengthValue =
     document.getElementById("preference-strength-value");
 
+const exploreModeButton =
+    document.getElementById("explore-mode-button");
+
+const studyModeButton =
+    document.getElementById("study-mode-button");
+
+const exploreMode =
+    document.getElementById("explore-mode");
+
+const studyMode =
+    document.getElementById("study-mode");
+
+const participantCodeInput =
+    document.getElementById("participant-code");
+
+const studyContextSelect =
+    document.getElementById("study-context-select");
+
+const studyRecentTracks =
+    document.getElementById("study-recent-tracks");
+
+const generateStudyButton =
+    document.getElementById("generate-study-button");
+
+const studyStatus =
+    document.getElementById("study-status");
+
+const studyResultsSection =
+    document.getElementById("study-results-section");
+
+const studySetA =
+    document.getElementById("study-set-a");
+
+const studySetB =
+    document.getElementById("study-set-b");
+
 let evaluationContexts = [];
 
+const STUDY_CONTEXT_IDS = [
+    "rock",    
+    "hip-hop",
+    "country",
+];
 
 async function loadEvaluationContexts() {
     try {
@@ -46,6 +87,7 @@ async function loadEvaluationContexts() {
         evaluationContexts = data.contexts;
 
         populateContextSelect(evaluationContexts);
+        populateStudyContextSelect();
 
         statusMessage.textContent =
             "Select a listening context to continue.";
@@ -503,6 +545,430 @@ preferenceStrengthInput.addEventListener(
     updatePreferenceControls
 );
 
+function setInterfaceMode(mode) {
+    const isExplore =
+        mode === "explore";
+
+    exploreMode.hidden =
+        !isExplore;
+
+    studyMode.hidden =
+        isExplore;
+
+    exploreModeButton.classList.toggle(
+        "active",
+        isExplore
+    );
+
+    studyModeButton.classList.toggle(
+        "active",
+        !isExplore
+    );
+
+    exploreModeButton.setAttribute(
+        "aria-pressed",
+        String(isExplore)
+    );
+
+    studyModeButton.setAttribute(
+        "aria-pressed",
+        String(!isExplore)
+    );
+}
+
+function populateStudyContextSelect() {
+    studyContextSelect.innerHTML = "";
+
+    const placeholder =
+        document.createElement("option");
+
+    placeholder.value = "";
+    placeholder.textContent =
+        "Select a study context";
+
+    studyContextSelect.appendChild(
+        placeholder
+    );
+
+    for (const contextId of STUDY_CONTEXT_IDS) {
+        const context =
+            evaluationContexts.find(
+                item =>
+                    item.id === contextId
+            );
+
+        if (!context) {
+            continue;
+        }
+
+        const option =
+            document.createElement("option");
+
+        option.value =
+            context.id;
+
+        option.textContent =
+            context.name;
+
+        studyContextSelect.appendChild(
+            option
+        );
+    }
+
+    studyContextSelect.disabled = false;
+}
+
+function displayStudyRecentTracks(contextId) {
+    studyRecentTracks.innerHTML = "";
+
+    const context =
+        evaluationContexts.find(
+            item =>
+                item.id === contextId
+        );
+
+    if (!context) {
+        studyRecentTracks.innerHTML = `
+            <p class="helper-text">
+                Select a listening context to continue.
+            </p>
+        `;
+
+        return;
+    }
+
+    const heading =
+        document.createElement("h3");
+
+    heading.textContent =
+        `${context.name} Recent Tracks`;
+
+    studyRecentTracks.appendChild(
+        heading
+    );
+
+    const trackList =
+        document.createElement("div");
+
+    trackList.className =
+        "track-list";
+
+    for (const track of context.recent_tracks) {
+        const card =
+            document.createElement("article");
+
+        card.className =
+            "track-card";
+
+        const trackName =
+            document.createElement("strong");
+
+        trackName.textContent =
+            track.track_name;
+
+        const artist =
+            document.createElement("p");
+
+        artist.textContent =
+            track.artists;
+
+        const spotifyLink =
+            document.createElement("a");
+
+        spotifyLink.className =
+            "spotify-link";
+
+        spotifyLink.href =
+            `https://open.spotify.com/track/${encodeURIComponent(track.track_id)}`;
+
+        spotifyLink.target =
+            "_blank";
+
+        spotifyLink.rel =
+            "noopener noreferrer";
+
+        spotifyLink.textContent =
+            "Listen on Spotify";
+
+        card.appendChild(trackName);
+        card.appendChild(artist);
+        card.appendChild(spotifyLink);
+
+        trackList.appendChild(card);
+    }
+
+    studyRecentTracks.appendChild(
+        trackList
+    );
+}
+
+function getParticipantNumber() {
+    const value =
+        participantCodeInput.value.trim();
+
+    const match =
+        value.match(/^P?(\d+)$/i);
+
+    if (!match) {
+        return null;
+    }
+
+    return Number(match[1]);
+}
+
+function getStudyConditions(participantNumber) {
+    const lowExploration = 0.0;
+    const highExploration = 1.0;
+
+    const isOdd =
+        participantNumber % 2 === 1;
+
+    if (isOdd) {
+        return {
+            setA: lowExploration,
+            setB: highExploration,
+        };
+    }
+
+    return {
+        setA: highExploration,
+        setB: lowExploration,
+    };
+}
+
+function updateStudyControls() {
+    const participantNumber =
+        getParticipantNumber();
+
+    const hasContext =
+        Boolean(studyContextSelect.value);
+
+    generateStudyButton.disabled =
+        participantNumber === null
+        || !hasContext;
+
+    if (participantNumber === null) {
+        studyStatus.textContent =
+            "Enter a valid participant code such as P01.";
+
+        return;
+    }
+
+    if (!hasContext) {
+        studyStatus.textContent =
+            "Select a listening context.";
+        return;
+    }
+
+    studyStatus.textContent =
+        "Ready to generate the comparison.";
+}
+
+async function requestStudyRecommendations(
+    context,
+    explorationLevel
+) {
+    const requestBody = {
+        recent_tracks:
+            context.recent_tracks.map(
+                track => track.track_id
+            ),
+
+        exploration_level:
+            explorationLevel,
+
+        preferred_genres: [],
+
+        preferred_artists: [],
+
+        preference_strength: 0.0,
+    };
+
+    const response =
+        await fetch(
+            "/recommend",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type":
+                        "application/json",
+                },
+                body:
+                    JSON.stringify(
+                        requestBody
+                    ),
+            }
+        );
+
+    if (!response.ok) {
+        throw new Error(
+            `Study recommendation request failed: ${response.status}`
+        );
+    }
+
+    return response.json();
+}
+
+function displayStudyRecommendations(
+    container,
+    data
+) {
+    container.innerHTML = "";
+
+    const recommendations =
+        Array.isArray(data)
+            ? data
+            : data.recommendations || [];
+
+    const visibleRecommendations =
+        recommendations.slice(0, 5);
+
+    if (visibleRecommendations.length === 0) {
+        container.innerHTML = `
+            <p class="helper-text">
+                No recommendations were returned.
+            </p>
+        `;
+
+        return;
+    }
+
+    visibleRecommendations.forEach(
+        (track, index) => {
+            const card =
+                document.createElement("article");
+
+            card.className =
+                "study-track-card";
+
+            const name =
+                document.createElement("strong");
+
+            name.textContent =
+                `${index + 1}. ${track.track_name}`;
+
+            const artist =
+                document.createElement("p");
+
+            artist.textContent =
+                track.artists;
+
+            const spotifyLink =
+                document.createElement("a");
+
+            spotifyLink.className =
+                "spotify-link";
+
+            spotifyLink.href =
+                `https://open.spotify.com/track/${encodeURIComponent(track.track_id)}`;
+
+            spotifyLink.target =
+                "_blank";
+
+            spotifyLink.rel =
+                "noopener noreferrer";
+
+            spotifyLink.textContent =
+                "Listen on Spotify";
+
+            card.appendChild(name);
+            card.appendChild(artist);
+            card.appendChild(spotifyLink);
+
+            container.appendChild(card);
+        }
+    );
+}
+
+async function generateStudyComparison() {
+    const participantNumber =
+        getParticipantNumber();
+
+    if (participantNumber === null) {
+        studyStatus.textContent =
+            "Enter a valid participant code.";
+
+        return;
+    }
+
+    const context =
+        evaluationContexts.find(
+            item =>
+                item.id ===
+                studyContextSelect.value
+        );
+
+    if (!context) {
+        studyStatus.textContent =
+            "Select a listening context.";
+
+        return;
+    }
+
+    const conditions =
+        getStudyConditions(
+            participantNumber
+        );
+
+    try {
+        generateStudyButton.disabled =
+            true;
+
+        generateStudyButton.textContent =
+            "Generating...";
+
+        studyStatus.textContent =
+            "Generating comparison...";
+
+        studyResultsSection.hidden =
+            true;
+
+        studySetA.innerHTML = "";
+        studySetB.innerHTML = "";
+
+        const [
+            setAData,
+            setBData,
+        ] = await Promise.all([
+            requestStudyRecommendations(
+                context,
+                conditions.setA
+            ),
+
+            requestStudyRecommendations(
+                context,
+                conditions.setB
+            ),
+        ]);
+
+        displayStudyRecommendations(
+            studySetA,
+            setAData
+        );
+
+        displayStudyRecommendations(
+            studySetB,
+            setBData
+        );
+
+        studyResultsSection.hidden =
+            false;
+
+        studyStatus.textContent =
+            "Comparison generated successfully.";
+    } catch (error) {
+        console.error(error);
+
+        studyStatus.textContent =
+            "Unable to generate the study comparison.";
+    } finally {
+        generateStudyButton.textContent =
+            "Generate Comparison";
+
+        updateStudyControls();
+    }
+}
+
 contextSelect.addEventListener(
     "change",
     event => {
@@ -523,6 +989,9 @@ contextSelect.addEventListener(
     }
 );
 
+setInterfaceMode("explore");
+updateStudyControls();
+
 explorationInput.addEventListener(
     "input",
     updateExplorationDisplay
@@ -538,4 +1007,41 @@ updatePreferenceControls();
 generateButton.addEventListener(
     "click",
     generateRecommendations
+);
+
+exploreModeButton.addEventListener(
+    "click",
+    () => setInterfaceMode("explore")
+);
+
+studyModeButton.addEventListener(
+    "click",
+    () => setInterfaceMode("study")
+);
+
+participantCodeInput.addEventListener(
+    "input",
+    updateStudyControls
+);
+
+studyContextSelect.addEventListener(
+    "change",
+    event => {
+        displayStudyRecentTracks(
+            event.target.value
+        );
+
+        studyResultsSection.hidden =
+            true;
+
+        studySetA.innerHTML = "";
+        studySetB.innerHTML = "";
+
+        updateStudyControls();
+    }
+);
+
+generateStudyButton.addEventListener(
+    "click",
+    generateStudyComparison
 );
