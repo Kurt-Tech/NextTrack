@@ -18,17 +18,17 @@ EVALUATION_CONTEXTS = {
     "rock": {
         "name": "Rock",
         "recent_tracks": [
-            "7DbdUf8aHSYoliSjO6LZv6",
-            "1zB4vmk8tFRmM9UULNzbLB",
-            "0pqnGHJpmpxLKifKRmU6WP",
+            "2nLtzopw4rPReszdYBJU6h",
+            "4TMhakloPMPS84lNHNTSa3",
+            "1AhDOtG9vPSOmsWgNW0BEY",
         ],
     },
     "hip-hop": {
         "name": "Hip-Hop",
         "recent_tracks": [
-            "1aL9518P5G72N92b48tuKw",
-            "08Isz2ETWSBhvIl8UpKYsp",
-            "42TMa2hgBNjte4uV7jNCnQ",
+            "20XdEFyaUR9C7aDIdq2OAd",
+            "68pWLkspLFIfIPPtzyTkQy",
+            "2lUirvUhqfBqJzUvk4tLoK",
         ],
     },
     "classical": {
@@ -42,9 +42,9 @@ EVALUATION_CONTEXTS = {
     "country": {
         "name": "Country",
         "recent_tracks": [
-            "2wrJq5XKLnmhRXHIAf9xBa",
-            "6AHJTA1BN7ePfChCwqph3z",
-            "5eUtyONoPyfZYGrFHmZzlc",
+            "7hxZF4jETnE5Q75rKQnMjE",
+            "51wQovDO0hf05pkZYvu1GI",
+            "6gRACp2CvsIhc7hyw8CecQ",
         ],
     },
     "electronic": {
